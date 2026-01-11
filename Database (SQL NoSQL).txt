@@ -1,0 +1,100 @@
+1::What is a Database?::A database is an organized collection of data that can be easily stored, managed, and retrieved.
+2::What is a DBMS?::A Database Management System (DBMS) is software used to create, manage, and interact with databases.
+3::What is an RDBMS?::A Relational Database Management System (RDBMS) stores data in tables and maintains relationships between them.
+4::What is a Primary Key?::A Primary Key is a column or set of columns that uniquely identifies each record in a table.
+5::What is a Foreign Key?::A Foreign Key is a column that refers to the Primary Key in another table to establish a relationship.
+6::What is a Candidate Key?::A Candidate Key is a column or set of columns that can qualify as a Primary Key; every table may have multiple Candidate Keys.
+7::What is a Composite Key?::A Composite Key is a Primary Key composed of two or more columns to uniquely identify a record.
+8::What is a Super Key?::A Super Key is any set of columns that uniquely identifies a row in a table, possibly including extra attributes.
+9::What is a Unique Key?::A Unique Key is a constraint that ensures all values in a column or combination of columns are unique across rows.
+10::What is Normalization?::Normalization is the process of organizing data to reduce redundancy and improve data integrity.
+11::What are the Normal Forms?::The main normal forms are 1NF, 2NF, 3NF, BCNF, 4NF, and 5NF, each reducing redundancy and dependency issues.
+12::What is 1NF?::First Normal Form (1NF) requires that each column contain atomic (indivisible) values and no repeating groups.
+13::What is 2NF?::Second Normal Form (2NF) requires the table to be in 1NF and all non-key columns to be fully dependent on the Primary Key.
+14::What is 3NF?::Third Normal Form (3NF) requires the table to be in 2NF and have no transitive dependency between non-key columns.
+15::What is BCNF?::Boyce-Codd Normal Form (BCNF) is an advanced version of 3NF where every determinant is a candidate key.
+16::What is denormalization?::Denormalization is the process of combining tables to improve query performance at the cost of some redundancy.
+17::What is a transaction?::A transaction is a sequence of operations performed as a single logical unit of work in a database.
+18::What are ACID properties?::ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring reliable database transactions.
+19::What is Atomicity?::Atomicity ensures that all operations in a transaction are completed; if any fail, the entire transaction is rolled back.
+20::What is Consistency?::Consistency ensures that a transaction takes the database from one valid state to another valid state.
+21::What is Isolation?::Isolation ensures that concurrent transactions do not interfere with each other’s operations.
+22::What is Durability?::Durability ensures that once a transaction is committed, the changes are permanent even in case of a system failure.
+23::What is SQL?::SQL (Structured Query Language) is a standard language used to interact with relational databases.
+24::What are DDL commands?::Data Definition Language (DDL) commands include CREATE, ALTER, DROP, and TRUNCATE, used to define database structures.
+25::What are DML commands?::Data Manipulation Language (DML) commands include INSERT, UPDATE, DELETE, used to manipulate data in tables.
+26::What are DCL commands?::Data Control Language (DCL) commands include GRANT and REVOKE, used to control access to the database.
+27::What are TCL commands?::Transaction Control Language (TCL) commands include COMMIT, ROLLBACK, and SAVEPOINT, used to manage transactions.
+28::What is the difference between DELETE and TRUNCATE?::DELETE removes rows one by one and can be rolled back; TRUNCATE removes all rows and cannot be rolled back in some DBMS.
+29::What is the difference between DROP and TRUNCATE?::DROP deletes the table structure and data; TRUNCATE deletes only the data but retains the table structure.
+30::What is a View?::A View is a virtual table created by a query, which does not store data physically but provides a way to access it.
+31::What is an Index?::An Index is a database object that improves query performance by allowing faster data retrieval.
+32::What are types of indexes?::Common types are Single-column, Composite, Unique, Clustered, and Non-clustered indexes.
+33::What is a Clustered Index?::A Clustered Index determines the physical order of data in a table; a table can have only one Clustered Index.
+34::What is a Non-clustered Index?::A Non-clustered Index creates a separate structure to point to the data, allowing multiple non-clustered indexes per table.
+35::What is a Stored Procedure?::A Stored Procedure is a precompiled set of SQL statements stored in the database for reuse.
+36::What is a Trigger?::A Trigger is a database object that automatically executes a specified action in response to events like INSERT, UPDATE, or DELETE.
+37::What is a Cursor?::A Cursor allows row-by-row processing of query results in procedural SQL code.
+38::What is a Subquery?::A Subquery is a query nested inside another query to provide data for filtering or computation.
+39::What is the difference between INNER JOIN and OUTER JOIN?::INNER JOIN returns only matching rows; OUTER JOIN returns matching rows plus unmatched rows from one or both tables.
+40::What is LEFT JOIN?::LEFT JOIN returns all rows from the left table and matched rows from the right table; unmatched rows from the right table are NULL.
+41::What is RIGHT JOIN?::RIGHT JOIN returns all rows from the right table and matched rows from the left table; unmatched rows from the left table are NULL.
+42::What is FULL OUTER JOIN?::FULL OUTER JOIN returns all rows when there is a match in either left or right table; unmatched rows are NULL on the opposite side.
+43::What is CROSS JOIN?::CROSS JOIN returns the Cartesian product of two tables (all combinations of rows).
+44::What is SELF JOIN?::SELF JOIN is joining a table with itself using table aliases.
+45::What is UNION in SQL?::UNION combines the results of two queries, removing duplicates.
+46::What is UNION ALL?::UNION ALL combines the results of two queries including duplicates.
+47::What is the difference between WHERE and HAVING?::WHERE filters rows before aggregation; HAVING filters groups after aggregation.
+48::What is the difference between GROUP BY and ORDER BY?::GROUP BY groups rows based on column values; ORDER BY sorts rows in ascending or descending order.
+49::What is a Unique Constraint?::A Unique Constraint ensures all values in a column or combination of columns are unique.
+50::What is a Check Constraint?::A Check Constraint ensures that values in a column satisfy a specific condition.
+51::What is Referential Integrity?::Referential Integrity ensures that foreign key values in a child table match primary key values in the parent table.
+52::What is a Transaction Log?::A Transaction Log records all changes made to the database to ensure durability and allow rollback.
+53::What is a Deadlock?::A Deadlock occurs when two or more transactions wait indefinitely for resources locked by each other.
+54::What is the difference between OLTP and OLAP?::OLTP (Online Transaction Processing) handles day-to-day transactions; OLAP (Online Analytical Processing) handles complex analytical queries.
+55::What is a NoSQL database?::NoSQL databases are non-relational databases designed for unstructured data, high scalability, and flexible schema.
+56::What are types of NoSQL databases?::Document-based (MongoDB), Key-Value (Redis), Column-Family (Cassandra), Graph (Neo4j).
+57::What is normalization vs denormalization?::Normalization reduces redundancy and ensures data integrity; denormalization combines tables for faster query performance.
+58::What is an Entity-Relationship (ER) Model?::ER Model is a conceptual representation of entities, attributes, and relationships in a database.
+59::What is a Data Warehouse?::A Data Warehouse is a centralized repository for storing large volumes of historical data for analysis and reporting.
+60::What is OLTP indexing?::Indexing in OLTP improves transaction query performance by providing quick access to rows.
+61::What is a surrogate key?::A Surrogate Key is an artificial key (usually auto-incremented) used to uniquely identify rows.
+62::What is a natural key?::A Natural Key is a real-world attribute used to uniquely identify a record (e.g., email, SSN).
+63::What is the difference between Primary Key and Unique Key?::Primary Key cannot be NULL and uniquely identifies a row; Unique Key also enforces uniqueness but allows NULL values.
+64::What is data integrity?::Data Integrity ensures accuracy, consistency, and reliability of data in a database.
+65::What is a database schema?::A Database Schema is the structure of a database including tables, columns, relationships, constraints, and views.
+66::What is a star schema?::A Star Schema is a data warehouse schema with a central fact table connected to dimension tables.
+67::What is a snowflake schema?::A Snowflake Schema is a normalized form of star schema where dimension tables are further split.
+68::What is a fact table?::A Fact Table stores quantitative data (metrics) for analysis in a data warehouse.
+69::What is a dimension table?::A Dimension Table stores descriptive attributes related to the facts (e.g., time, product, location).
+70::What is indexing?::Indexing is a technique to speed up data retrieval by creating additional data structures on columns.
+71::What is a clustered index?::Clustered Index determines the physical order of data in a table; one table can have only one clustered index.
+72::What is a non-clustered index?::Non-clustered Index creates a separate structure pointing to table data; a table can have multiple non-clustered indexes.
+73::What is a composite index?::A Composite Index is an index on multiple columns for optimized query performance.
+74::What is a covering index?::A Covering Index contains all columns needed by a query, so the query can be satisfied without accessing the table.
+75::What is a bitmap index?::A Bitmap Index uses bitmaps to efficiently index low-cardinality columns in large datasets.
+76::What is query optimization?::Query Optimization is the process of improving query performance by choosing the most efficient execution plan.
+77::What is an execution plan?::An Execution Plan shows how the database engine executes a query, including joins, scans, and index usage.
+78::What is a stored procedure?::A Stored Procedure is a precompiled set of SQL statements stored in the database for reuse.
+79::What is a trigger?::A Trigger is a procedure automatically executed in response to INSERT, UPDATE, or DELETE events.
+80::What is a cursor?::A Cursor allows row-by-row processing of query results in procedural SQL.
+81::What is a subquery?::A Subquery is a query nested inside another query to provide intermediate results.
+82::What is the difference between correlated and non-correlated subqueries?::Correlated Subquery depends on the outer query for each row; Non-correlated Subquery can run independently.
+83::What is a union?::UNION combines the results of two queries, removing duplicates.
+84::What is UNION ALL?::UNION ALL combines results including duplicates.
+85::What is a join?::A Join combines rows from two or more tables based on a related column.
+86::What is INNER JOIN?::INNER JOIN returns only rows that have matching values in both tables.
+87::What is LEFT JOIN?::LEFT JOIN returns all rows from the left table and matched rows from the right table.
+88::What is RIGHT JOIN?::RIGHT JOIN returns all rows from the right table and matched rows from the left table.
+89::What is FULL OUTER JOIN?::FULL OUTER JOIN returns all rows when there is a match in either table.
+90::What is CROSS JOIN?::CROSS JOIN returns the Cartesian product of two tables.
+91::What is SELF JOIN?::SELF JOIN joins a table with itself using table aliases.
+92::What is the difference between WHERE and HAVING?::WHERE filters rows before aggregation; HAVING filters groups after aggregation.
+93::What is the difference between GROUP BY and ORDER BY?::GROUP BY groups rows; ORDER BY sorts rows.
+94::What is a temporary table?::A Temporary Table stores intermediate results for the duration of a session or transaction.
+95::What is a materialized view?::A Materialized View stores the result of a query physically for faster access.
+96::What is database replication?::Replication copies and maintains database objects in multiple databases for redundancy and performance.
+97::What is database sharding?::Sharding splits a large database into smaller, faster, more manageable parts called shards.
+98::What is database partitioning?::Partitioning divides a table into segments based on column values to improve performance.
+99::What is a NoSQL database?::A NoSQL database is non-relational, schema-less, and designed for high scalability and flexible data models.
+100::What is the difference between SQL and NoSQL?::SQL databases are relational and structured; NoSQL databases are non-relational, can store unstructured data, and scale horizontally.

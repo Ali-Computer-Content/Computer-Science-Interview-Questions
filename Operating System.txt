@@ -1,0 +1,150 @@
+1::What is an Operating System (OS)?::An Operating System is system software that manages computer hardware, software resources, and provides common services for computer programs.
+2::What are the main functions of an OS?::Process management, memory management, file system management, device management, and providing a user interface.
+3::What is a process?::A process is an instance of a program in execution, including its code, data, and execution context.
+4::What is the difference between a process and a program?::A program is a passive set of instructions; a process is an active execution of those instructions.
+5::What is a thread?::A thread is the smallest unit of execution within a process that can run concurrently with other threads.
+6::What is the difference between a process and a thread?::Processes are independent with separate memory; threads share the same memory within a process.
+7::What is multitasking?::Multitasking allows multiple processes to execute concurrently by sharing CPU time.
+8::What is the difference between preemptive and non-preemptive scheduling?::Preemptive scheduling allows the OS to interrupt a process; non-preemptive lets a process run until it finishes or blocks.
+9::What is a context switch?::A context switch is the process of storing and restoring the state of a CPU so that multiple processes can share a single CPU.
+10::What is a PCB (Process Control Block)?::A PCB is a data structure in the OS containing process information like state, program counter, registers, and memory pointers.
+11::What are process states?::Typical process states include New, Ready, Running, Waiting (Blocked), and Terminated.
+12::What is a daemon process?::A daemon is a background process that runs without user interaction, typically providing services.
+13::What is inter-process communication (IPC)?::IPC is a mechanism that allows processes to communicate and synchronize their actions.
+14::What are the types of IPC?::Pipes, message queues, shared memory, and sockets.
+15::What is a pipe?::A pipe is an IPC mechanism that allows data flow between processes in a producer-consumer fashion.
+16::What is a semaphore?::A semaphore is a synchronization primitive used to control access to a shared resource.
+17::What is the difference between binary and counting semaphores?::Binary semaphore can have only 0 or 1; counting semaphore can have non-negative integer values.
+18::What is a mutex?::A mutex is a mutual exclusion object used to prevent multiple threads from accessing a critical section simultaneously.
+19::What is a critical section?::A critical section is a code section that accesses shared resources and must not be executed by more than one thread at a time.
+20::What is the difference between a semaphore and a mutex?::Mutex is ownership-based and binary; semaphore can allow multiple threads and may not have ownership.
+21::What is a deadlock?::A deadlock occurs when two or more processes wait indefinitely for resources held by each other.
+22::What are the necessary conditions for deadlock?::Mutual exclusion, hold and wait, no preemption, and circular wait.
+23::What are strategies to handle deadlocks?::Deadlock prevention, avoidance, detection and recovery, and ignoring (ostrich algorithm).
+24::What is deadlock prevention?::Deadlock prevention ensures that at least one of the four necessary conditions for deadlock cannot hold.
+25::What is deadlock avoidance?::Deadlock avoidance dynamically checks resource allocation to ensure safe states, e.g., using Banker's algorithm.
+26::What is deadlock detection?::Deadlock detection periodically checks for cycles in resource allocation graphs to detect deadlocks.
+27::What is starvation?::Starvation occurs when a process waits indefinitely because higher-priority processes are continuously scheduled.
+28::What is aging in OS?::Aging gradually increases the priority of waiting processes to prevent starvation.
+29::What is process scheduling?::Process scheduling decides which process will run next on the CPU.
+30::What are types of scheduling?::Long-term, medium-term, and short-term scheduling.
+31::What is long-term scheduling?::Long-term scheduling controls the admission of processes into the system from the job pool.
+32::What is medium-term scheduling?::Medium-term scheduling temporarily suspends or resumes processes to improve performance.
+33::What is short-term scheduling?::Short-term scheduling decides which ready process will run next on the CPU.
+34::What are scheduling algorithms?::FCFS, SJF, Round Robin, Priority Scheduling, Multilevel Queue, and Multilevel Feedback Queue.
+35::What is FCFS scheduling?::First-Come, First-Served (FCFS) schedules processes in the order they arrive in the ready queue.
+36::What is SJF scheduling?::Shortest Job First (SJF) schedules processes with the smallest execution time first.
+37::What is Round Robin scheduling?::Round Robin assigns a fixed time quantum to each process in the ready queue in a cyclic order.
+38::What is Priority scheduling?::Priority scheduling selects the process with the highest priority for execution next.
+39::What is preemptive priority scheduling?::Preemptive priority scheduling allows higher-priority processes to interrupt lower-priority processes.
+40::What is non-preemptive priority scheduling?::Non-preemptive priority scheduling allows the currently running process to finish even if a higher-priority process arrives.
+41::What is multilevel queue scheduling?::Processes are divided into multiple queues based on priority or type, with each queue having its own scheduling algorithm.
+42::What is multilevel feedback queue scheduling?::Processes can move between queues based on behavior, allowing dynamic adjustment of priority.
+43::What is CPU-bound vs I/O-bound process?::CPU-bound processes spend more time using the CPU; I/O-bound processes spend more time waiting for I/O operations.
+44::What is the difference between synchronous and asynchronous I/O?::Synchronous I/O blocks the process until completion; asynchronous I/O allows the process to continue executing while I/O completes.
+45::What is a race condition?::A race condition occurs when the system behavior depends on the sequence or timing of uncontrollable events.
+46::What is a monitor?::A monitor is a high-level synchronization construct that allows safe access to shared resources by providing mutual exclusion and condition variables.
+47::What is memory management?::Memory management is the process of controlling and coordinating computer memory, assigning space to processes, and freeing it when not in use.
+48::What is logical vs physical address?::Logical address is generated by the CPU; physical address is the actual location in main memory.
+49::What is a memory map?::A memory map is a data structure used by the OS to track allocated and free memory regions.
+50::What is contiguous memory allocation?::Contiguous memory allocation assigns consecutive memory blocks to a process.
+51::What is external fragmentation?::External fragmentation occurs when free memory is divided into small non-contiguous blocks, preventing large allocations.
+52::What is internal fragmentation?::Internal fragmentation occurs when allocated memory blocks are larger than requested memory, leaving unused space inside blocks.
+53::What is paging?::Paging divides memory into fixed-size pages to eliminate external fragmentation.
+54::What is a page table?::A page table maps logical pages to physical frames in memory.
+55::What is page replacement?::Page replacement decides which memory pages to remove when a page fault occurs and memory is full.
+56::What are common page replacement algorithms?::FIFO, LRU, Optimal, Clock, and Second Chance.
+57::What is FIFO page replacement?::First-In, First-Out (FIFO) removes the oldest page in memory when a page fault occurs.
+58::What is LRU page replacement?::Least Recently Used (LRU) removes the page that has not been used for the longest time.
+59::What is the Optimal page replacement algorithm?::Optimal algorithm replaces the page that will not be used for the longest time in the future.
+60::What is segmentation?::Segmentation divides memory into variable-sized segments based on logical divisions like code, data, and stack.
+61::What is the difference between paging and segmentation?::Paging uses fixed-size blocks and eliminates external fragmentation; segmentation uses variable-sized blocks and preserves logical structure.
+62::What is virtual memory?::Virtual memory allows execution of processes that may not be completely in physical memory by using disk space.
+63::What is a page fault?::A page fault occurs when a process accesses a page not currently in physical memory.
+64::What is demand paging?::Demand paging loads a page into memory only when it is needed.
+65::What is a swap space?::Swap space is disk space used to temporarily hold pages moved out of physical memory.
+66::What is thrashing?::Thrashing occurs when excessive paging slows down system performance due to constant page swaps.
+67::What is the difference between single-level and multi-level page tables?::Single-level page table has a single mapping structure; multi-level page tables break it into levels to reduce memory usage.
+68::What is inverted page table?::An inverted page table has one entry per physical frame instead of per logical page, reducing memory for large address spaces.
+69::What is file system?::A file system manages how data is stored, retrieved, and organized on storage devices.
+70::What are file types in OS?::Regular files, directory files, special files (like devices), and symbolic links.
+71::What is file metadata?::File metadata includes attributes like name, size, permissions, timestamps, and pointers to data blocks.
+72::What is a directory?::A directory is a file containing a list of filenames and their corresponding metadata or addresses.
+73::What are file access methods?::Sequential access, direct (random) access, and indexed access.
+74::What is a buffer cache?::A buffer cache stores frequently used disk blocks in memory to reduce I/O operations.
+75::What is demand segmentation vs prepaging?::Demand segmentation loads segments as needed; prepaging loads segments before they are accessed to reduce page faults.
+76::What is the difference between soft and hard real-time OS?::Soft real-time OS can tolerate some delays; hard real-time OS must meet strict timing deadlines.
+77::What is a real-time operating system (RTOS)?::An RTOS provides predictable and deterministic timing behavior for critical tasks.
+78::What is a kernel?::The kernel is the core part of the OS that manages resources and provides essential services.
+79::What are types of kernels?::Monolithic, microkernel, hybrid, and exokernel.
+80::What is a monolithic kernel?::A monolithic kernel has all OS services running in kernel space for high performance.
+81::What is a microkernel?::A microkernel has minimal functionality in kernel space, with most services running in user space.
+82::What is the difference between microkernel and monolithic kernel?::Monolithic: all services in kernel, faster but less modular; Microkernel: minimal kernel, modular, but may be slower due to message passing.
+83::What is system call?::A system call is an interface provided by the OS to allow user programs to request services from the kernel.
+84::What is interrupt?::An interrupt is a signal from hardware or software to the CPU to gain its attention and temporarily halt current execution.
+85::What is a trap?::A trap is a synchronous interrupt generated by software due to an exception or specific instruction.
+86::What is DMA (Direct Memory Access)?::DMA allows hardware devices to directly transfer data to or from memory without CPU intervention.
+87::What is demand segmentation vs paging?::Segmentation divides memory logically; paging divides memory into fixed-size blocks.
+88::What is the difference between physical memory and virtual memory?::Physical memory is actual RAM; virtual memory uses disk space to extend addressable memory for processes.
+89::What is the difference between hard link and soft link?::Hard link points to the same inode; soft (symbolic) link points to the filename and can cross file systems.
+90::What is inode in Unix/Linux?::Inode is a data structure storing file metadata, including file type, permissions, size, and pointers to data blocks.
+91::What is swap-in and swap-out?::Swap-in moves a process from disk to memory; swap-out moves it from memory to disk.
+92::What is demand paging?::Loading pages into memory only when referenced by a process.
+93::What is pre-paging?::Loading pages into memory in advance, based on predicted future use.
+94::What is the difference between demand paging and pre-paging?::Demand paging loads on access; pre-paging loads before access to reduce page faults.
+95::What is a page frame?::A fixed-size block of physical memory that stores one page of a process.
+96::What is a working set?::The working set of a process is the set of pages it actively uses during a given time interval.
+97::What is locality of reference?::Locality of reference is the tendency of a process to access a relatively small set of pages repeatedly over a short period.
+98::What is a zombie process?::A zombie process is a terminated process whose PCB still exists to store exit status until the parent collects it.
+99::What is an orphan process?::An orphan process is a process whose parent has terminated; it is adopted by the init process.
+100::What is the difference between user mode and kernel mode?::User mode restricts access to hardware and critical instructions; kernel mode has full access to system resources.
+101::What is CPU scheduling?::CPU scheduling is the process of selecting which ready process will run on the CPU next.
+102::What is the difference between internal and external fragmentation?::Internal: unused space within allocated blocks; External: free memory split into non-contiguous blocks.
+103::What is paging?::Paging divides memory into fixed-size blocks called pages to eliminate external fragmentation.
+104::What is segmentation?::Segmentation divides memory into logical variable-sized segments based on program structure.
+105::What is a page fault?::A page fault occurs when a process accesses a page not present in physical memory.
+106::What is thrashing?::Thrashing occurs when excessive page swapping causes the system to spend more time paging than executing processes.
+107::What is memory protection?::Memory protection ensures that a process cannot access memory allocated to another process or OS.
+108::What are hardware and software interrupts?::Hardware interrupts are generated by devices; software interrupts are generated by programs to request OS services.
+109::What is direct memory access (DMA)?::DMA allows devices to transfer data directly to/from memory without CPU intervention.
+110::What is a bootloader?::A bootloader is a small program that loads the operating system into memory during system startup.
+111::What is a kernel thread?::A kernel thread is a thread that is managed directly by the OS kernel.
+112::What is a user thread?::A user thread is managed by a user-level library without kernel intervention.
+113::What is the difference between user thread and kernel thread?::User thread: managed by user library, lightweight; Kernel thread: managed by OS, can run in parallel on multiple CPUs.
+114::What is multithreading?::Multithreading allows multiple threads of a single process to execute concurrently.
+115::What is thread context switch?::Thread context switch is switching CPU from one thread to another within the same process.
+116::What is CPU-bound vs I/O-bound process?::CPU-bound uses more CPU time; I/O-bound waits more for I/O operations.
+117::What is a critical section problem?::Critical section problem involves ensuring that only one process accesses a shared resource at a time.
+118::What is Peterson’s solution?::Peterson’s solution is a software-based algorithm for mutual exclusion between two processes.
+119::What is Bakery algorithm?::Bakery algorithm is a software-based mutual exclusion algorithm for multiple processes using numbering.
+120::What is a page replacement algorithm?::A page replacement algorithm decides which memory page to replace when a new page must be loaded into full memory.
+121::What is FIFO page replacement?::FIFO removes the oldest page in memory first.
+122::What is LRU page replacement?::LRU removes the page that has not been used for the longest time.
+123::What is optimal page replacement?::Optimal algorithm replaces the page that will not be used for the longest period in the future.
+124::What is a file descriptor?::A file descriptor is an integer handle used to access a file or I/O resource.
+125::What is memory-mapped file?::Memory-mapped file allows file contents to be mapped directly into process memory.
+126::What is virtual memory?::Virtual memory uses disk space to extend apparent RAM for processes.
+127::What is paging vs segmentation?::Paging uses fixed-size pages; segmentation uses variable-sized segments.
+128::What is internal fragmentation?::Unused memory inside allocated blocks.
+129::What is external fragmentation?::Free memory scattered in small non-contiguous blocks.
+130::What is swapping?::Swapping moves processes between main memory and secondary storage to free memory.
+131::What is multiprogramming?::Multiprogramming allows multiple processes to reside in memory at once, sharing CPU time.
+132::What is multitasking?::Multitasking allows multiple processes to execute concurrently.
+133::What is batch processing?::Batch processing executes a series of jobs without user interaction.
+134::What is time-sharing OS?::Time-sharing OS allocates CPU time to multiple users or processes interactively.
+135::What is real-time OS?::Real-time OS guarantees response within strict time constraints.
+136::What is soft vs hard real-time OS?::Soft: deadlines may be missed occasionally; Hard: deadlines must always be met.
+137::What is microkernel?::Microkernel implements minimal OS services in kernel; other services run in user space.
+138::What is monolithic kernel?::Monolithic kernel implements all OS services in a single kernel space.
+139::What is hybrid kernel?::Hybrid kernel combines features of microkernel and monolithic kernel.
+140::What is exokernel?::Exokernel exposes hardware resources directly to applications with minimal abstraction.
+141::What is process synchronization?::Process synchronization ensures correct sequencing when multiple processes access shared resources.
+142::What are semaphores?::Semaphores are variables used to synchronize processes and prevent race conditions.
+143::What is a counting semaphore?::Counting semaphore can take non-negative integer values for multiple resource instances.
+144::What is a binary semaphore?::Binary semaphore takes only 0 or 1, acting like a mutex.
+145::What is a race condition?::Race condition occurs when outcome depends on unpredictable sequence or timing of events.
+146::What is a monitor?::Monitor is a high-level construct that allows safe access to shared resources using mutual exclusion and condition variables.
+147::What is critical section?::A section of code that accesses shared resources and must not be executed by multiple processes simultaneously.
+148::What is starvation?::Starvation occurs when a process waits indefinitely due to low priority or resource allocation issues.
+149::What is aging?::Aging gradually increases process priority to prevent starvation.
+150::What is kernel mode vs user mode?::Kernel mode has full access to system resources; user mode has restricted access to protect system integrity.
