@@ -1,0 +1,200 @@
+1:: What is software engineering?:: Application of engineering principles to software development
+2:: Main goal of software engineering?:: Produce high-quality, maintainable software
+3:: What is SDLC?:: Software Development Life Cycle
+4:: Phases of SDLC?:: Requirements, Design, Implementation, Testing, Deployment, Maintenance
+5:: What is requirements engineering?:: Process of gathering and analyzing requirements
+6:: Functional requirements define?:: What the system should do
+7:: Non-functional requirements define?:: How the system performs
+8:: Example of non-functional requirement?:: Performance
+9:: What is feasibility study?:: Evaluation of project viability
+10:: Types of feasibility?:: Technical, Economic, Operational
+11:: What is software design?:: Process of defining system architecture
+12:: What is modularity?:: Dividing system into independent modules
+13:: Benefit of modularity?:: Easier maintenance
+14:: What is cohesion?:: Degree to which module elements belong together
+15:: High cohesion is?:: Desirable
+16:: What is coupling?:: Degree of dependency between modules
+17:: Low coupling is?:: Desirable
+18:: What is abstraction?:: Hiding implementation details
+19:: What is encapsulation?:: Bundling data and methods
+20:: What is UML?:: Unified Modeling Language
+21:: UML is used for?:: Visualizing system design
+22:: What is use case diagram?:: Represents user interactions
+23:: What is actor in UML?:: External entity interacting with system
+24:: What is class diagram?:: Shows classes and relationships
+25:: What is association?:: Relationship between classes
+26:: What is aggregation?:: Weak has-a relationship
+27:: What is composition?:: Strong has-a relationship
+28:: What is inheritance?:: IS-A relationship
+29:: What is polymorphism?:: One interface, many implementations
+30:: What is sequence diagram?:: Shows object interaction over time
+31:: What is activity diagram?:: Workflow representation
+32:: What is state diagram?:: Shows state transitions
+33:: What is software architecture?:: High-level system structure
+34:: Example of architecture style?:: Layered architecture
+35:: What is client-server architecture?:: Client requests, server responds
+36:: What is MVC?:: Model View Controller
+37:: MVC separates?:: Data, UI, Logic
+38:: What is software process model?:: Framework for development
+39:: Example of process model?:: Waterfall
+40:: Waterfall model characteristic?:: Sequential phases
+41:: Main drawback of waterfall?:: Inflexible to change
+42:: What is iterative model?:: Repeated development cycles
+43:: What is incremental model?:: System built in parts
+44:: What is spiral model?:: Risk-driven process
+45:: Spiral model focuses on?:: Risk analysis
+46:: What is Agile?:: Adaptive development methodology
+47:: Agile emphasizes?:: Flexibility and collaboration
+48:: Example of Agile framework?:: Scrum
+49:: Scrum roles include?:: Product Owner, Scrum Master, Team
+50:: What is sprint?:: Time-boxed iteration
+51:: What is backlog?:: List of requirements
+52:: What is extreme programming (XP)?:: Agile methodology
+53:: XP emphasizes?:: Pair programming
+54:: What is DevOps?:: Dev + Operations collaboration
+55:: DevOps goal?:: Faster delivery
+56:: What is CI/CD?:: Continuous Integration and Continuous Deployment
+57:: What is software testing?:: Verification of software quality
+58:: What is unit testing?:: Testing individual components
+59:: What is integration testing?:: Testing combined modules
+60:: What is system testing?:: Testing complete system
+61:: What is acceptance testing?:: User validation
+62:: What is black-box testing?:: Testing without internal knowledge
+63:: What is white-box testing?:: Testing internal logic
+64:: What is regression testing?:: Testing after changes
+65:: What is software maintenance?:: Post-deployment updates
+66:: Types of maintenance?:: Corrective, Adaptive, Perfective
+67:: What is software quality?:: Degree of excellence
+68:: Quality attributes include?:: Reliability, Maintainability
+69:: What is software metric?:: Measurement of software
+70:: What is cyclomatic complexity?:: Measure of code complexity
+71:: What is refactoring?:: Improving code without changing behavior
+72:: What is technical debt?:: Cost of poor design
+73:: What is design pattern?:: Reusable solution to common problem
+74:: Who introduced GoF patterns?:: Gang of Four
+75:: Categories of design patterns?:: Creational, Structural, Behavioral
+76:: Creational patterns deal with?:: Object creation
+77:: Structural patterns deal with?:: Object composition
+78:: Behavioral patterns deal with?:: Object interaction
+79:: What is Singleton pattern?:: Single instance of a class
+80:: Singleton ensures?:: Global access point
+81:: Use case of Singleton?:: Logging
+82:: What is Factory pattern?:: Object creation without specifying class
+83:: Factory promotes?:: Loose coupling
+84:: What is Abstract Factory?:: Factory of factories
+85:: Difference between Factory and Abstract Factory?:: Multiple product families
+86:: What is Builder pattern?:: Step-by-step object construction
+87:: Builder is useful for?:: Complex objects
+88:: What is Prototype pattern?:: Object cloning
+89:: Prototype uses?:: Copying existing objects
+90:: What is Adapter pattern?:: Interface compatibility
+91:: Adapter also known as?:: Wrapper
+92:: What is Bridge pattern?:: Decouple abstraction from implementation
+93:: Bridge improves?:: Flexibility
+94:: What is Composite pattern?:: Tree structure representation
+95:: Composite treats?:: Objects and groups uniformly
+96:: What is Decorator pattern?:: Add behavior dynamically
+97:: Decorator avoids?:: Subclass explosion
+98:: What is Facade pattern?:: Simplified interface
+99:: Facade hides?:: System complexity
+100:: What is Flyweight pattern?:: Memory optimization
+101:: Flyweight shares?:: Common object data
+102:: What is Proxy pattern?:: Controlled access
+103:: Proxy used for?:: Lazy loading
+104:: What is Observer pattern?:: One-to-many dependency
+105:: Observer notifies?:: Dependent objects
+106:: Example of Observer?:: Event listeners
+107:: What is Strategy pattern?:: Encapsulated algorithms
+108:: Strategy allows?:: Runtime behavior change
+109:: What is Command pattern?:: Encapsulates requests
+110:: Command supports?:: Undo operations
+111:: What is Iterator pattern?:: Sequential access
+112:: Iterator hides?:: Internal structure
+113:: What is Mediator pattern?:: Centralized communication
+114:: Mediator reduces?:: Direct dependencies
+115:: What is Memento pattern?:: State restoration
+116:: Memento used for?:: Undo/rollback
+117:: What is State pattern?:: Behavior based on state
+118:: State differs from Strategy by?:: State-driven transitions
+119:: What is Template Method?:: Algorithm skeleton
+120:: Template lets subclasses?:: Override steps
+121:: What is Visitor pattern?:: New operations on objects
+122:: Visitor separates?:: Algorithm from object
+123:: What is Chain of Responsibility?:: Request passing chain
+124:: Chain avoids?:: Tight coupling
+125:: What is SOLID?:: Object-oriented design principles
+126:: S in SOLID stands for?:: Single Responsibility Principle
+127:: SRP means?:: One reason to change
+128:: O in SOLID stands for?:: Open/Closed Principle
+129:: Open/Closed means?:: Open for extension, closed for modification
+130:: L in SOLID stands for?:: Liskov Substitution Principle
+131:: LSP ensures?:: Substitutability
+132:: I in SOLID stands for?:: Interface Segregation Principle
+133:: ISP avoids?:: Fat interfaces
+134:: D in SOLID stands for?:: Dependency Inversion Principle
+135:: DIP promotes?:: Abstraction over concrete
+136:: What is DRY principle?:: Don’t Repeat Yourself
+137:: What is KISS principle?:: Keep It Simple
+138:: What is YAGNI?:: You Aren’t Gonna Need It
+139:: What is code smell?:: Indicator of poor design
+140:: Example of code smell?:: God class
+141:: What is anti-pattern?:: Poor solution practice
+142:: Example of anti-pattern?:: Spaghetti code
+143:: What is version control?:: Managing code changes
+144:: Example of VCS?:: Git
+145:: What is branching?:: Parallel development
+146:: What is merge conflict?:: Code inconsistency
+147:: What is build automation?:: Automated compiling
+148:: Example build tool?:: Maven
+149:: What is documentation?:: Software description
+150:: What is API documentation?:: Interface usage guide
+151:: What is software reuse?:: Using existing components
+152:: Benefit of reuse?:: Reduced cost
+153:: What is component-based development?:: Assembling components
+154:: What is microservices architecture?:: Independent services
+155:: Microservices communicate via?:: APIs
+156:: Advantage of microservices?:: Scalability
+157:: What is monolithic architecture?:: Single deployable unit
+158:: What is technical specification?:: Detailed design document
+159:: What is traceability matrix?:: Requirement mapping
+160:: What is risk management?:: Identifying project risks
+161:: Example project risk?:: Schedule delay
+162:: What is estimation?:: Predicting effort
+163:: Example estimation technique?:: Function Point
+164:: What is function point?:: Size measurement
+165:: What is COCOMO?:: Cost estimation model
+166:: What is software reliability?:: Failure-free operation
+167:: What is fault tolerance?:: Handling failures
+168:: What is scalability?:: Handling growth
+169:: What is performance?:: Speed and efficiency
+170:: What is maintainability?:: Ease of modification
+171:: What is portability?:: Running on multiple platforms
+172:: What is interoperability?:: System interaction ability
+173:: What is test-driven development?:: Tests before code
+174:: TDD cycle?:: Red-Green-Refactor
+175:: What is continuous testing?:: Automated testing
+176:: What is design review?:: Design evaluation
+177:: What is code review?:: Code quality check
+178:: What is pair programming?:: Two developers coding together
+179:: What is static analysis?:: Code analysis without execution
+180:: What is dynamic analysis?:: Runtime analysis
+181:: What is technical documentation?:: Developer-oriented docs
+182:: What is user documentation?:: End-user guide
+183:: What is release management?:: Managing deployments
+184:: What is rollback?:: Reverting changes
+185:: What is software audit?:: Compliance check
+186:: What is configuration item?:: Controlled component
+187:: What is baseline?:: Approved reference version
+188:: What is change request?:: Proposal for modification
+189:: What is impact analysis?:: Effect of change
+190:: What is reusability?:: Ability to reuse components
+191:: What is extensibility?:: Ability to add features
+192:: What is dependency injection?:: Providing dependencies externally
+193:: DI supports which SOLID principle?:: Dependency Inversion
+194:: What is inversion of control?:: Framework controls flow
+195:: What is framework?:: Reusable software platform
+196:: Difference between framework and library?:: Framework controls flow
+197:: What is design by contract?:: Defined responsibilities
+198:: What is software blueprint?:: Design model
+199:: What is maintainable code?:: Easy to understand and modify
+200:: What is good software design?:: Simple, flexible, and scalable
