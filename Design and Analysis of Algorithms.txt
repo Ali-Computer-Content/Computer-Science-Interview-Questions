@@ -1,0 +1,150 @@
+1::What is an algorithm?::A finite set of well-defined steps to solve a problem::Algorithms provide a systematic approach to problem solving
+2::Why algorithm analysis is important?::To measure efficiency::Helps compare solutions and select optimal one
+3::What is algorithm design?::Creating step-by-step solution logic::Focuses on correctness and efficiency
+4::What is algorithm analysis?::Evaluating time and space usage::Predicts performance before implementation
+5::Difference between algorithm and program?::Algorithm is logic, program is implementation::Algorithm is language independent
+6::What is time complexity?::Growth of execution time with input size::Measured using asymptotic notation
+7::What is space complexity?::Memory required by algorithm::Includes auxiliary space
+8::Why asymptotic analysis used?::Ignores constants and hardware effects::Focuses on scalability
+9::What is Big-O notation?::Upper bound of complexity::Represents worst-case behavior
+10::What is Omega notation?::Lower bound of complexity::Represents best-case behavior
+11::What is Theta notation?::Tight bound of complexity::Represents exact growth rate
+12::Best case complexity?::Minimum time for execution::Occurs in ideal input scenario
+13::Worst case complexity?::Maximum execution time::Most important for guarantees
+14::Average case complexity?::Expected execution time::More realistic performance measure
+15::What is input size?::Amount of data processed::Affects complexity directly
+16::What is constant time algorithm?::O(1)::Execution time independent of input size
+17::What is linear time algorithm?::O(n)::Time grows proportionally with input
+18::What is logarithmic time?::O(log n)::Efficient divide-based algorithms
+19::What is quadratic time?::O(n^2)::Occurs in nested loops
+20::What is exponential time?::O(2^n)::Very inefficient for large input
+21::What is polynomial time?::O(n^k)::Considered tractable
+22::What is brute force approach?::Try all possible solutions::Simple but inefficient
+23::Advantage of brute force?::Easy to implement::Useful for small input
+24::Disadvantage of brute force?::High time complexity::Not scalable
+25::What is divide and conquer?::Divide problem into subproblems::Solve independently and combine
+26::Steps in divide and conquer?::Divide, Conquer, Combine::Common algorithmic paradigm
+27::Binary search uses which technique?::Divide and conquer::Reduces search space by half
+28::Binary search complexity?::O(log n)::Requires sorted data
+29::Merge sort technique?::Divide and conquer::Stable and efficient sorting
+30::Merge sort complexity?::O(n log n)::Consistent for all cases
+31::Quick sort technique?::Divide and conquer::Partition-based sorting
+32::Quick sort best case?::O(n log n)::Balanced partitions
+33::Quick sort worst case?::O(n^2)::Poor pivot selection
+34::Why quick sort is fast in practice?::In-place and cache friendly::Low constant factors
+35::What is recurrence relation?::Equation defining recursive complexity::Used in divide and conquer
+36::What is substitution method?::Guess and prove solution::Used to solve recurrences
+37::What is recursion tree method?::Visualizing recursive calls::Helps estimate complexity
+38::What is Master Theorem?::Formula for solving recurrences::Used for divide and conquer
+39::Master theorem cases?::Three standard cases::Compare f(n) with n^logb(a)
+40::What is decrease and conquer?::Reduce problem size each step::Example: insertion sort
+41::Insertion sort complexity?::O(n^2)::Efficient for small data
+42::Selection sort complexity?::O(n^2)::Minimum swaps
+43::Bubble sort complexity?::O(n^2)::Simple but inefficient
+44::What is transform and conquer?::Transform problem into easier form::Example: heap sort
+45::Heap sort complexity?::O(n log n)::Uses heap data structure
+46::What is greedy algorithm?::Makes locally optimal choice::Fast and simple
+47::Greedy algorithm limitation?::May not give optimal solution::Fails for some problems
+48::Greedy choice property?::Local choice leads to global solution::Required for greedy correctness
+49::Optimal substructure?::Optimal solution built from sub-solutions::Used in greedy and DP
+50::Example of greedy algorithm?::Prim’s algorithm::Builds MST efficiently
+51::Kruskal’s algorithm technique?::Greedy::Selects minimum edges
+52::Dijkstra’s algorithm technique?::Greedy::Shortest path without negative edges
+53::Why Dijkstra fails with negative edges?::Violates greedy assumption::Leads to incorrect paths
+54::What is activity selection problem?::Scheduling maximum activities::Solved using greedy
+55::What is fractional knapsack?::Items can be divided::Greedy gives optimal solution
+56::What is 0/1 knapsack?::Items indivisible::Greedy fails
+57::What is dynamic programming?::Optimization using overlapping subproblems::Stores results to avoid recomputation
+58::Difference greedy vs DP?::Local vs global optimization::DP guarantees optimality
+59::Overlapping subproblems?::Same subproblems repeated::Key DP property
+60::Optimal substructure in DP?::Solution from sub-solutions::Required for DP
+61::What is memoization?::Top-down DP approach::Uses recursion and cache
+62::What is tabulation?::Bottom-up DP approach::Uses iteration
+63::Fibonacci using DP complexity?::O(n)::Improved from exponential
+64::Longest Common Subsequence problem?::DP string problem::Finds common pattern
+65::LCS complexity?::O(mn)::Based on table filling
+66::Matrix chain multiplication?::DP optimization problem::Minimizes multiplication cost
+67::Why DP preferred over recursion?::Efficiency::Avoids recomputation
+68::What is backtracking?::Systematic trial and error::Explores all possibilities
+69::Backtracking vs brute force?::Pruned search vs exhaustive::More efficient
+70::Example of backtracking problem?::N-Queens::Constraint satisfaction
+71::What is branch and bound?::Optimization technique::Uses bounds to prune search
+72::Branch and bound vs backtracking?::Uses cost bounds::More efficient
+73::What is graph algorithm?::Algorithm operating on graphs::Used in networks
+74::BFS complexity?::O(V+E)::Uses queue
+75::DFS complexity?::O(V+E)::Uses recursion or stack
+76::Topological sorting applies to?::DAG::Orders tasks
+77::Topological sort complexity?::O(V+E)::Efficient ordering
+78::What is minimum spanning tree?::Tree connecting all vertices with minimum weight::Optimization problem
+79::Prim’s algorithm complexity?::O(E log V)::Uses priority queue
+80::Kruskal’s algorithm complexity?::O(E log E)::Uses sorting
+81::Union-Find data structure used in?::Kruskal’s algorithm::Detects cycles
+82::What is shortest path problem?::Minimum distance between vertices::Routing problem
+83::Bellman-Ford advantage?::Handles negative weights::Detects negative cycles
+84::Bellman-Ford complexity?::O(VE)::Slower than Dijkstra
+85::Floyd-Warshall algorithm?::All-pairs shortest path::Dynamic programming based
+86::Floyd-Warshall complexity?::O(n^3)::Used for dense graphs
+87::What is approximation algorithm?::Near-optimal solution::Used for NP-hard problems
+88::Approximation ratio?::Quality guarantee measure::Closer to 1 is better
+89::What is NP problem?::Solution verifiable in polynomial time::Decision problems
+90::What is NP-hard?::At least as hard as NP::May not be in NP
+91::What is NP-complete?::NP and NP-hard::Hardest problems in NP
+92::Example of NP-complete problem?::Traveling Salesman Problem::Classic optimization
+93::Why NP-complete important?::Defines computational limits::No known polynomial solution
+94::What is reduction?::Transform one problem into another::Used to prove NP-completeness
+95::Polynomial reduction meaning?::Transformation in polynomial time::Preserves complexity
+96::What is decision problem?::Yes or no answer::Used in complexity theory
+97::What is optimization problem?::Find best solution::Harder than decision
+98::P vs NP problem?::Unknown equality question::Major open problem
+99::What is heuristic algorithm?::Rule-of-thumb solution::Fast but not guaranteed optimal
+100::What is randomized algorithm?::Uses randomness::Expected performance analysis
+101::Las Vegas algorithm?::Always correct, random time::Example: randomized quicksort
+102::Monte Carlo algorithm?::Fast but may be incorrect::Probabilistic correctness
+103::What is amortized analysis?::Average cost over operations::Used in dynamic arrays
+104::Aggregate method?::Total cost over sequence::Simple amortized analysis
+105::Accounting method?::Assign extra cost::Balances operations
+106::Potential method?::Uses potential function::Advanced amortized analysis
+107::What is lower bound?::Minimum possible complexity::Problem inherent difficulty
+108::Lower bound for comparison sorting?::Ω(n log n)::Proven theoretically
+109::What is decision tree model?::Comparison-based analysis::Used for sorting lower bound
+110::Why hashing beats comparison?::Uses direct addressing::Average O(1)
+111::What is selection problem?::Finding kth smallest element::Optimization task
+112::Quickselect complexity?::O(n) average::Efficient selection
+113::Worst case quickselect?::O(n^2)::Rare but possible
+114::What is median of medians?::Deterministic selection algorithm::Guarantees O(n)
+115::What is string matching problem?::Finding pattern in text::Used in searching
+116::Naive string matching complexity?::O(nm)::Simple but slow
+117::KMP algorithm advantage?::Avoids rechecking characters::Linear time
+118::KMP complexity?::O(n+m)::Efficient pattern matching
+119::Rabin-Karp algorithm?::Hash-based string matching::Average linear time
+120::What is suffix array?::Sorted suffix structure::Used in pattern matching
+121::What is suffix tree?::Compressed trie of suffixes::Fast string operations
+122::What is computational complexity?::Study of algorithm efficiency::Classifies problems
+123::What is tractable problem?::Solvable in polynomial time::Efficiently computable
+124::What is intractable problem?::No known polynomial solution::Very hard
+125::What is online algorithm?::Processes input sequentially::No future knowledge
+126::Example of online algorithm?::Paging algorithm::Real-time decisions
+127::Competitive ratio?::Online vs optimal offline::Measures quality
+128::What is offline algorithm?::Full input known beforehand::Better optimization
+129::What is cache algorithm?::Memory management strategy::Optimizes access
+130::What is paging problem?::Memory page replacement::Optimization problem
+131::LRU algorithm technique?::Greedy::Replaces least recently used
+132::What is bit complexity?::Bit-level operation count::Important in arithmetic algorithms
+133::What is parallel algorithm?::Uses multiple processors::Improves speed
+134::What is speedup?::Sequential time / parallel time::Measures efficiency
+135::What is scalability?::Performance growth with processors::Important in parallel systems
+136::What is algorithm correctness?::Produces correct output for all inputs::Must be proven
+137::Proof by induction in algorithms?::Used for correctness::Common technique
+138::Loop invariant?::Condition true before and after iteration::Helps prove correctness
+139::What is algorithm optimality?::Best possible efficiency::No better algorithm exists
+140::Why algorithm design matters?::Efficiency and scalability::Critical for large systems
+141::What is problem reduction?::Convert to known problem::Reuse existing algorithms
+142::What is search space?::All possible solutions::Explored by algorithms
+143::State space tree?::Represents solution exploration::Used in backtracking
+144::What is complexity class?::Group of problems by difficulty::Example P, NP
+145::What is approximation scheme?::Polynomial time approximation::Close to optimal
+146::What is FPTAS?::Fully polynomial approximation scheme::High accuracy
+147::What is greedy fails example?::0/1 knapsack::Needs DP
+148::What is algorithm paradigm?::General strategy::Guides solution design
+149::Why DAA important for interviews?::Tests problem-solving skills::Core CS subject
+150::Why Design & Analysis of Algorithms is fundamental?::Foundation of efficient computing::Enables scalable and optimal solutions

@@ -1,0 +1,100 @@
+1::What is C++?::A general-purpose programming language::C++ supports procedural, object-oriented, and generic programming
+2::Difference between C and C++?::C is procedural, C++ is multi-paradigm::C++ adds OOP, templates, and STL
+3::What is OOP?::Object-Oriented Programming paradigm::Organizes code using objects and classes
+4::Four pillars of OOP?::Encapsulation, Inheritance, Polymorphism, Abstraction::They improve modularity and reusability
+5::What is a class?::Blueprint for objects::Defines data members and member functions
+6::What is an object?::Instance of a class::Represents real-world entity
+7::What is encapsulation?::Binding data and methods together::Protects data using access specifiers
+8::Access specifiers in C++?::Public, Private, Protected::Control visibility of class members
+9::What is inheritance?::Deriving new class from existing class::Promotes code reuse
+10::Types of inheritance?::Single, Multiple, Multilevel, Hierarchical, Hybrid::Defines class relationships
+11::What is polymorphism?::One interface multiple implementations::Achieved using overloading and overriding
+12::Compile-time polymorphism?::Function overloading and operator overloading::Resolved at compile time
+13::Run-time polymorphism?::Function overriding using virtual functions::Resolved at runtime
+14::What is abstraction?::Hiding implementation details::Shows only essential features
+15::What is constructor?::Special function to initialize object::Automatically called when object is created
+16::Types of constructors?::Default, Parameterized, Copy::Used for different initialization needs
+17::What is destructor?::Function to release resources::Automatically called when object is destroyed
+18::Constructor vs Destructor?::Initialize vs cleanup::Destructor has no parameters
+19::What is copy constructor?::Initializes object using another object::Used in pass-by-value
+20::What is shallow copy?::Copies pointer values::Leads to shared memory issues
+21::What is deep copy?::Copies actual data::Avoids memory conflicts
+22::What is virtual function?::Function overridden at runtime::Supports dynamic binding
+23::Why virtual destructor?::Ensures proper cleanup::Avoids memory leaks in inheritance
+24::What is function overloading?::Same function name different parameters::Improves readability
+25::What is operator overloading?::Redefining operators for objects::Makes user-defined types intuitive
+26::What is namespace?::Logical grouping of identifiers::Avoids name conflicts
+27::What is STL?::Standard Template Library::Provides ready-made data structures and algorithms
+28::Components of STL?::Containers, Algorithms, Iterators::Generic programming support
+29::What is vector?::Dynamic array container::Allows automatic resizing
+30::Vector vs Array?::Dynamic vs static size::Vector safer and flexible
+31::What is list?::Doubly linked list container::Efficient insertion and deletion
+32::What is map?::Key-value associative container::Stores sorted unique keys
+33::Map vs unordered_map?::Ordered vs hash-based::unordered_map faster average access
+34::What is set?::Container of unique elements::Maintains sorted order
+35::What is iterator?::Pointer-like object::Used to traverse containers
+36::What is template?::Generic programming feature::Allows type-independent code
+37::Function template?::Generic function definition::Works for multiple data types
+38::Class template?::Generic class definition::Used in STL containers
+39::What is exception handling?::Handling runtime errors::Prevents abnormal termination
+40::Keywords in exception handling?::try, catch, throw::Structured error handling
+41::What is pointer?::Variable storing memory address::Used for dynamic memory
+42::What is reference?::Alias for variable::Safer than pointer
+43::Pointer vs Reference?::Can be null vs cannot be null::Reference must be initialized
+44::What is dynamic memory allocation?::Memory allocated at runtime::Uses new and delete
+45::new vs malloc?::Constructor call vs no constructor::new is type-safe
+46::delete vs free?::Destructor call vs no destructor::delete used with new
+47::What is memory leak?::Unreleased allocated memory::Causes performance issues
+48::What is dangling pointer?::Pointer to freed memory::Leads to undefined behavior
+49::What is smart pointer?::Object managing dynamic memory::Prevents memory leaks
+50::Types of smart pointers?::unique_ptr, shared_ptr, weak_ptr::Defined in <memory>
+51::What is const keyword?::Makes variable read-only::Improves safety
+52::Const with pointer?::Controls mutability::Can protect data or address
+53::What is static keyword?::Preserves value across calls::Shared among objects
+54::Static member function?::Belongs to class not object::Accesses static members only
+55::What is inline function?::Function expanded at call site::Reduces overhead
+56::What is friend function?::Access private members::Breaks encapsulation carefully
+57::What is mutable keyword?::Allows modification in const object::Used in caching
+58::What is virtual inheritance?::Avoids diamond problem::Ensures single base instance
+59::What is diamond problem?::Ambiguity in multiple inheritance::Solved using virtual base class
+60::What is type casting?::Converting data types::Can be implicit or explicit
+61::Types of casting in C++?::static_cast, dynamic_cast, const_cast, reinterpret_cast::Safer than C-style cast
+62::What is dynamic_cast used for?::Safe downcasting::Requires polymorphism
+63::What is file handling in C++?::Reading and writing files::Uses fstream library
+64::ifstream vs ofstream?::Read vs write streams::Used for file operations
+65::What is RAII?::Resource Acquisition Is Initialization::Manages resources using object lifetime
+66::What is lambda expression?::Anonymous function::Used for concise code
+67::Capture list in lambda?::Access external variables::By value or reference
+68::What is auto keyword?::Type inference::Simplifies declarations
+69::What is nullptr?::Null pointer literal::Safer than NULL
+70::What is enum?::User-defined constant type::Improves code readability
+71::enum vs enum class?::Scoped vs unscoped::enum class is safer
+72::What is volatile keyword?::Prevents optimization::Used in hardware interaction
+73::What is multithreading?::Concurrent execution of threads::Improves performance
+74::C++ thread library?::<thread>::Introduced in C++11
+75::What is mutex?::Mutual exclusion lock::Prevents race condition
+76::What is race condition?::Uncontrolled shared access::Causes unpredictable results
+77::What is deadlock?::Threads waiting indefinitely::Occurs due to circular wait
+78::What is move semantics?::Transfer resources instead of copying::Improves performance
+79::What is rvalue reference?::Temporary object reference::Enables move semantics
+80::What is std::move?::Converts lvalue to rvalue::Triggers move constructor
+81::What is copy elision?::Compiler optimization::Avoids unnecessary copying
+82::What is constexpr?::Compile-time evaluation::Improves efficiency
+83::What is header file?::Contains declarations::Promotes modularity
+84::What is preprocessor?::Handles macros and directives::Runs before compilation
+85::Common preprocessor directives?::#include, #define, #ifdef::Controls compilation
+86::What is macro drawback?::No type checking::Can cause bugs
+87::What is inline namespace?::Versioning support::Introduced in C++11
+88::What is std::string?::String class::Safer than char arrays
+89::C-style string vs std::string?::Null-terminated vs dynamic::std::string is safer
+90::What is sizeof operator?::Returns memory size::Evaluated at compile time
+91::What is this pointer?::Points to current object::Used in member functions
+92::What is const member function?::Does not modify object::Ensures object safety
+93::What is virtual table?::Runtime method resolution table::Used for dynamic binding
+94::What is RTTI?::Run-Time Type Information::Supports type identification
+95::What is assert?::Debugging check::Terminates if condition fails
+96::What is noexcept?::Specifies no exception thrown::Improves optimization
+97::What is coding best practice in C++?::Use RAII and STL::Avoid raw pointers
+98::Why C++ is used in systems?::High performance and control::Used in OS and games
+99::C++ vs Java?::Manual vs automatic memory management::C++ offers low-level control
+100::Why C++ is important for CS students?::Foundation of performance programming::Used in systems, games, and interviews

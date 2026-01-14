@@ -1,0 +1,150 @@
+1::What is Data Structure?::A way of organizing and storing data efficiently::Proper data structures improve performance and resource utilization
+2::Why Data Structures are important?::They optimize data access and modification::Efficient algorithms depend on proper data structures
+3::Types of Data Structures?::Linear and Non-linear::Classification based on data organization
+4::What is Linear Data Structure?::Data elements arranged sequentially::Examples include arrays and linked lists
+5::What is Non-linear Data Structure?::Data elements arranged hierarchically or graph-like::Examples include trees and graphs
+6::What is an Array?::Collection of elements stored contiguously::Provides fast indexed access
+7::Array disadvantage?::Fixed size::Memory wastage or overflow may occur
+8::What is Dynamic Array?::Array that resizes automatically::Balances flexibility and performance
+9::Time complexity of array access?::O(1)::Direct index-based access
+10::What is Linked List?::Collection of nodes linked via pointers::Dynamic size structure
+11::Singly linked list?::Each node points to next::Memory efficient
+12::Doubly linked list?::Node points to next and previous::Allows bidirectional traversal
+13::Circular linked list?::Last node points to first::Useful in round-robin scheduling
+14::Linked list vs array?::Dynamic vs static size::Linked lists avoid shifting overhead
+15::Insertion in linked list complexity?::O(1)::If position known
+16::Deletion in linked list complexity?::O(1)::If node reference available
+17::What is Stack?::LIFO data structure::Last In First Out principle
+18::Stack operations?::Push, Pop, Peek::Basic stack functionality
+19::Applications of stack?::Expression evaluation, recursion::Used in function calls
+20::Stack overflow?::Exceeding stack capacity::Occurs during excessive push
+21::Stack underflow?::Removing from empty stack::Logical error
+22::What is Queue?::FIFO data structure::First In First Out
+23::Queue operations?::Enqueue, Dequeue::Insertion and removal
+24::Types of queue?::Simple, Circular, Priority, Deque::Different usage scenarios
+25::Circular queue advantage?::Better space utilization::Avoids false overflow
+26::What is Priority Queue?::Elements served by priority::Used in scheduling
+27::What is Deque?::Double-ended queue::Insertion and deletion at both ends
+28::Queue applications?::CPU scheduling, buffering::Manages requests
+29::What is Recursion?::Function calling itself::Breaks problem into smaller parts
+30::Base case in recursion?::Stopping condition::Prevents infinite calls
+31::Recursion disadvantage?::High memory usage::Uses call stack
+32::What is Tree?::Hierarchical data structure::Consists of nodes and edges
+33::Root of a tree?::Topmost node::Starting point
+34::Leaf node?::Node with no children::Terminal node
+35::Degree of node?::Number of children::Defines branching
+36::Height of tree?::Longest path from root to leaf::Measures depth
+37::Binary Tree?::Each node has at most two children::Left and right child
+38::Binary tree types?::Full, Complete, Perfect::Different structural properties
+39::Full binary tree?::Each node has 0 or 2 children::No single-child nodes
+40::Complete binary tree?::All levels filled left to right::Used in heaps
+41::Perfect binary tree?::All internal nodes have two children::All leaves at same level
+42::Binary Search Tree?::Ordered binary tree::Left < Root < Right
+43::BST advantage?::Fast search::Average O(log n)
+44::BST disadvantage?::Can become skewed::Worst case O(n)
+45::Tree traversal types?::Inorder, Preorder, Postorder::Different visiting orders
+46::Inorder traversal of BST gives?::Sorted order::Key BST property
+47::Level order traversal?::Breadth-first traversal::Uses queue
+48::What is Heap?::Complete binary tree with heap property::Efficient priority access
+49::Max heap property?::Parent >= children::Max element at root
+50::Min heap property?::Parent <= children::Min element at root
+51::Heap applications?::Priority queue, scheduling::Efficient selection
+52::Heap insertion complexity?::O(log n)::Maintains heap property
+53::Heap deletion complexity?::O(log n)::Reheapification required
+54::What is Hashing?::Mapping keys to values using hash function::Enables fast access
+55::Hash function property?::Uniform distribution::Reduces collisions
+56::Collision in hashing?::Two keys map to same index::Needs resolution
+57::Collision resolution techniques?::Chaining, Open addressing::Handle conflicts
+58::Chaining method?::Linked list at each index::Simple collision handling
+59::Open addressing?::Probe for next free slot::Uses table itself
+60::Load factor?::n/m ratio::Indicates hash table fullness
+61::What is Rehashing?::Resizing hash table::Maintains efficiency
+62::Hash table advantage?::O(1) average search::Fast lookup
+63::Hash table disadvantage?::Poor worst-case performance::Collision-heavy scenarios
+64::What is Graph?::Set of vertices and edges::Represents relationships
+65::Types of graph?::Directed and Undirected::Edge direction
+66::Weighted graph?::Edges have weights::Used in networks
+67::Degree of vertex?::Number of edges incident::Defines connectivity
+68::Adjacency matrix?::2D matrix representation::Fast edge lookup
+69::Adjacency list?::List of neighbors::Memory efficient
+70::BFS traversal?::Breadth-first search::Uses queue
+71::DFS traversal?::Depth-first search::Uses stack or recursion
+72::BFS application?::Shortest path in unweighted graph::Level-wise traversal
+73::DFS application?::Cycle detection::Backtracking usage
+74::What is Spanning Tree?::Subgraph connecting all vertices::No cycles
+75::Minimum Spanning Tree?::Minimum total weight::Optimizes cost
+76::Prim’s algorithm?::Greedy MST algorithm::Grows tree gradually
+77::Kruskal’s algorithm?::Edge-based MST algorithm::Uses union-find
+78::What is Cycle in graph?::Closed path::Important for detection
+79::What is DAG?::Directed Acyclic Graph::No directed cycles
+80::Topological sorting?::Ordering of DAG vertices::Respects dependencies
+81::Application of topological sort?::Task scheduling::Build systems
+82::What is shortest path problem?::Finding minimum distance::Graph problem
+83::Dijkstra’s algorithm?::Shortest path algorithm::Non-negative weights
+84::Limitation of Dijkstra?::Fails with negative edges::Incorrect results
+85::Bellman-Ford algorithm?::Handles negative weights::Detects negative cycles
+86::What is Floyd-Warshall?::All-pairs shortest path::Dynamic programming
+87::What is Time Complexity?::Measures execution time growth::Function of input size
+88::What is Space Complexity?::Memory usage analysis::Includes auxiliary space
+89::Big-O notation?::Upper bound complexity::Worst-case analysis
+90::Omega notation?::Lower bound complexity::Best-case analysis
+91::Theta notation?::Tight bound complexity::Exact growth rate
+92::Best case complexity?::Minimum time::Ideal scenario
+93::Worst case complexity?::Maximum time::Critical for guarantees
+94::Average case complexity?::Expected performance::Realistic measure
+95::What is Divide and Conquer?::Break problem into subproblems::Used in efficient algorithms
+96::Binary Search technique?::Divide and conquer::Search in sorted array
+97::Binary search complexity?::O(log n)::Efficient searching
+98::Merge Sort principle?::Divide and conquer sorting::Stable sorting algorithm
+99::Merge sort complexity?::O(n log n)::Consistent performance
+100::Quick sort principle?::Partition-based sorting::In-place algorithm
+101::Quick sort best case?::O(n log n)::Balanced partitions
+102::Quick sort worst case?::O(n^2)::Poor pivot selection
+103::Heap sort complexity?::O(n log n)::Uses heap structure
+104::Bubble sort complexity?::O(n^2)::Simple but inefficient
+105::Selection sort complexity?::O(n^2)::Minimum swaps
+106::Insertion sort advantage?::Efficient for small data::Adaptive algorithm
+107::Stable sorting algorithm?::Preserves order::Merge sort is stable
+108::In-place sorting?::No extra memory::Quick sort example
+109::What is Searching?::Finding element in data set::Fundamental operation
+110::Linear search complexity?::O(n)::Simple but slow
+111::Binary search requirement?::Sorted data::Essential condition
+112::What is Abstract Data Type?::Logical data definition::Hides implementation
+113::Example of ADT?::Stack, Queue::Behavior-based definition
+114::What is Pointer?::Variable holding address::Used in dynamic structures
+115::Dangling pointer?::Points to freed memory::Causes undefined behavior
+116::Null pointer?::Points to nothing::Safe initialization
+117::What is Memory Leak?::Unreleased allocated memory::Reduces performance
+118::Garbage collection?::Automatic memory management::Used in Java
+119::What is Recursion Stack?::Function call storage::Used during recursion
+120::Tail recursion?::Recursive call at end::Optimizable
+121::What is Balanced Tree?::Height minimized::Ensures fast operations
+122::AVL Tree?::Self-balancing BST::Maintains height balance
+123::AVL rotation purpose?::Restore balance::After insertion/deletion
+124::Red-Black Tree?::Balanced BST with coloring rules::Used in libraries
+125::B-Tree?::Multi-way balanced tree::Used in databases
+126::Trie?::Prefix tree::Efficient string searching
+127::Trie application?::Autocomplete::Dictionary storage
+128::What is Set data structure?::Stores unique elements::No duplicates
+129::What is Map data structure?::Key-value pairs::Fast lookup
+130::Difference Set vs Map?::Value vs key-value::Different usage
+131::What is Sparse Matrix?::Mostly zero elements::Memory optimized storage
+132::Compressed storage benefit?::Saves space::Improves efficiency
+133::What is Algorithm?::Step-by-step solution::Uses data structures
+134::Algorithm vs Data Structure?::Logic vs storage::Both work together
+135::What is Amortized Analysis?::Average over operations::Example dynamic array
+136::What is Online Algorithm?::Processes input as it arrives::No future knowledge
+137::What is Offline Algorithm?::Has full input beforehand::Better optimization
+138::What is Greedy Strategy?::Local optimum choice::Fast but not always optimal
+139::What is Backtracking?::Trial and error approach::Used in puzzles
+140::What is Dynamic Programming?::Stores subproblem results::Avoids recomputation
+141::Overlapping subproblems?::Repeated computations::DP advantage
+142::Optimal substructure?::Solution built from sub-solutions::DP requirement
+143::Memoization?::Top-down DP::Uses recursion
+144::Tabulation?::Bottom-up DP::Uses iteration
+145::What is NP problem?::Non-deterministic polynomial::Hard problems
+146::What is NP-Complete?::NP and NP-hard::No known polynomial solution
+147::Example of NP-Complete problem?::Traveling Salesman::Optimization challenge
+148::What is Approximation Algorithm?::Near-optimal solution::Used for NP-hard
+149::Why Data Structures matter in interviews?::Test problem-solving skills::Core CS foundation
+150::Why Data Structures are fundamental?::Foundation of efficient computing::Essential for scalable software

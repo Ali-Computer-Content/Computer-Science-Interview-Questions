@@ -1,0 +1,100 @@
+1::What is C language?::A general-purpose procedural programming language.::C is widely used for system programming due to its efficiency and low-level control.
+2::Who developed C?::Dennis Ritchie.::Developed at Bell Labs in the early 1970s.
+3::Why is C called a middle-level language?::Supports both low-level and high-level features.::It allows direct memory access and structured programming.
+4::What is a compiler?::A program that converts source code to machine code.::C uses a compiler for execution.
+5::What is the structure of a C program?::Preprocessor, main function, declarations, statements.::Provides organized program flow.
+6::What is main() function?::Entry point of a C program.::Execution starts from main().
+7::What is a keyword in C?::Reserved word with special meaning.::Cannot be used as identifiers.
+8::How many keywords are in C?::32 keywords.::Defined by ANSI C standard.
+9::What is an identifier?::Name given to variable or function.::Used to identify program elements.
+10::What is a variable?::Named memory location.::Stores data during execution.
+11::What is data type?::Specifies type of data.::Determines memory size and operations.
+12::Basic data types in C?::int, float, char, double.::Used for basic data storage.
+13::What is sizeof operator?::Returns size of data type.::Evaluated at compile time.
+14::What is constant?::Fixed value that does not change.::Improves readability and safety.
+15::Difference between variable and constant?::Variable changes, constant does not.::Constants protect values.
+16::What is printf()?::Output function.::Displays data on screen.
+17::What is scanf()?::Input function.::Reads user input.
+18::What is format specifier?::Specifies data format.::Example %d, %f.
+19::What is an operator?::Symbol performing operation.::Used for computation.
+20::Types of operators in C?::Arithmetic, relational, logical, bitwise, assignment.::Categorized by function.
+21::What is arithmetic operator?::Performs mathematical operations.::Includes +, -, *, /.
+22::What is relational operator?::Compares values.::Returns true or false.
+23::What is logical operator?::Combines conditions.::Includes &&, ||, !.
+24::What is assignment operator?::Assigns value.::Example =, +=.
+25::What is bitwise operator?::Operates on bits.::Used in low-level programming.
+26::What is conditional operator?::Ternary operator.::Syntax condition?true:false.
+27::What is precedence?::Order of operator evaluation.::Prevents ambiguity.
+28::What is associativity?::Direction of evaluation.::Left-to-right or right-to-left.
+29::What is control statement?::Controls program flow.::Includes if, switch, loops.
+30::What is if statement?::Conditional execution.::Executes block if condition true.
+31::What is switch statement?::Multi-way selection.::Alternative to multiple if.
+32::What is loop?::Repeats execution.::Used for iteration.
+33::Types of loops in C?::for, while, do-while.::Different loop conditions.
+34::Difference between while and do-while?::do-while executes at least once.::Condition checked after execution.
+35::What is break statement?::Terminates loop.::Used inside loops or switch.
+36::What is continue statement?::Skips current iteration.::Loop continues next iteration.
+37::What is goto statement?::Unconditional jump.::Generally avoided due to poor readability.
+38::What is array?::Collection of similar data.::Stored in contiguous memory.
+39::Array index starts from?::Zero.::First element index is 0.
+40::What is multidimensional array?::Array of arrays.::Used for matrices.
+41::What is string in C?::Array of characters.::Ends with null character \0.
+42::What is null character?::\0.::Marks end of string.
+43::What is strlen()?::Returns string length.::Excludes null character.
+44::What is strcpy()?::Copies string.::Destination must have enough space.
+45::What is strcmp()?::Compares strings.::Returns integer result.
+46::What is function?::Block of reusable code.::Improves modularity.
+47::Types of functions?::Library and user-defined.::Promotes reuse.
+48::What is function prototype?::Function declaration.::Informs compiler about function.
+49::What is call by value?::Copies argument value.::Original value unchanged.
+50::What is call by reference?::Passes address.::Original value can change.
+51::What is recursion?::Function calling itself.::Must have base condition.
+52::What is stack?::LIFO memory structure.::Used for function calls.
+53::What is pointer?::Variable storing address.::Enables dynamic memory access.
+54::What is pointer dereferencing?::Accessing value via pointer.::Uses * operator.
+55::What is NULL pointer?::Pointer to nothing.::Avoids dangling access.
+56::What is dangling pointer?::Points to freed memory.::Causes undefined behavior.
+57::What is void pointer?::Generic pointer.::Can point to any type.
+58::What is dynamic memory allocation?::Runtime memory allocation.::Uses heap memory.
+59::Functions for DMA?::malloc, calloc, realloc, free.::Manage heap memory.
+60::Difference between malloc and calloc?::calloc initializes memory.::malloc does not.
+61::What is memory leak?::Unreleased allocated memory.::Leads to resource exhaustion.
+62::What is structure?::User-defined data type.::Groups related variables.
+63::What is union?::Shared memory data type.::Only one member active.
+64::Difference between structure and union?::Structure uses separate memory.::Union shares memory.
+65::What is typedef?::Creates alias for data type.::Improves readability.
+66::What is enum?::User-defined constant set.::Enhances code clarity.
+67::What is file handling?::Working with files.::Stores data permanently.
+68::File modes in C?::r, w, a, rb, wb.::Define file access.
+69::What is fopen()?::Opens a file.::Returns file pointer.
+70::What is fclose()?::Closes a file.::Releases resources.
+71::What is fprintf()?::Writes formatted data to file.::Similar to printf.
+72::What is fscanf()?::Reads formatted data from file.::Similar to scanf.
+73::What is feof()?::Checks end of file.::Returns non-zero at EOF.
+74::What is fseek()?::Moves file pointer.::Used for random access.
+75::What is macro?::Preprocessor replacement.::Defined using #define.
+76::What is preprocessor?::Processes directives before compilation.::Handles macros and includes.
+77::What is #include?::Includes header file.::Provides declarations.
+78::What is header file?::Contains declarations.::Ends with .h.
+79::What is stdio.h?::Standard I/O header.::Contains printf, scanf.
+80::What is stdlib.h?::Utility functions header.::Contains malloc, exit.
+81::What is exit()?::Terminates program.::Returns control to OS.
+82::What is command line argument?::Arguments passed to main.::Used for runtime input.
+83::What is argc?::Argument count.::Number of arguments.
+84::What is argv?::Argument vector.::Array of arguments.
+85::What is segmentation fault?::Invalid memory access.::Common runtime error.
+86::What is undefined behavior?::Unpredictable program behavior.::Should be avoided.
+87::What is lvalue?::Assignable expression.::Has memory location.
+88::What is rvalue?::Temporary value.::Cannot be assigned.
+89::What is inline function?::Expanded at call site.::Reduces function call overhead.
+90::What is register variable?::Stored in CPU register.::Faster access.
+91::What is volatile keyword?::Prevents optimization.::Used for hardware access.
+92::What is const keyword?::Prevents modification.::Improves safety.
+93::What is static variable?::Retains value between calls.::Stored in static memory.
+94::What is static function?::Scope limited to file.::Encapsulation.
+95::What is extern keyword?::Declares external variable.::Used across files.
+96::What is linker?::Links object files.::Creates executable.
+97::What is object file?::Compiled code file.::Before linking stage.
+98::What is portability in C?::Runs on multiple platforms.::Requires minimal changes.
+99::What is standard C?::ANSI/ISO C standard.::Ensures compatibility.
+100::Why is C still important?::Foundation of system software.::Used in OS, embedded, and compilers.

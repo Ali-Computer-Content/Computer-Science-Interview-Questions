@@ -1,0 +1,100 @@
+1::What is Python?::Python is a high-level, interpreted programming language.::It emphasizes readability and rapid development.
+2::Why Python is popular?::Simple syntax and vast libraries.::Used in web, data science, AI, automation.
+3::Is Python compiled or interpreted?::Interpreted language.::Code executed line by line by interpreter.
+4::What is Python interpreter?::Program that executes Python code.::Examples include CPython, PyPy.
+5::What is CPython?::Reference Python implementation.::Written in C and most widely used.
+6::What is dynamic typing?::Type decided at runtime.::No need to declare variable types.
+7::What is strong typing?::Type errors are not ignored.::Prevents unsafe operations.
+8::What is variable?::Name referencing a value.::Points to object in memory.
+9::What are Python keywords?::Reserved words.::Cannot be used as identifiers.
+10::What is indentation?::Whitespace defining code blocks.::Critical for Python syntax.
+11::What is PEP 8?::Python style guide.::Improves code readability.
+12::What are comments?::Ignored lines in code.::Used for explanation.
+13::Single-line vs multi-line comments?::# vs triple quotes.::Triple quotes mainly for docstrings.
+14::What is a docstring?::Documentation string.::Explains function or module.
+15::What are data types in Python?::int, float, str, list, tuple, set, dict.::Used to store different data.
+16::What is mutable data type?::Can be changed.::List, dict, set are mutable.
+17::What is immutable data type?::Cannot be changed.::int, float, tuple, str are immutable.
+18::Difference list vs tuple?::List mutable, tuple immutable.::Tuple faster and safer.
+19::What is list comprehension?::Compact list creation.::Improves readability and speed.
+20::What is dictionary?::Key-value data structure.::Fast lookup.
+21::What is set?::Unordered unique elements.::Removes duplicates.
+22::What is type casting?::Converting data type.::int(), float(), str().
+23::What is input() function?::Reads user input.::Always returns string.
+24::What is print() function?::Displays output.::Supports formatting.
+25::What are operators?::Symbols performing operations.::Arithmetic, logical, comparison.
+26::What is if statement?::Conditional execution.::Controls flow.
+27::What is loop?::Repeats code.::for and while loops.
+28::Difference for vs while?::for iterates sequence, while runs on condition.::Use based on scenario.
+29::What is range()?::Generates sequence of numbers.::Used in loops.
+30::What is break?::Exits loop immediately.::Used for control.
+31::What is continue?::Skips current iteration.::Moves to next iteration.
+32::What is pass?::Null operation.::Placeholder for future code.
+33::What is function?::Reusable block of code.::Defined using def.
+34::What is return statement?::Sends value back.::Ends function execution.
+35::What are arguments?::Values passed to function.::Can be positional or keyword.
+36::What is default argument?::Parameter with default value.::Used when no value passed.
+37::What is *args?::Variable positional arguments.::Stored as tuple.
+38::What is **kwargs?::Variable keyword arguments.::Stored as dictionary.
+39::What is lambda function?::Anonymous one-line function.::Used for short logic.
+40::What is recursion?::Function calling itself.::Needs base case.
+41::What is module?::Python file with code.::Promotes reusability.
+42::What is package?::Collection of modules.::Organized structure.
+43::What is import statement?::Loads module.::Used to access code.
+44::What is __name__?::Special variable.::Checks script execution context.
+45::What is exception?::Runtime error.::Handled using try-except.
+46::What is try-except block?::Handles exceptions.::Prevents program crash.
+47::What is finally block?::Always executes.::Used for cleanup.
+48::What is custom exception?::User-defined error.::Improves error clarity.
+49::What is file handling?::Reading/writing files.::Uses open().
+50::File modes in Python?::r, w, a, rb, wb.::Define file operation.
+51::What is with statement?::Automatic resource management.::Closes file automatically.
+52::What is JSON?::Data interchange format.::Used in APIs.
+53::What is pickle?::Python object serialization.::Stores object state.
+54::What is OOP?::Object-oriented programming.::Uses classes and objects.
+55::What is class?::Blueprint of object.::Defines attributes and methods.
+56::What is object?::Instance of class.::Represents real-world entity.
+57::What is __init__?::Constructor method.::Initializes object.
+58::What is self?::Reference to current object.::Accesses attributes.
+59::What is inheritance?::Child class acquires parent properties.::Promotes reuse.
+60::Types of inheritance?::Single, multiple, multilevel.::Python supports all.
+61::What is polymorphism?::Same method, different behavior.::Achieved via overriding.
+62::What is encapsulation?::Hiding internal data.::Uses access control.
+63::What is abstraction?::Hiding implementation details.::Uses abstract classes.
+64::What is private variable?::Restricted access variable.::Uses __ prefix.
+65::What is public variable?::Accessible everywhere.::Default behavior.
+66::What is garbage collection?::Automatic memory management.::Deletes unused objects.
+67::What is reference counting?::Tracks object references.::Used by Python GC.
+68::What is shallow copy?::Copies reference.::Changes affect original.
+69::What is deep copy?::Copies entire object.::Independent copy.
+70::What is iterator?::Object with __iter__.::Used in loops.
+71::What is generator?::Function yielding values.::Uses yield keyword.
+72::Difference list vs generator?::List stores all, generator lazy.::Saves memory.
+73::What is map()?::Applies function to iterable.::Returns iterator.
+74::What is filter()?::Filters elements.::Based on condition.
+75::What is reduce()?::Reduces iterable to single value.::Found in functools.
+76::What is zip()?::Combines iterables.::Pairs elements.
+77::What is enumerate()?::Adds index to iterable.::Useful in loops.
+78::What is slicing?::Extracts sequence parts.::Used on lists/strings.
+79::What is string immutability?::Strings cannot change.::Creates new object.
+80::What is f-string?::Formatted string literal.::Introduced in Python 3.6.
+81::What is virtual environment?::Isolated Python environment.::Avoids dependency conflicts.
+82::What is pip?::Python package manager.::Installs libraries.
+83::What is requirements.txt?::Dependency list file.::Used for environment setup.
+84::What is exception hierarchy?::Exception class structure.::Helps error handling.
+85::What is assertion?::Debugging check.::Uses assert keyword.
+86::What is logging?::Recording program events.::Better than print().
+87::What is multithreading?::Concurrent execution.::Shares memory.
+88::What is multiprocessing?::Parallel execution.::Uses multiple CPUs.
+89::What is GIL?::Global Interpreter Lock.::Limits threading performance.
+90::What is async programming?::Non-blocking execution.::Uses async/await.
+91::What is coroutine?::Async function.::Used in async programming.
+92::What is decorator?::Function modifying another function.::Uses @ syntax.
+93::What is context manager?::Manages resources.::Uses with statement.
+94::What is Pythonic code?::Clean and readable style.::Follows Python philosophy.
+95::What is __str__?::String representation.::Used by print().
+96::What is __repr__?::Official representation.::Used for debugging.
+97::What is unit testing?::Testing individual units.::Uses unittest/pytest.
+98::What is Python use in data science?::Analysis and visualization.::Uses pandas, numpy.
+99::What is Python use in AI?::Machine learning and deep learning.::Uses TensorFlow, PyTorch.
+100::Why Python is best for beginners?::Simple and readable.::Large community support.

@@ -1,0 +1,150 @@
+1::What is Machine Learning?::A field of AI that enables systems to learn from data without explicit programming::ML systems improve performance automatically through experience
+2::Difference between AI and Machine Learning?::AI is broader, ML is a subset of AI::ML focuses specifically on learning patterns from data
+3::Types of Machine Learning?::Supervised, Unsupervised, Reinforcement::These differ based on availability of labeled data and feedback
+4::What is supervised learning?::Learning using labeled data::Used for prediction and classification tasks
+5::What is unsupervised learning?::Learning from unlabeled data::Used for discovering hidden patterns
+6::What is reinforcement learning?::Learning by reward and punishment::Agent interacts with environment to maximize reward
+7::What is training data?::Data used to train a model::Contains input features and labels
+8::What is test data?::Data used to evaluate model performance::Ensures generalization ability
+9::What is validation data?::Data for hyperparameter tuning::Prevents overfitting
+10::What is feature?::An input variable used for prediction::Quality of features affects model accuracy
+11::What is label?::Target output variable::Used in supervised learning
+12::What is model?::Mathematical representation of a learning algorithm::Learns relationship between inputs and outputs
+13::What is overfitting?::Model learns noise instead of pattern::Performs well on training but poorly on new data
+14::What is underfitting?::Model too simple to capture pattern::Leads to poor performance overall
+15::How to prevent overfitting?::Regularization, more data, cross-validation::Improves generalization
+16::What is bias in ML?::Error due to wrong assumptions::High bias causes underfitting
+17::What is variance in ML?::Error due to sensitivity to data::High variance causes overfitting
+18::Bias-variance tradeoff?::Balancing bias and variance::Goal is minimum total error
+19::What is regression?::Predicting continuous values::Examples include house price prediction
+20::What is classification?::Predicting discrete classes::Examples include spam detection
+21::What is Linear Regression?::Predicts output using linear equation::Assumes linear relationship between variables
+22::Cost function in Linear Regression?::Mean Squared Error::Measures prediction error
+23::Gradient Descent?::Optimization algorithm::Minimizes cost function iteratively
+24::Learning rate meaning?::Step size in gradient descent::Too large causes divergence
+25::Batch vs Stochastic Gradient Descent?::Whole dataset vs single sample updates::SGD is faster but noisy
+26::What is Logistic Regression?::Binary classification algorithm::Uses sigmoid activation
+27::Sigmoid function range?::0 to 1::Used for probability estimation
+28::Why logistic regression is classification?::Outputs probability::Threshold converts to class
+29::What is decision boundary?::Line separating classes::Defined by model parameters
+30::What is KNN algorithm?::Classifies based on nearest neighbors::Distance-based lazy learner
+31::Effect of K in KNN?::Controls bias-variance::Small K overfits, large K underfits
+32::Distance metrics in KNN?::Euclidean, Manhattan, Minkowski::Defines similarity
+33::What is scaling needed for KNN?::Distance-based algorithm::Scaling ensures fair feature contribution
+34::What is Decision Tree?::Tree-based predictive model::Splits data based on feature conditions
+35::Entropy meaning?::Measure of impurity::Used in ID3 algorithm
+36::Information Gain?::Reduction in entropy::Used to select best split
+37::Gini Index?::Measure of impurity::Used in CART
+38::Decision tree disadvantage?::Overfitting::Sensitive to small data changes
+39::What is pruning?::Removing unnecessary branches::Reduces overfitting
+40::What is Random Forest?::Ensemble of decision trees::Improves accuracy and stability
+41::Why Random Forest works better?::Reduces variance::Uses bagging and randomness
+42::What is bagging?::Bootstrap aggregating::Reduces variance
+43::What is boosting?::Sequential learning::Focuses on weak learners
+44::AdaBoost working principle?::Increases weight of misclassified samples::Improves model accuracy
+45::What is Gradient Boosting?::Boosting using gradient descent::Optimizes loss function
+46::XGBoost advantage?::Speed and performance::Handles missing values well
+47::What is Naive Bayes?::Probabilistic classifier based on Bayes theorem::Assumes feature independence
+48::Why Naive Bayes is fast?::Simple probability calculations::Works well with large data
+49::Bayes theorem formula?::P(A|B)=P(B|A)P(A)/P(B)::Foundation of probabilistic ML
+50::What is Gaussian Naive Bayes?::Assumes normal distribution::Used for continuous data
+51::What is clustering?::Grouping similar data points::Unsupervised learning task
+52::What is K-Means clustering?::Partitions data into K clusters::Minimizes within-cluster variance
+53::K-Means limitation?::Needs predefined K::Sensitive to initialization
+54::What is Elbow Method?::Find optimal K::Uses distortion curve
+55::What is hierarchical clustering?::Builds tree of clusters::Does not require K initially
+56::What is DBSCAN?::Density-based clustering::Finds arbitrary-shaped clusters
+57::Advantage of DBSCAN?::Handles noise::No need for K
+58::What is dimensionality reduction?::Reducing number of features::Improves performance
+59::What is PCA?::Principal Component Analysis::Transforms features into orthogonal components
+60::Why PCA is used?::Remove correlation::Reduce noise and computation
+61::Eigenvalues in PCA meaning?::Variance explained::Higher is more important
+62::What is LDA?::Linear Discriminant Analysis::Supervised dimensionality reduction
+63::Difference PCA vs LDA?::PCA unsupervised, LDA supervised::LDA maximizes class separation
+64::What is anomaly detection?::Identifying rare patterns::Used in fraud detection
+65::What is semi-supervised learning?::Uses small labeled and large unlabeled data::Improves performance
+66::What is cross-validation?::Model evaluation technique::Ensures robustness
+67::K-Fold cross validation?::Data split into K folds::Each fold used as test once
+68::What is confusion matrix?::Performance evaluation table::Shows TP, FP, TN, FN
+69::Accuracy formula?::(TP+TN)/Total::Misleading for imbalanced data
+70::Precision meaning?::TP/(TP+FP)::Correct positive predictions
+71::Recall meaning?::TP/(TP+FN)::Ability to find positives
+72::F1-score meaning?::Harmonic mean of precision and recall::Balances both metrics
+73::ROC curve?::TPR vs FPR plot::Shows classifier performance
+74::AUC meaning?::Area under ROC::Higher is better
+75::What is imbalanced dataset?::Unequal class distribution::Requires special handling
+76::Handling imbalance techniques?::SMOTE, resampling, class weights::Improves fairness
+77::What is regularization?::Penalty on large weights::Prevents overfitting
+78::L1 regularization effect?::Sparse weights::Feature selection
+79::L2 regularization effect?::Small weights::Smooth model
+80::What is hyperparameter?::Model configuration parameter::Set before training
+81::What is grid search?::Exhaustive hyperparameter tuning::Computationally expensive
+82::What is random search?::Random hyperparameter sampling::More efficient than grid
+83::What is pipeline in ML?::Sequence of data processing steps::Improves reproducibility
+84::What is data leakage?::Training uses future information::Causes false performance
+85::What is feature engineering?::Creating useful features::Improves model accuracy
+86::What is feature selection?::Selecting relevant features::Reduces noise
+87::Filter vs Wrapper methods?::Statistical vs model-based::Trade-off speed and accuracy
+88::What is embedded method?::Feature selection during training::Example: Lasso
+89::What is normalization?::Scaling to fixed range::Improves convergence
+90::What is standardization?::Zero mean and unit variance::Used in many algorithms
+91::Difference normalization vs standardization?::Range vs distribution::Depends on algorithm
+92::What is ensemble learning?::Combining multiple models::Improves robustness
+93::Hard vs soft voting?::Class vs probability voting::Soft is more informative
+94::What is stacking?::Meta-model over base models::Improves prediction
+95::What is online learning?::Model updates continuously::Used for streaming data
+96::What is batch learning?::Train on full dataset::Static environments
+97::What is concept drift?::Change in data distribution::Requires model retraining
+98::What is cold start problem?::No prior data::Common in recommender systems
+99::What is collaborative filtering?::Based on user behavior::Used in recommendations
+100::Content-based filtering?::Based on item features::Personalized recommendations
+101::What is cosine similarity?::Angle-based similarity measure::Used in text data
+102::What is TF-IDF?::Text feature extraction method::Measures word importance
+103::What is NLP in ML?::Processing human language::Used in chatbots and translation
+104::What is word embedding?::Dense vector representation::Captures semantic meaning
+105::What is Word2Vec?::Neural word embedding model::Learns context
+106::What is bag-of-words?::Word frequency representation::Ignores order
+107::What is n-gram?::Sequence of n words::Captures local context
+108::What is Deep Learning?::ML using neural networks::Handles complex patterns
+109::What is neural network?::Layered computational model::Inspired by human brain
+110::What is perceptron?::Single neuron model::Foundation of neural networks
+111::Activation function purpose?::Introduce non-linearity::Enables complex learning
+112::ReLU advantage?::Avoids vanishing gradient::Computationally efficient
+113::Sigmoid drawback?::Vanishing gradient::Slow learning
+114::What is backpropagation?::Gradient calculation method::Updates network weights
+115::What is loss function?::Measures prediction error::Guides optimization
+116::What is vanishing gradient problem?::Gradients become very small::Slows deep networks
+117::What is exploding gradient?::Gradients grow uncontrollably::Causes instability
+118::What is dropout?::Random neuron removal::Reduces overfitting
+119::What is CNN?::Convolutional Neural Network::Used for images
+120::Why CNN effective?::Parameter sharing::Captures spatial patterns
+121::What is pooling?::Downsampling feature maps::Reduces computation
+122::What is RNN?::Recurrent Neural Network::Handles sequential data
+123::RNN limitation?::Short-term memory::Solved by LSTM
+124::What is LSTM?::Long Short-Term Memory network::Captures long dependencies
+125::What is GRU?::Simplified LSTM::Faster training
+126::What is attention mechanism?::Focus on important inputs::Improves performance
+127::What is transformer?::Attention-based architecture::Used in modern NLP
+128::What is transfer learning?::Reuse pre-trained model::Saves training time
+129::What is fine-tuning?::Adjusting pre-trained weights::Improves domain performance
+130::What is model deployment?::Putting model into production::Real-world usage
+131::What is inference?::Using model for prediction::Occurs after training
+132::What is MLOps?::ML lifecycle management::Combines ML and DevOps
+133::What is explainable AI?::Model interpretability::Builds trust
+134::SHAP values meaning?::Feature contribution measure::Explains predictions
+135::What is fairness in ML?::Avoiding biased predictions::Ethical requirement
+136::What is ethical AI?::Responsible ML usage::Ensures social good
+137::What is reproducibility?::Same results consistently::Important for research
+138::What is random seed?::Controls randomness::Ensures reproducibility
+139::What is scalability in ML?::Handling large data::Important for industry
+140::What is cloud ML?::ML on cloud platforms::Provides scalability
+141::What is AutoML?::Automated ML pipeline::Reduces human effort
+142::What is feature drift?::Change in feature distribution::Affects performance
+143::What is data preprocessing?::Cleaning and transforming data::Critical ML step
+144::Handling missing values?::Imputation or removal::Prevents errors
+145::What is outlier?::Abnormal data point::Can distort model
+146::Handling outliers?::Capping, removal, transformation::Depends on context
+147::What is probabilistic model?::Outputs probability distributions::Handles uncertainty
+148::What is generative model?::Models data distribution::Example: Naive Bayes
+149::What is discriminative model?::Models decision boundary::Example: Logistic Regression
+150::Why Machine Learning is important?::Enables data-driven intelligence::Drives modern technology

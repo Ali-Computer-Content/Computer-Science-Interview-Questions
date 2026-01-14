@@ -1,0 +1,150 @@
+1::What is Linux?::Linux is an open-source, Unix-like operating system kernel.::It manages hardware resources and allows users to run applications efficiently.
+2::Who created Linux?::Linux was created by Linus Torvalds.::He released it in 1991 as a free and open-source kernel.
+3::What is an operating system?::An OS manages hardware and software resources.::It acts as an interface between user and hardware.
+4::Is Linux an operating system or kernel?::Linux is a kernel.::A Linux distribution combines the kernel with utilities and software.
+5::What is a Linux distribution?::A Linux distro is a complete OS built around the Linux kernel.::Examples include Ubuntu, Fedora, Debian.
+6::What is open source?::Source code is freely available and modifiable.::Encourages collaboration and transparency.
+7::Advantages of Linux?::Secure, stable, free, customizable.::Used widely in servers and embedded systems.
+8::What is shell?::Shell is a command-line interpreter.::It allows users to interact with the OS.
+9::What is Bash?::Bourne Again Shell.::Default shell in many Linux systems.
+10::GUI vs CLI?::GUI uses graphics, CLI uses commands.::CLI is faster and more powerful.
+11::What is kernel?::Core part of OS managing hardware.::Handles memory, CPU, devices.
+12::Types of kernel?::Monolithic, Microkernel, Hybrid.::Linux uses monolithic kernel.
+13::What is terminal?::Program that provides CLI access.::Used to execute shell commands.
+14::What is root user?::Administrator user with full privileges.::Can access and modify anything.
+15::What is sudo?::Allows temporary root privileges.::Improves security by limiting root usage.
+16::What is file system?::Method to store and organize files.::Linux uses ext4, xfs, etc.
+17::Linux directory structure?::Hierarchical tree starting at root (/).::Everything is a file.
+18::What is / directory?::Root of file system.::Top-level directory.
+19::What is /home?::Stores user home directories.::Each user has a personal folder.
+20::What is /etc?::Stores configuration files.::Critical for system settings.
+21::What is /bin?::Essential user binaries.::Basic commands like ls, cp.
+22::What is /sbin?::System binaries.::Used by system administrator.
+23::What is /var?::Variable data files.::Logs and spool files stored here.
+24::What is /tmp?::Temporary files.::Cleared on reboot.
+25::What is pwd command?::Print working directory.::Shows current location.
+26::What is ls command?::Lists directory contents.::Used with options like -l, -a.
+27::What is cd command?::Changes directory.::Used to navigate file system.
+28::What is mkdir?::Creates directory.::Can create nested directories.
+29::What is rmdir?::Removes empty directory.::Fails if directory is not empty.
+30::What is touch?::Creates empty file or updates timestamp.::Commonly used to create files.
+31::What is cp?::Copies files or directories.::Use -r for directories.
+32::What is mv?::Moves or renames files.::Does not duplicate data.
+33::What is rm?::Deletes files or directories.::Use with caution.
+34::What is cat?::Displays file contents.::Also used to concatenate files.
+35::What is less?::Views file page by page.::Better for large files.
+36::What is head?::Shows first lines of file.::Useful for previews.
+37::What is tail?::Shows last lines of file.::Used for logs.
+38::What is grep?::Searches text patterns.::Powerful filtering tool.
+39::What is find?::Searches files in directory tree.::Used with conditions.
+40::What is locate?::Fast file search.::Uses indexed database.
+41::What is chmod?::Changes file permissions.::Controls access rights.
+42::What is chown?::Changes file ownership.::Assigns owner and group.
+43::Linux file permissions?::Read, Write, Execute.::Defined for user, group, others.
+44::Permission numeric values?::Read=4, Write=2, Execute=1.::Used in chmod.
+45::What is umask?::Default permission mask.::Controls new file permissions.
+46::What is inode?::Data structure storing file metadata.::Stores file info except name.
+47::What is hard link?::Direct reference to inode.::File remains until all links removed.
+48::What is soft link?::Symbolic pointer to file.::Breaks if target deleted.
+49::What is process?::Running instance of a program.::Identified by PID.
+50::What is ps command?::Displays running processes.::Used for monitoring.
+51::What is top?::Real-time process viewer.::Shows CPU and memory usage.
+52::What is htop?::Enhanced version of top.::User-friendly interface.
+53::What is kill?::Terminates process.::Uses signal numbers.
+54::What is signal?::Notification sent to process.::Used for control.
+55::What is SIGKILL?::Forcefully terminates process.::Cannot be ignored.
+56::What is SIGTERM?::Graceful termination signal.::Allows cleanup.
+57::What is background process?::Runs without blocking terminal.::Uses & symbol.
+58::What is foreground process?::Runs in terminal.::Blocks until completion.
+59::What is job control?::Managing background and foreground jobs.::Uses fg, bg.
+60::What is cron?::Job scheduler.::Runs tasks automatically.
+61::What is crontab?::Cron configuration file.::Defines scheduled jobs.
+62::What is uptime?::Shows system running time.::Used for monitoring.
+63::What is df?::Shows disk usage.::Reports file system space.
+64::What is du?::Shows directory size.::Useful for disk analysis.
+65::What is mount?::Attaches file system.::Used for disks and USBs.
+66::What is unmount?::Detaches file system.::Ensures safe removal.
+67::What is swap?::Disk used as virtual memory.::Extends RAM.
+68::What is free?::Displays memory usage.::Shows RAM and swap.
+69::What is uname?::Displays system info.::Kernel and OS details.
+70::What is hostname?::System name.::Used in network identification.
+71::What is ifconfig?::Network interface configuration.::Deprecated but still used.
+72::What is ip command?::Modern network configuration tool.::Replaces ifconfig.
+73::What is ping?::Tests network connectivity.::Uses ICMP.
+74::What is netstat?::Displays network connections.::Used for troubleshooting.
+75::What is ssh?::Secure Shell.::Remote system access.
+76::What is scp?::Secure file copy.::Uses SSH protocol.
+77::What is rsync?::Efficient file transfer.::Supports synchronization.
+78::What is tar?::Archiving tool.::Combines files.
+79::What is gzip?::Compression tool.::Reduces file size.
+80::What is zip?::Compression and archiving.::Cross-platform.
+81::What is package manager?::Manages software installation.::Handles dependencies.
+82::apt vs yum?::apt for Debian, yum for RedHat.::Different ecosystems.
+83::What is repository?::Software source location.::Used by package managers.
+84::What is systemd?::Init system and service manager.::Manages boot and services.
+85::What is init process?::First process started.::PID is always 1.
+86::What is service?::Background process.::Managed by systemd.
+87::What is journalctl?::Views system logs.::Used with systemd.
+88::What is log file?::Records system events.::Used for debugging.
+89::What is dmesg?::Kernel message viewer.::Hardware diagnostics.
+90::What is bootloader?::Loads OS kernel.::GRUB is common.
+91::What is GRUB?::GNU bootloader.::Allows OS selection.
+92::What is runlevel?::System operating mode.::Replaced by targets.
+93::What is target?::Systemd equivalent of runlevel.::Controls system state.
+94::What is environment variable?::Dynamic value affecting processes.::Used for configuration.
+95::What is PATH?::Command search path.::Defines executable locations.
+96::What is export?::Sets environment variable.::Makes variable available.
+97::What is alias?::Command shortcut.::Improves productivity.
+98::What is history?::Command history list.::Speeds up reuse.
+99::What is bash script?::File containing shell commands.::Automates tasks.
+100::How to make script executable?::Use chmod +x.::Grants execute permission.
+101::What is shebang?::#! interpreter directive.::Specifies script interpreter.
+102::What is exit status?::Return value of command.::0 means success.
+103::What is pipe?::Pass output to another command.::Uses | symbol.
+104::What is redirection?::Redirects input/output.::Uses >, <, >>.
+105::What is standard input?::Input stream to program.::Usually keyboard.
+106::What is standard output?::Output stream.::Usually terminal.
+107::What is standard error?::Error output stream.::Separate from stdout.
+108::What is xargs?::Builds argument list.::Used with pipes.
+109::What is awk?::Text processing tool.::Pattern scanning.
+110::What is sed?::Stream editor.::Text transformation.
+111::What is cut?::Extracts columns.::Used with delimiters.
+112::What is sort?::Sorts lines.::Used in data processing.
+113::What is uniq?::Removes duplicate lines.::Works with sorted data.
+114::What is wc?::Counts lines, words, characters.::Text analysis.
+115::What is watch?::Runs command periodically.::Monitors changes.
+116::What is uptime load average?::System load indicator.::Shows CPU demand.
+117::What is virtualization?::Running multiple OSs.::Uses hypervisor.
+118::What is container?::Lightweight virtualization.::Shares host kernel.
+119::What is Docker?::Container platform.::Used in DevOps.
+120::What is SELinux?::Security-enhanced Linux.::Enforces access control.
+121::What is firewall?::Network traffic control.::Protects system.
+122::What is iptables?::Firewall configuration tool.::Packet filtering.
+123::What is ufw?::User-friendly firewall.::Simplifies iptables.
+124::What is NFS?::Network File System.::Shares files over network.
+125::What is Samba?::File sharing with Windows.::Implements SMB protocol.
+126::What is time-sharing?::Multiple users share CPU.::Efficient multitasking.
+127::What is multitasking?::Running multiple processes.::Core OS feature.
+128::What is multiuser system?::Multiple users simultaneously.::Linux supports this.
+129::What is fork?::Creates new process.::Child process created.
+130::What is exec?::Replaces process image.::Runs new program.
+131::What is zombie process?::Terminated but not removed.::Waiting for parent.
+132::What is orphan process?::Parent terminated.::Adopted by init.
+133::What is loadable kernel module?::Dynamically loaded driver.::Extends kernel.
+134::What is lsmod?::Lists loaded modules.::Kernel diagnostics.
+135::What is modprobe?::Loads kernel modules.::Handles dependencies.
+136::What is sysctl?::Kernel parameter control.::Runtime tuning.
+137::What is proc file system?::Virtual kernel info.::Located at /proc.
+138::What is sysfs?::Kernel object interface.::Located at /sys.
+139::What is FHS?::Filesystem Hierarchy Standard.::Defines directory layout.
+140::What is POSIX?::Unix standard.::Ensures compatibility.
+141::What is real-time Linux?::Deterministic response system.::Used in embedded.
+142::What is embedded Linux?::Linux for devices.::Routers, TVs.
+143::What is cross-compilation?::Compile for another architecture.::Used in embedded.
+144::What is kernel panic?::Fatal kernel error.::System halts.
+145::What is uptime vs availability?::Runtime vs reliability.::Used in SLAs.
+146::What is LVM?::Logical Volume Manager.::Flexible disk management.
+147::What is RAID?::Redundant disk setup.::Improves performance or safety.
+148::What is checksum?::Data integrity verification.::Detects corruption.
+149::What is md5sum?::Generates checksum.::Used for verification.
+150::Why Linux is preferred for servers?::Stable, secure, efficient.::Handles heavy workloads reliably.

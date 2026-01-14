@@ -1,200 +1,150 @@
-1:: What is software engineering?:: Application of engineering principles to software development
-2:: Main goal of software engineering?:: Produce high-quality, maintainable software
-3:: What is SDLC?:: Software Development Life Cycle
-4:: Phases of SDLC?:: Requirements, Design, Implementation, Testing, Deployment, Maintenance
-5:: What is requirements engineering?:: Process of gathering and analyzing requirements
-6:: Functional requirements define?:: What the system should do
-7:: Non-functional requirements define?:: How the system performs
-8:: Example of non-functional requirement?:: Performance
-9:: What is feasibility study?:: Evaluation of project viability
-10:: Types of feasibility?:: Technical, Economic, Operational
-11:: What is software design?:: Process of defining system architecture
-12:: What is modularity?:: Dividing system into independent modules
-13:: Benefit of modularity?:: Easier maintenance
-14:: What is cohesion?:: Degree to which module elements belong together
-15:: High cohesion is?:: Desirable
-16:: What is coupling?:: Degree of dependency between modules
-17:: Low coupling is?:: Desirable
-18:: What is abstraction?:: Hiding implementation details
-19:: What is encapsulation?:: Bundling data and methods
-20:: What is UML?:: Unified Modeling Language
-21:: UML is used for?:: Visualizing system design
-22:: What is use case diagram?:: Represents user interactions
-23:: What is actor in UML?:: External entity interacting with system
-24:: What is class diagram?:: Shows classes and relationships
-25:: What is association?:: Relationship between classes
-26:: What is aggregation?:: Weak has-a relationship
-27:: What is composition?:: Strong has-a relationship
-28:: What is inheritance?:: IS-A relationship
-29:: What is polymorphism?:: One interface, many implementations
-30:: What is sequence diagram?:: Shows object interaction over time
-31:: What is activity diagram?:: Workflow representation
-32:: What is state diagram?:: Shows state transitions
-33:: What is software architecture?:: High-level system structure
-34:: Example of architecture style?:: Layered architecture
-35:: What is client-server architecture?:: Client requests, server responds
-36:: What is MVC?:: Model View Controller
-37:: MVC separates?:: Data, UI, Logic
-38:: What is software process model?:: Framework for development
-39:: Example of process model?:: Waterfall
-40:: Waterfall model characteristic?:: Sequential phases
-41:: Main drawback of waterfall?:: Inflexible to change
-42:: What is iterative model?:: Repeated development cycles
-43:: What is incremental model?:: System built in parts
-44:: What is spiral model?:: Risk-driven process
-45:: Spiral model focuses on?:: Risk analysis
-46:: What is Agile?:: Adaptive development methodology
-47:: Agile emphasizes?:: Flexibility and collaboration
-48:: Example of Agile framework?:: Scrum
-49:: Scrum roles include?:: Product Owner, Scrum Master, Team
-50:: What is sprint?:: Time-boxed iteration
-51:: What is backlog?:: List of requirements
-52:: What is extreme programming (XP)?:: Agile methodology
-53:: XP emphasizes?:: Pair programming
-54:: What is DevOps?:: Dev + Operations collaboration
-55:: DevOps goal?:: Faster delivery
-56:: What is CI/CD?:: Continuous Integration and Continuous Deployment
-57:: What is software testing?:: Verification of software quality
-58:: What is unit testing?:: Testing individual components
-59:: What is integration testing?:: Testing combined modules
-60:: What is system testing?:: Testing complete system
-61:: What is acceptance testing?:: User validation
-62:: What is black-box testing?:: Testing without internal knowledge
-63:: What is white-box testing?:: Testing internal logic
-64:: What is regression testing?:: Testing after changes
-65:: What is software maintenance?:: Post-deployment updates
-66:: Types of maintenance?:: Corrective, Adaptive, Perfective
-67:: What is software quality?:: Degree of excellence
-68:: Quality attributes include?:: Reliability, Maintainability
-69:: What is software metric?:: Measurement of software
-70:: What is cyclomatic complexity?:: Measure of code complexity
-71:: What is refactoring?:: Improving code without changing behavior
-72:: What is technical debt?:: Cost of poor design
-73:: What is design pattern?:: Reusable solution to common problem
-74:: Who introduced GoF patterns?:: Gang of Four
-75:: Categories of design patterns?:: Creational, Structural, Behavioral
-76:: Creational patterns deal with?:: Object creation
-77:: Structural patterns deal with?:: Object composition
-78:: Behavioral patterns deal with?:: Object interaction
-79:: What is Singleton pattern?:: Single instance of a class
-80:: Singleton ensures?:: Global access point
-81:: Use case of Singleton?:: Logging
-82:: What is Factory pattern?:: Object creation without specifying class
-83:: Factory promotes?:: Loose coupling
-84:: What is Abstract Factory?:: Factory of factories
-85:: Difference between Factory and Abstract Factory?:: Multiple product families
-86:: What is Builder pattern?:: Step-by-step object construction
-87:: Builder is useful for?:: Complex objects
-88:: What is Prototype pattern?:: Object cloning
-89:: Prototype uses?:: Copying existing objects
-90:: What is Adapter pattern?:: Interface compatibility
-91:: Adapter also known as?:: Wrapper
-92:: What is Bridge pattern?:: Decouple abstraction from implementation
-93:: Bridge improves?:: Flexibility
-94:: What is Composite pattern?:: Tree structure representation
-95:: Composite treats?:: Objects and groups uniformly
-96:: What is Decorator pattern?:: Add behavior dynamically
-97:: Decorator avoids?:: Subclass explosion
-98:: What is Facade pattern?:: Simplified interface
-99:: Facade hides?:: System complexity
-100:: What is Flyweight pattern?:: Memory optimization
-101:: Flyweight shares?:: Common object data
-102:: What is Proxy pattern?:: Controlled access
-103:: Proxy used for?:: Lazy loading
-104:: What is Observer pattern?:: One-to-many dependency
-105:: Observer notifies?:: Dependent objects
-106:: Example of Observer?:: Event listeners
-107:: What is Strategy pattern?:: Encapsulated algorithms
-108:: Strategy allows?:: Runtime behavior change
-109:: What is Command pattern?:: Encapsulates requests
-110:: Command supports?:: Undo operations
-111:: What is Iterator pattern?:: Sequential access
-112:: Iterator hides?:: Internal structure
-113:: What is Mediator pattern?:: Centralized communication
-114:: Mediator reduces?:: Direct dependencies
-115:: What is Memento pattern?:: State restoration
-116:: Memento used for?:: Undo/rollback
-117:: What is State pattern?:: Behavior based on state
-118:: State differs from Strategy by?:: State-driven transitions
-119:: What is Template Method?:: Algorithm skeleton
-120:: Template lets subclasses?:: Override steps
-121:: What is Visitor pattern?:: New operations on objects
-122:: Visitor separates?:: Algorithm from object
-123:: What is Chain of Responsibility?:: Request passing chain
-124:: Chain avoids?:: Tight coupling
-125:: What is SOLID?:: Object-oriented design principles
-126:: S in SOLID stands for?:: Single Responsibility Principle
-127:: SRP means?:: One reason to change
-128:: O in SOLID stands for?:: Open/Closed Principle
-129:: Open/Closed means?:: Open for extension, closed for modification
-130:: L in SOLID stands for?:: Liskov Substitution Principle
-131:: LSP ensures?:: Substitutability
-132:: I in SOLID stands for?:: Interface Segregation Principle
-133:: ISP avoids?:: Fat interfaces
-134:: D in SOLID stands for?:: Dependency Inversion Principle
-135:: DIP promotes?:: Abstraction over concrete
-136:: What is DRY principle?:: Don’t Repeat Yourself
-137:: What is KISS principle?:: Keep It Simple
-138:: What is YAGNI?:: You Aren’t Gonna Need It
-139:: What is code smell?:: Indicator of poor design
-140:: Example of code smell?:: God class
-141:: What is anti-pattern?:: Poor solution practice
-142:: Example of anti-pattern?:: Spaghetti code
-143:: What is version control?:: Managing code changes
-144:: Example of VCS?:: Git
-145:: What is branching?:: Parallel development
-146:: What is merge conflict?:: Code inconsistency
-147:: What is build automation?:: Automated compiling
-148:: Example build tool?:: Maven
-149:: What is documentation?:: Software description
-150:: What is API documentation?:: Interface usage guide
-151:: What is software reuse?:: Using existing components
-152:: Benefit of reuse?:: Reduced cost
-153:: What is component-based development?:: Assembling components
-154:: What is microservices architecture?:: Independent services
-155:: Microservices communicate via?:: APIs
-156:: Advantage of microservices?:: Scalability
-157:: What is monolithic architecture?:: Single deployable unit
-158:: What is technical specification?:: Detailed design document
-159:: What is traceability matrix?:: Requirement mapping
-160:: What is risk management?:: Identifying project risks
-161:: Example project risk?:: Schedule delay
-162:: What is estimation?:: Predicting effort
-163:: Example estimation technique?:: Function Point
-164:: What is function point?:: Size measurement
-165:: What is COCOMO?:: Cost estimation model
-166:: What is software reliability?:: Failure-free operation
-167:: What is fault tolerance?:: Handling failures
-168:: What is scalability?:: Handling growth
-169:: What is performance?:: Speed and efficiency
-170:: What is maintainability?:: Ease of modification
-171:: What is portability?:: Running on multiple platforms
-172:: What is interoperability?:: System interaction ability
-173:: What is test-driven development?:: Tests before code
-174:: TDD cycle?:: Red-Green-Refactor
-175:: What is continuous testing?:: Automated testing
-176:: What is design review?:: Design evaluation
-177:: What is code review?:: Code quality check
-178:: What is pair programming?:: Two developers coding together
-179:: What is static analysis?:: Code analysis without execution
-180:: What is dynamic analysis?:: Runtime analysis
-181:: What is technical documentation?:: Developer-oriented docs
-182:: What is user documentation?:: End-user guide
-183:: What is release management?:: Managing deployments
-184:: What is rollback?:: Reverting changes
-185:: What is software audit?:: Compliance check
-186:: What is configuration item?:: Controlled component
-187:: What is baseline?:: Approved reference version
-188:: What is change request?:: Proposal for modification
-189:: What is impact analysis?:: Effect of change
-190:: What is reusability?:: Ability to reuse components
-191:: What is extensibility?:: Ability to add features
-192:: What is dependency injection?:: Providing dependencies externally
-193:: DI supports which SOLID principle?:: Dependency Inversion
-194:: What is inversion of control?:: Framework controls flow
-195:: What is framework?:: Reusable software platform
-196:: Difference between framework and library?:: Framework controls flow
-197:: What is design by contract?:: Defined responsibilities
-198:: What is software blueprint?:: Design model
-199:: What is maintainable code?:: Easy to understand and modify
-200:: What is good software design?:: Simple, flexible, and scalable
+1::What is Software Engineering?::Systematic approach to software development::Applies engineering principles to produce reliable, maintainable, and efficient software
+2::Difference between software and software engineering?::Software is product, engineering is process::Engineering ensures quality, scalability, and cost control
+3::What is SDLC?::Software Development Life Cycle::Defines phases for structured software development
+4::Main phases of SDLC?::Requirement, Design, Implementation, Testing, Deployment, Maintenance::Each phase ensures controlled progress
+5::Why SDLC is important?::Provides structure and predictability::Reduces risk and development cost
+6::What is requirement engineering?::Process of gathering and analyzing requirements::Ensures correct problem understanding
+7::Functional requirement?::Defines system functionality::Describes what system should do
+8::Non-functional requirement?::Defines quality attributes::Includes performance, security, usability
+9::What is SRS?::Software Requirements Specification::Formal document describing system requirements
+10::Characteristics of good SRS?::Correct, complete, unambiguous::Prevents misunderstanding
+11::What is feasibility study?::Analyzing project viability::Covers technical, economic, and operational feasibility
+12::What is waterfall model?::Sequential SDLC model::Each phase completed before next
+13::Waterfall model disadvantage?::Rigid and inflexible::Changes are costly
+14::What is iterative model?::Repeated development cycles::Allows gradual improvement
+15::What is incremental model?::System developed in parts::Each increment adds functionality
+16::What is spiral model?::Risk-driven iterative model::Combines prototyping and waterfall
+17::Advantage of spiral model?::Strong risk management::Suitable for large projects
+18::What is Agile methodology?::Flexible and iterative development approach::Responds to change quickly
+19::Agile manifesto focus?::Individuals, working software, collaboration, change::Customer satisfaction prioritized
+20::What is Scrum?::Agile framework::Manages work in sprints
+21::Sprint duration?::2 to 4 weeks::Short development cycle
+22::Roles in Scrum?::Product Owner, Scrum Master, Development Team::Each has defined responsibilities
+23::What is product backlog?::List of prioritized requirements::Maintained by Product Owner
+24::What is sprint backlog?::Tasks selected for sprint::Guides sprint execution
+25::What is daily scrum?::Daily stand-up meeting::Tracks progress and obstacles
+26::What is Kanban?::Visual workflow management method::Focuses on continuous delivery
+27::Agile vs Waterfall?::Flexible vs rigid::Agile supports change, Waterfall does not
+28::What is prototyping?::Building early version of software::Helps clarify requirements
+29::Throwaway prototype?::Discarded after use::Used for requirement understanding
+30::Evolutionary prototype?::Gradually refined::Becomes final product
+31::What is software design?::Translating requirements into architecture::Provides blueprint for implementation
+32::Levels of design?::High-level and low-level design::Architecture and detailed design
+33::What is modularity?::Dividing system into modules::Improves maintainability
+34::What is cohesion?::Degree of module relatedness::High cohesion is desirable
+35::What is coupling?::Interdependence between modules::Low coupling is preferred
+36::Difference cohesion vs coupling?::Internal vs external dependency::Affects maintainability
+37::What is software architecture?::Overall system structure::Defines components and interactions
+38::What is MVC architecture?::Model-View-Controller pattern::Separates concerns
+39::What is layered architecture?::System organized in layers::Improves separation of responsibilities
+40::What is design pattern?::Reusable solution to common problems::Improves design quality
+41::Example of creational pattern?::Singleton::Controls object creation
+42::Singleton pattern drawback?::Global state issues::Difficult testing
+43::Example of structural pattern?::Adapter::Converts interface
+44::Example of behavioral pattern?::Observer::Defines event notification
+45::What is UML?::Unified Modeling Language::Visual modeling standard
+46::UML diagram types?::Class, Use case, Sequence, Activity::Represent different perspectives
+47::Use case diagram purpose?::Capture functional requirements::User interaction view
+48::Class diagram purpose?::Show static structure::Defines classes and relationships
+49::Sequence diagram purpose?::Show object interactions::Time-ordered communication
+50::What is implementation phase?::Coding the software::Transforms design into executable code
+51::What is coding standard?::Rules for writing code::Improves readability and maintainability
+52::What is code review?::Peer evaluation of code::Detects defects early
+53::What is refactoring?::Improving code structure::Without changing functionality
+54::What is technical debt?::Future cost of poor design::Accumulates due to shortcuts
+55::What is software testing?::Evaluating software quality::Ensures correctness
+56::Levels of testing?::Unit, Integration, System, Acceptance::Each validates different scope
+57::Unit testing purpose?::Test individual components::Finds bugs early
+58::Integration testing purpose?::Test module interaction::Detects interface issues
+59::System testing purpose?::Test complete system::Validates requirements
+60::Acceptance testing purpose?::User validation::Ensures customer satisfaction
+61::Black box testing?::Test without internal knowledge::Focus on functionality
+62::White box testing?::Test internal logic::Focus on code paths
+63::Regression testing?::Retesting after changes::Ensures no new defects
+64::Smoke testing?::Basic functionality testing::Checks build stability
+65::Alpha testing?::Internal testing::Performed by developers
+66::Beta testing?::User testing before release::Real-world feedback
+67::What is test case?::Input, output, and conditions::Used for verification
+68::What is defect?::Deviation from expected behavior::Must be fixed
+69::Bug vs error vs failure?::Mistake, fault, incorrect result::Different defect stages
+70::What is debugging?::Finding and fixing bugs::Essential development activity
+71::What is configuration management?::Managing software changes::Maintains consistency
+72::Version control system?::Tracks code changes::Supports collaboration
+73::Example of VCS?::Git::Distributed version control
+74::What is branching?::Parallel development lines::Supports feature development
+75::What is merging?::Combining branches::Integrates changes
+76::What is CI/CD?::Continuous Integration and Deployment::Automates build and release
+77::What is build automation?::Automatic compilation and packaging::Reduces errors
+78::What is deployment?::Releasing software to users::Final delivery stage
+79::What is maintenance?::Post-deployment support::Longest SDLC phase
+80::Types of maintenance?::Corrective, Adaptive, Perfective, Preventive::Improves longevity
+81::What is reengineering?::Improving existing software::Enhances performance
+82::What is reverse engineering?::Understanding existing system::Extracts design
+83::What is software reuse?::Using existing components::Reduces cost
+84::What is component-based development?::Assembling reusable components::Speeds development
+85::What is software quality?::Degree of excellence::Measured against requirements
+86::Quality attributes?::Reliability, usability, efficiency, maintainability::Define software excellence
+87::What is reliability?::Failure-free operation::Critical for safety systems
+88::What is usability?::Ease of use::Improves user satisfaction
+89::What is maintainability?::Ease of modification::Reduces long-term cost
+90::What is portability?::Ease of platform transfer::Expands usability
+91::What is software project management?::Planning and controlling projects::Ensures timely delivery
+92::Project constraints?::Scope, time, cost, quality::Must be balanced
+93::What is effort estimation?::Predicting development effort::Important for planning
+94::COCOMO model?::Cost estimation model::Uses project size
+95::What is risk management?::Identifying and mitigating risks::Prevents project failure
+96::Types of risks?::Technical, schedule, cost, personnel::Must be monitored
+97::What is requirement traceability?::Mapping requirements to deliverables::Ensures coverage
+98::What is change management?::Handling requirement changes::Controls impact
+99::What is software metrics?::Quantitative measurements::Assess productivity and quality
+100::LOC metric?::Lines of code::Simple but limited
+101::Function Point metric?::Functionality-based measurement::Language independent
+102::What is documentation?::Written project information::Supports maintenance
+103::User documentation?::Guides end users::Improves usability
+104::Technical documentation?::Design and code details::Supports developers
+105::What is CASE tool?::Computer Aided Software Engineering::Automates development tasks
+106::What is DevOps?::Development and operations integration::Faster delivery
+107::DevOps benefits?::Automation, collaboration, speed::Improves quality
+108::What is software process?::Set of development activities::Defines how work is done
+109::What is maturity model?::Process improvement framework::Example CMMI
+110::CMMI levels?::Initial to Optimizing::Measures process maturity
+111::What is outsourcing?::External development::Reduces cost
+112::What is insourcing?::Internal development::Better control
+113::What is open-source software?::Source code publicly available::Encourages collaboration
+114::Open-source advantage?::Cost and flexibility::Community support
+115::What is proprietary software?::Closed-source software::Vendor controlled
+116::What is software ethics?::Moral responsibility::Ensures user safety
+117::What is intellectual property?::Ownership of software::Legal protection
+118::What is software licensing?::Usage rights agreement::Defines permissions
+119::What is copyright?::Legal protection for code::Prevents unauthorized use
+120::What is patent?::Protection for inventions::Applies to algorithms
+121::What is software audit?::Process evaluation::Ensures compliance
+122::What is code complexity?::Difficulty of understanding code::Affects maintenance
+123::Cyclomatic complexity?::Number of independent paths::Measures complexity
+124::What is secure software engineering?::Building secure systems::Prevents vulnerabilities
+125::Common security flaws?::SQL injection, XSS::Caused by poor coding
+126::What is threat modeling?::Identifying security threats::Improves protection
+127::What is software scalability?::Handling growth::Critical for large systems
+128::What is performance testing?::Testing speed and stability::Ensures responsiveness
+129::What is load testing?::Testing under expected load::Identifies bottlenecks
+130::What is stress testing?::Testing beyond limits::Checks system robustness
+131::What is fault tolerance?::System resilience to failure::Improves reliability
+132::What is redundancy?::Duplicate components::Enhances availability
+133::What is software availability?::Operational readiness::Important for services
+134::What is SaaS?::Software as a Service::Cloud-based delivery
+135::What is PaaS?::Platform as a Service::Development environment
+136::What is IaaS?::Infrastructure as a Service::Virtualized resources
+137::What is microservices architecture?::Small independent services::Improves scalability
+138::Monolithic vs Microservices?::Single unit vs distributed::Microservices more flexible
+139::What is API?::Application Programming Interface::Enables communication
+140::RESTful API meaning?::Stateless web service::Uses HTTP methods
+141::What is software validation?::Building correct product::Meets user needs
+142::What is software verification?::Building product correctly::Meets specifications
+143::Verification vs Validation?::Process vs product::Both are essential
+144::What is user acceptance criteria?::Conditions for approval::Defines success
+145::What is software evolution?::Continuous improvement::Adapts to changes
+146::What is legacy system?::Old software still in use::Difficult to maintain
+147::What is refactoring vs reengineering?::Code cleanup vs system overhaul::Different scope
+148::What is software lifecycle model selection based on?::Project size and risk::Ensures suitability
+149::What is best practice in software engineering?::Standard proven methods::Improves success rate
+150::Why Software Engineering is important?::Ensures quality, scalability, and reliability::Foundation of modern technology

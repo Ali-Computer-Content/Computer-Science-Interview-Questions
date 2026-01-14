@@ -1,0 +1,150 @@
+1::What is Digital Forensics?::The process of identifying, collecting, analyzing, and preserving digital evidence.::Digital forensics ensures evidence is legally admissible while uncovering facts from electronic devices.
+2::What is the goal of digital forensics?::To discover and present digital evidence accurately.::The goal is to support investigations without altering original data.
+3::What is digital evidence?::Data stored or transmitted digitally.::Includes files, logs, emails, metadata, and network traffic.
+4::What are the main phases of digital forensics?::Identification, Collection, Preservation, Analysis, Presentation.::These structured phases ensure legal and technical integrity.
+5::What is identification in forensics?::Locating potential evidence.::Investigators determine which devices and data are relevant.
+6::What is collection in forensics?::Acquiring digital evidence.::Must be done using forensically sound methods.
+7::What is preservation in forensics?::Protecting evidence from alteration.::Maintains integrity and admissibility.
+8::What is analysis in forensics?::Examining evidence for insights.::Uses tools to reconstruct events.
+9::What is presentation in forensics?::Reporting findings.::Evidence must be clearly explained in court.
+10::What is chain of custody?::Documented evidence handling record.::Proves evidence was not tampered with.
+11::Why is chain of custody important?::Ensures legal admissibility.::Breaks can invalidate evidence.
+12::What is forensic imaging?::Bit-by-bit copy of storage media.::Captures all data including deleted files.
+13::What is a forensic image hash?::Cryptographic checksum of image.::Used to verify integrity.
+14::Common hash algorithms in forensics?::MD5, SHA-1, SHA-256.::Ensure evidence consistency.
+15::What is write blocker?::Prevents data modification.::Used during evidence acquisition.
+16::What is live forensics?::Evidence collection from running systems.::Captures volatile data like RAM.
+17::What is dead forensics?::Analysis of powered-off systems.::More stable but misses volatile data.
+18::What is volatile data?::Data lost after power off.::Includes RAM, processes, network connections.
+19::What is non-volatile data?::Persistent stored data.::Includes hard drives and flash memory.
+20::What is memory forensics?::Analysis of system RAM.::Reveals malware, keys, and running processes.
+21::What is swap file?::Disk-based virtual memory.::May contain sensitive remnants.
+22::What is pagefile.sys?::Windows virtual memory file.::Useful in memory analysis.
+23::What is slack space?::Unused space within clusters.::May contain remnants of deleted data.
+24::What is unallocated space?::Disk space not assigned to files.::Often contains deleted data.
+25::What is file carving?::Recovering files without metadata.::Uses file signatures.
+26::What is file signature?::Unique file header/footer.::Identifies file type.
+27::What is metadata?::Data about data.::Includes timestamps and ownership.
+28::What are MAC times?::Modified, Accessed, Created times.::Used for timeline reconstruction.
+29::What is timeline analysis?::Chronological event reconstruction.::Helps identify attacker actions.
+30::What is log analysis?::Reviewing system and application logs.::Reveals user activity and attacks.
+31::What is Windows Registry?::Central configuration database.::Contains valuable forensic artifacts.
+32::What is registry hive?::Registry data file.::Includes SAM, SYSTEM, SOFTWARE.
+33::What is SAM file?::Security Account Manager.::Stores user account information.
+34::What is event log?::Recorded system events.::Shows logins and errors.
+35::What is browser forensics?::Analysis of browser artifacts.::Includes history, cache, cookies.
+36::What is cookie?::Website-stored data.::Tracks sessions and preferences.
+37::What is cache?::Temporary storage for fast access.::May contain visited content.
+38::What is email forensics?::Analysis of email data.::Includes headers and attachments.
+39::What is email header?::Routing metadata.::Helps trace sender and path.
+40::What is phishing evidence?::Fraud-related digital artifacts.::Emails, URLs, and logs.
+41::What is mobile forensics?::Analysis of mobile devices.::Covers calls, SMS, apps.
+42::What is logical extraction?::Data retrieved via OS.::Limited but safer.
+43::What is physical extraction?::Bit-level device copy.::More complete data access.
+44::What is cloud forensics?::Investigation of cloud data.::Complex due to shared environments.
+45::What is network forensics?::Analysis of network traffic.::Detects intrusions and data exfiltration.
+46::What is packet capture?::Recording network traffic.::Used in investigations.
+47::What is PCAP file?::Packet capture file format.::Used by Wireshark.
+48::What is IDS log?::Intrusion detection records.::Shows suspicious activity.
+49::What is firewall log?::Network access records.::Tracks allowed and blocked traffic.
+50::What is intrusion evidence?::Signs of unauthorized access.::Includes logs and malware.
+51::What is malware forensics?::Analysis of malicious software.::Identifies behavior and origin.
+52::What is static malware analysis?::Examining malware without execution.::Safer initial approach.
+53::What is dynamic malware analysis?::Executing malware in sandbox.::Observes runtime behavior.
+54::What is sandbox?::Isolated analysis environment.::Prevents system damage.
+55::What is rootkit forensic challenge?::Hidden attacker presence.::Evades detection tools.
+56::What is anti-forensics?::Techniques to hide evidence.::Used by attackers to evade investigation.
+57::What is timestomping?::Manipulating timestamps.::Misleads timeline analysis.
+58::What is steganography?::Hiding data in files.::Used for covert communication.
+59::What is steganalysis?::Detecting hidden data.::Forensic countermeasure.
+60::What is encryption in forensics?::Protected data barrier.::May require key recovery.
+61::What is disk encryption?::Full storage encryption.::Limits evidence access.
+62::What is BitLocker?::Windows disk encryption.::Common forensic obstacle.
+63::What is password cracking?::Recovering passwords.::Uses brute force or dictionaries.
+64::What is hash cracking?::Recovering plaintext from hashes.::Time-consuming but possible.
+65::What is rainbow table?::Precomputed hash list.::Speeds up cracking.
+66::What is legal authorization?::Permission to investigate.::Required to avoid rights violations.
+67::What is warrant in forensics?::Legal search permission.::Defines scope of investigation.
+68::What is evidence contamination?::Unintentional evidence alteration.::Invalidates results.
+69::What is evidence integrity?::Unchanged evidence state.::Ensured by hashing.
+70::What is evidence correlation?::Linking multiple artifacts.::Strengthens conclusions.
+71::What is digital fingerprint?::Unique device characteristics.::Used in attribution.
+72::What is attribution challenge?::Identifying attacker.::Often inconclusive.
+73::What is insider investigation?::Investigation of internal users.::Requires careful handling.
+74::What is incident response vs forensics?::Response is immediate, forensics is investigative.::Both complement each other.
+75::What is volatile artifact capture order?::RAM first, disk later.::Volatile data disappears quickly.
+76::What is memory dump?::Snapshot of RAM.::Used in memory analysis.
+77::What is forensic readiness?::Preparedness for investigations.::Reduces response time.
+78::What is evidence prioritization?::Collecting most fragile first.::Prevents data loss.
+79::What is timeline discrepancy?::Inconsistent timestamps.::Indicates tampering.
+80::What is deleted file recovery?::Restoring removed files.::Possible until overwritten.
+81::What is FAT file system artifact?::File Allocation Table entries.::Tracks file storage.
+82::What is NTFS artifact?::Master File Table records.::Rich forensic data.
+83::What is inode?::Linux file metadata structure.::Contains permissions and timestamps.
+84::What is journaling file system?::Tracks changes for recovery.::Leaves forensic traces.
+85::What is shadow copy?::Windows backup snapshot.::Useful for historical data.
+86::What is restore point?::System recovery snapshot.::Contains registry and files.
+87::What is USB forensics?::Analysis of USB device usage.::Tracks data exfiltration.
+88::What is device serial artifact?::Unique device identifier.::Links physical evidence.
+89::What is Bluetooth forensics?::Wireless communication analysis.::Used in mobile cases.
+90::What is GPS artifact?::Location data evidence.::Critical in investigations.
+91::What is EXIF data?::Image metadata.::Contains camera and location info.
+92::What is multimedia forensics?::Audio and video analysis.::Detects manipulation.
+93::What is deepfake detection?::Identifying synthetic media.::Growing forensic challenge.
+94::What is forensic report?::Formal investigation document.::Must be clear and objective.
+95::What is expert witness?::Court-recognized specialist.::Presents forensic findings.
+96::What is Daubert standard?::Evidence admissibility criteria.::Used in US courts.
+97::What is repeatability in forensics?::Same result on reanalysis.::Ensures reliability.
+98::What is reproducibility?::Independent verification.::Supports credibility.
+99::What is tool validation?::Testing forensic tools.::Ensures accuracy.
+100::What is open-source forensic tool?::Publicly available tool.::Examples include Autopsy.
+101::What is proprietary forensic tool?::Commercial investigation software.::Often court-accepted.
+102::What is EnCase?::Commercial forensic suite.::Used in law enforcement.
+103::What is FTK?::Forensic Toolkit.::Digital evidence analysis.
+104::What is Autopsy?::Open-source forensic platform.::Built on Sleuth Kit.
+105::What is Sleuth Kit?::Forensic command-line tools.::Used for disk analysis.
+106::What is Volatility?::Memory forensics framework.::Analyzes RAM dumps.
+107::What is timeline tool?::Event reconstruction software.::Combines multiple artifacts.
+108::What is forensic triage?::Quick evidence assessment.::Used at crime scene.
+109::What is incident timeline?::Sequence of attack actions.::Clarifies attacker behavior.
+110::What is cyber crime scene?::Digital environment of incident.::Requires controlled handling.
+111::What is imaging verification?::Hash comparison.::Confirms image accuracy.
+112::What is evidence storage?::Secure evidence preservation.::Prevents tampering.
+113::What is cold storage?::Offline evidence storage.::Highly secure.
+114::What is forensic soundness?::No evidence alteration.::Core forensic principle.
+115::What is documentation in forensics?::Detailed activity recording.::Ensures transparency.
+116::What is case management?::Organizing investigation data.::Supports efficiency.
+117::What is timeline normalization?::Aligning timestamps.::Corrects time zone issues.
+118::What is time skew?::Incorrect system time.::Complicates analysis.
+119::What is forensic limitation?::Incomplete data.::Investigations rarely perfect.
+120::What is cross-drive correlation?::Linking multiple devices.::Strengthens case.
+121::What is evidence duplication?::Creating working copies.::Preserves original.
+122::What is first responder role?::Initial evidence handling.::Critical to case success.
+123::What is volatile vs persistent evidence?::Temporary vs stored data.::Collection priority differs.
+124::What is live response risk?::System alteration.::Must be justified.
+125::What is malware persistence artifact?::Autostart mechanisms.::Shows long-term compromise.
+126::What is registry autorun key?::Startup execution entry.::Common malware target.
+127::What is forensic hypothesis?::Investigation theory.::Tested against evidence.
+128::What is bias in forensics?::Prejudged conclusions.::Must be avoided.
+129::What is evidence correlation matrix?::Artifact relationship mapping.::Improves clarity.
+130::What is digital footprint?::User activity traces.::Used in attribution.
+131::What is anti-debugging technique?::Malware evasion method.::Complicates analysis.
+132::What is packer?::Executable compression tool.::Used to hide malware.
+133::What is unpacking?::Reversing packed binaries.::Required for analysis.
+134::What is reverse engineering?::Understanding compiled code.::Used in malware cases.
+135::What is strings analysis?::Extracting readable text.::Quick insight into binaries.
+136::What is entropy analysis?::Randomness measurement.::Detects encryption or packing.
+137::What is file system timeline?::File activity sequence.::Shows usage patterns.
+138::What is network session reconstruction?::Rebuilding communications.::Identifies data leaks.
+139::What is encrypted traffic analysis?::Pattern-based investigation.::Metadata still valuable.
+140::What is forensic readiness policy?::Organizational preparation.::Supports compliance.
+141::What is legal hold?::Preserving relevant data.::Prevents evidence destruction.
+142::What is evidence spoliation?::Improper evidence destruction.::Leads to legal penalties.
+143::What is court testimony risk?::Misinterpretation of findings.::Requires clarity.
+144::What is expert neutrality?::Objective analysis.::Essential for credibility.
+145::What is forensic ethics?::Professional responsibility.::Avoids misconduct.
+146::What is jurisdiction issue?::Cross-border investigations.::Legal complexity.
+147::What is cloud log volatility?::Short retention period.::Requires quick action.
+148::What is IoT forensics?::Investigation of smart devices.::Emerging domain.
+149::What is forensic future challenge?::Encryption and privacy.::Limits evidence access.
+150::Why is digital forensics important?::Supports justice and security.::Essential for cyber crime investigation.

@@ -1,150 +1,150 @@
-1::What is a computer network?::A computer network is a set of interconnected devices that can communicate and share resources with each other.
-2::What are the types of networks?::LAN (Local Area Network), WAN (Wide Area Network), MAN (Metropolitan Area Network), PAN (Personal Area Network).
-3::What is the OSI model?::The OSI model is a conceptual framework with 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
-4::What are the functions of the Physical layer?::The Physical layer transmits raw bits over a physical medium and defines voltage, timing, and data rates.
-5::What is the Data Link layer responsible for?::The Data Link layer handles error detection, flow control, and frames data for transmission between adjacent nodes.
-6::What is the Network layer responsible for?::The Network layer manages logical addressing, routing, and forwarding of packets across networks.
-7::What is the Transport layer responsible for?::The Transport layer provides reliable or unreliable data delivery, segmentation, and flow control.
-8::What is the Session layer responsible for?::The Session layer manages sessions or connections between applications on different devices.
-9::What is the Presentation layer responsible for?::The Presentation layer handles data translation, encryption, compression, and formatting.
-10::What is the Application layer responsible for?::The Application layer provides network services directly to user applications, like HTTP, FTP, SMTP.
-11::What is TCP/IP model?::TCP/IP is a protocol suite with 4 layers: Link, Internet, Transport, and Application.
-12::What is the difference between OSI and TCP/IP models?::OSI has 7 layers and is conceptual; TCP/IP has 4 layers and is protocol-based and widely used.
-13::What is a protocol?::A protocol is a set of rules that define how data is transmitted and received over a network.
-14::What is the difference between connection-oriented and connectionless communication?::Connection-oriented (TCP) establishes a connection before data transfer; Connectionless (UDP) sends data without establishing a connection.
-15::What is TCP?::TCP (Transmission Control Protocol) is a connection-oriented, reliable transport protocol that ensures data delivery.
-16::What is UDP?::UDP (User Datagram Protocol) is a connectionless, lightweight transport protocol with no guarantee of delivery.
-17::What is the difference between TCP and UDP?::TCP is reliable, ordered, and connection-oriented; UDP is unreliable, unordered, and connectionless.
-18::What is IP address?::An IP address is a unique identifier for a device on a network, either IPv4 (32-bit) or IPv6 (128-bit).
-19::What is the difference between IPv4 and IPv6?::IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses and supports a larger address space.
-20::What is subnetting?::Subnetting divides a network into smaller sub-networks to improve routing efficiency and security.
-21::What is a MAC address?::A MAC (Media Access Control) address is a unique hardware identifier assigned to a network interface.
-22::What is ARP?::ARP (Address Resolution Protocol) maps an IP address to a MAC address in a local network.
-23::What is RARP?::RARP (Reverse ARP) maps a MAC address to an IP address.
-24::What is DHCP?::DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration to devices.
-25::What is DNS?::DNS (Domain Name System) translates domain names into IP addresses.
-26::What is the difference between static and dynamic IP addressing?::Static IP is manually assigned and fixed; Dynamic IP is automatically assigned by DHCP and can change over time.
-27::What is NAT?::NAT (Network Address Translation) allows multiple devices on a private network to share a single public IP address.
-28::What is PAT?::PAT (Port Address Translation) allows multiple devices to share a single IP using different port numbers.
-29::What is a default gateway?::A default gateway is a router that forwards traffic from a local network to other networks.
-30::What is a switch?::A switch is a network device that connects devices in a LAN and forwards data based on MAC addresses.
-31::What is a hub?::A hub is a network device that broadcasts data to all devices in a network segment.
-32::What is the difference between a hub and a switch?::Hub broadcasts to all ports; switch forwards to specific ports using MAC addresses.
-33::What is a router?::A router connects different networks and forwards packets based on IP addresses.
-34::What is the difference between a router and a switch?::Router operates at Layer 3 (Network) and forwards packets between networks; Switch operates at Layer 2 (Data Link) and forwards frames within a LAN.
-35::What is a VLAN?::A VLAN (Virtual LAN) is a logical segmentation of a network to separate broadcast domains within a single physical network.
-36::What is the difference between IPv4 public and private addresses?::Public addresses are globally routable; private addresses are used within local networks and are not routable on the Internet.
-37::What is CIDR?::CIDR (Classless Inter-Domain Routing) allows flexible IP address allocation using prefixes instead of fixed classes.
-38::What is a subnet mask?::A subnet mask separates the network and host portions of an IP address.
-39::What is routing?::Routing is the process of selecting paths for data to travel across networks.
-40::What is static routing?::Static routing uses manually configured routes set by the network administrator.
-41::What is dynamic routing?::Dynamic routing uses protocols to automatically discover and update routes.
-42::What are routing protocols?::Routing protocols are rules and algorithms used by routers to determine optimal paths, e.g., RIP, OSPF, BGP.
-43::What is RIP?::RIP (Routing Information Protocol) is a distance-vector protocol using hop count as a metric.
-44::What is OSPF?::OSPF (Open Shortest Path First) is a link-state routing protocol using cost as a metric and supports hierarchical routing.
-45::What is BGP?::BGP (Border Gateway Protocol) is an inter-domain path-vector protocol used for routing between autonomous systems.
-46::What is a broadcast?::Broadcast sends a message to all devices in a network segment.
-47::What is multicast?::Multicast sends a message to a specific group of devices.
-48::What is unicast?::Unicast sends a message to a single specific device.
-49::What is a collision domain?::A collision domain is a network segment where data packets can collide when sent simultaneously.
-50::What is a broadcast domain?::A broadcast domain is a network segment where all devices receive broadcast frames.
-51::What is CSMA/CD?::Carrier Sense Multiple Access with Collision Detection is a protocol used in Ethernet to detect and handle collisions.
-52::What is CSMA/CA?::Carrier Sense Multiple Access with Collision Avoidance is used in wireless networks to avoid collisions before they occur.
-53::What is Ethernet?::Ethernet is a wired LAN technology using frames to transmit data over cables.
-54::What are the types of Ethernet?::10Base-T, 100Base-TX, 1000Base-T (Gigabit), and 10GBase-T.
-55::What is the difference between TCP and UDP?::TCP is reliable, connection-oriented; UDP is unreliable, connectionless, but faster.
-56::What is the difference between IPv4 and IPv6?::IPv4 has 32-bit addresses; IPv6 has 128-bit addresses and larger address space.
-57::What is ICMP?::ICMP (Internet Control Message Protocol) is used for sending error messages and operational information (e.g., ping).
-58::What is ARP?::ARP maps IP addresses to MAC addresses in a local network.
-59::What is NAT?::NAT translates private IP addresses to public IP addresses for Internet access.
-60::What is DHCP?::DHCP dynamically assigns IP addresses and configuration to devices in a network.
-61::What is DNS?::DNS resolves human-readable domain names into IP addresses.
-62::What is a subnet?::A subnet is a smaller network segment within a larger network defined by a subnet mask.
-63::What is subnetting?::Subnetting divides a network into smaller, more manageable subnetworks.
-64::What is supernetting?::Supernetting combines multiple networks into a larger network using a shorter subnet mask.
-65::What is a firewall?::A firewall filters network traffic to allow or block packets based on rules and policies.
-66::What are the types of firewalls?::Packet-filtering, stateful inspection, proxy, and next-generation firewalls.
-67::What is a VPN?::A VPN (Virtual Private Network) creates a secure connection over a public network using encryption and tunneling.
-68::What is tunneling in networking?::Tunneling encapsulates one network protocol within another to securely transmit data.
-69::What is SSL/TLS?::SSL/TLS provides encryption and secure communication over networks, typically used in HTTPS.
-70::What is HTTPS?::HTTPS is HTTP over TLS/SSL for secure web communication.
-71::What is a MAC address?::A MAC address is a unique identifier assigned to a network interface for Layer 2 communication.
-72::What is ARP?::ARP maps IP addresses to MAC addresses on a local network.
-73::What is a switch?::A switch forwards frames based on MAC addresses and reduces collisions in a LAN.
-74::What is a hub?::A hub broadcasts incoming frames to all ports, increasing collisions.
-75::What is a router?::A router forwards packets between different networks based on IP addresses.
-76::What is NAT?::NAT allows multiple devices to share a single public IP address.
-77::What is a VLAN?::A VLAN logically segments a network to reduce broadcast domains.
-78::What is QoS?::Quality of Service (QoS) prioritizes certain types of network traffic for performance.
-79::What is a proxy server?::A proxy server acts as an intermediary between clients and servers for caching, filtering, or anonymity.
-80::What is a load balancer?::A load balancer distributes network traffic across multiple servers to optimize resource use.
-81::What is ping?::Ping tests network connectivity using ICMP echo request and reply.
-82::What is traceroute?::Traceroute tracks the route packets take to reach a destination and measures transit delays.
-83::What is bandwidth?::Bandwidth is the maximum rate at which data can be transmitted over a network link.
-84::What is throughput?::Throughput is the actual amount of data transmitted over a network in a given time.
-85::What is latency?::Latency is the delay between sending a packet and receiving it at the destination.
-86::What is jitter?::Jitter is the variation in packet arrival times in a network.
-87::What is packet switching?::Packet switching divides data into packets and routes them independently across the network.
-88::What is circuit switching?::Circuit switching establishes a dedicated path for the duration of a communication session.
-89::What is a protocol?::A protocol is a set of rules for data communication between network devices.
-90::What is TCP?::TCP is a reliable, connection-oriented transport protocol.
-91::What is UDP?::UDP is an unreliable, connectionless transport protocol.
-92::What is a port?::A port is a logical endpoint for communication used to differentiate services on a host.
-93::What are common TCP ports?::HTTP: 80, HTTPS: 443, FTP: 21, SSH: 22, SMTP: 25.
-94::What are sockets?::Sockets are endpoints for sending and receiving data over a network.
-95::What is encapsulation?::Encapsulation wraps data with protocol information at each layer before transmission.
-96::What is decapsulation?::Decapsulation removes protocol information at each layer when data is received.
-97::What is a network topology?::Network topology defines the layout of nodes and links in a network.
-98::What are types of topologies?::Bus, Star, Ring, Mesh, Hybrid.
-99::What is a broadcast domain?::A broadcast domain is a network segment where broadcasts are received by all devices.
-100::What is a collision domain?::A collision domain is a network segment where simultaneous transmissions can cause collisions.
-101::What is a default gateway?::A default gateway forwards packets from a local network to other networks.
-102::What is ARP spoofing?::ARP spoofing is a network attack where fake ARP messages associate an attacker’s MAC with a legitimate IP.
-103::What is IP spoofing?::IP spoofing involves sending packets with a forged source IP to impersonate another device.
-104::What is MAC spoofing?::MAC spoofing involves changing a device’s MAC address to bypass security or impersonate another device.
-105::What is DoS attack?::Denial of Service (DoS) attack overwhelms a network or server, making it unavailable to legitimate users.
-106::What is DDoS attack?::Distributed Denial of Service (DDoS) attack uses multiple compromised devices to flood a target.
-107::What is SSL?::Secure Sockets Layer provides encryption for secure communication over the network.
-108::What is TLS?::Transport Layer Security is the successor to SSL with stronger encryption and security.
-109::What is a VPN?::VPN creates a secure, encrypted tunnel for data over public networks.
-110::What is a proxy?::A proxy server intermediates requests between clients and servers for caching, filtering, or security.
-111::What is NAT?::NAT translates private IP addresses to public IPs for Internet access.
-112::What is PAT?::PAT maps multiple private IP addresses to a single public IP using different ports.
-113::What is IPv4?::IPv4 is a 32-bit IP address format with about 4.3 billion addresses.
-114::What is IPv6?::IPv6 is a 128-bit IP address format with a vastly larger address space.
-115::What is ICMP?::ICMP sends control and error messages, e.g., ping uses ICMP echo request and reply.
-116::What is ARP?::ARP resolves IP addresses to MAC addresses on a local network.
-117::What is RARP?::RARP resolves MAC addresses to IP addresses.
-118::What is DNS?::DNS translates domain names into IP addresses.
-119::What is DHCP?::DHCP dynamically assigns IP addresses and configuration to devices.
-120::What is TCP three-way handshake?::SYN, SYN-ACK, ACK steps establish a reliable TCP connection.
-121::What is TCP connection termination?::FIN, FIN-ACK, ACK steps close a TCP connection gracefully.
-122::What is sliding window protocol?::A flow control method that allows multiple packets in transit before acknowledgment.
-123::What is flow control?::Flow control prevents a sender from overwhelming a receiver with data.
-124::What is congestion control?::Congestion control prevents network overload and ensures fair usage.
-125::What is CSMA/CD?::Carrier Sense Multiple Access with Collision Detection is used in Ethernet to handle collisions.
-126::What is CSMA/CA?::Carrier Sense Multiple Access with Collision Avoidance is used in wireless networks to avoid collisions.
-127::What is a VLAN?::A VLAN segments a network logically to reduce broadcast domains and improve security.
-128::What is a MAC address?::A MAC address uniquely identifies a network interface at Layer 2.
-129::What is a switch?::A switch forwards frames based on MAC addresses and isolates collision domains.
-130::What is a hub?::A hub broadcasts all incoming frames to every port.
-131::What is a router?::A router forwards packets between networks using IP addresses.
-132::What is NAT?::Network Address Translation maps private IPs to public IPs.
-133::What is PAT?::Port Address Translation maps multiple private IPs to a single public IP with different ports.
-134::What is subnetting?::Subnetting divides a network into smaller subnetworks to improve efficiency.
-135::What is CIDR?::Classless Inter-Domain Routing allows flexible IP allocation using prefixes instead of fixed classes.
-136::What is a broadcast domain?::All devices in a network segment that receive broadcast frames.
-137::What is a collision domain?::All devices in a segment where collisions can occur.
-138::What is MTU?::Maximum Transmission Unit is the largest packet size a network can transmit.
-139::What is jitter?::Variation in packet arrival times.
-140::What is latency?::Time taken for a packet to travel from source to destination.
-141::What is throughput?::Actual data transfer rate achieved in a network.
-142::What is bandwidth?::Maximum data transfer rate supported by a network link.
-143::What is packet switching?::Data is divided into packets sent independently across the network.
-144::What is circuit switching?::A dedicated path is established for communication.
-145::What is a socket?::An endpoint for communication between two devices.
-146::What is a port?::A logical identifier to differentiate services on a host.
-147::What is HTTP?::Hypertext Transfer Protocol is used to transfer web content.
-148::What is HTTPS?::HTTP over SSL/TLS for secure communication.
-149::What is FTP?::File Transfer Protocol is used for transferring files between devices.
-150::What is SMTP?::Simple Mail Transfer Protocol is used to send emails.
+1::What is a computer network?::A collection of interconnected devices that can communicate and share resources.::Networks enable data sharing, communication, and resource utilization like printers and servers.
+2::What are the main goals of computer networks?::Resource sharing, reliability, scalability, and communication.::These goals improve efficiency and availability of systems.
+3::What is the OSI model?::A 7-layer reference model for network communication.::It standardizes communication functions for interoperability.
+4::How many layers are in the OSI model?::Seven.::Physical, Data Link, Network, Transport, Session, Presentation, Application.
+5::Which OSI layer handles bit transmission?::Physical layer.::It deals with voltage, cables, and signaling.
+6::Which layer is responsible for framing?::Data Link layer.::Frames encapsulate packets for node-to-node delivery.
+7::Which OSI layer provides logical addressing?::Network layer.::IP addresses are used here.
+8::Which layer ensures reliable delivery?::Transport layer.::Protocols like TCP operate here.
+9::Which OSI layer manages sessions?::Session layer.::It establishes, manages, and terminates sessions.
+10::Which layer handles encryption and compression?::Presentation layer.::It formats data for applications.
+11::Which layer interacts with users?::Application layer.::Protocols like HTTP and FTP reside here.
+12::What is the TCP/IP model?::A 4-layer networking model used on the Internet.::It simplifies OSI into practical layers.
+13::Name TCP/IP layers.::Application, Transport, Internet, Network Access.::Each maps to OSI layers.
+14::What is a protocol?::A set of rules for communication.::Ensures correct data exchange.
+15::What is IP?::Internet Protocol.::Provides logical addressing and routing.
+16::What is IPv4 address size?::32 bits.::Written as four octets.
+17::What is IPv6 address size?::128 bits.::Designed to overcome IPv4 exhaustion.
+18::What is a MAC address?::A 48-bit hardware address.::Used at Data Link layer.
+19::What is ARP?::Address Resolution Protocol.::Maps IP to MAC addresses.
+20::What is RARP?::Reverse Address Resolution Protocol.::Maps MAC to IP.
+21::What is TCP?::Transmission Control Protocol.::Provides reliable, connection-oriented service.
+22::What is UDP?::User Datagram Protocol.::Provides fast, connectionless service.
+23::Difference between TCP and UDP?::TCP is reliable, UDP is not.::TCP ensures delivery, UDP favors speed.
+24::What is a port number?::Logical endpoint for communication.::Allows multiple services on one IP.
+25::Well-known port for HTTP?::80.::Used for web traffic.
+26::Well-known port for HTTPS?::443.::Encrypted web communication.
+27::What is FTP?::File Transfer Protocol.::Used for file transfer.
+28::FTP port number?::21.::Control connection.
+29::What is DNS?::Domain Name System.::Translates domain names to IP addresses.
+30::DNS port?::53.::Uses UDP primarily.
+31::What is DHCP?::Dynamic Host Configuration Protocol.::Automatically assigns IP addresses.
+32::DHCP port numbers?::67 and 68.::Client-server communication.
+33::What is ICMP?::Internet Control Message Protocol.::Used for error reporting.
+34::What is ping?::ICMP echo request tool.::Tests connectivity.
+35::What is traceroute?::Path discovery tool.::Shows hops to destination.
+36::What is routing?::Selecting paths for packet forwarding.::Handled by routers.
+37::What is a router?::A Layer 3 device.::Forwards packets using IP addresses.
+38::What is a switch?::A Layer 2 device.::Uses MAC addresses to forward frames.
+39::What is a hub?::A Layer 1 device.::Broadcasts data to all ports.
+40::Difference between hub and switch?::Switch is intelligent, hub is not.::Switch reduces collisions.
+41::What is collision domain?::Network segment where collisions occur.::Switch reduces collision domains.
+42::What is broadcast domain?::Area receiving broadcast frames.::Routers break broadcast domains.
+43::What is subnetting?::Dividing a network into smaller networks.::Improves efficiency and security.
+44::What is subnet mask?::Defines network and host bits.::Used with IP address.
+45::Default subnet mask for Class C?::255.255.255.0.::24 network bits.
+46::What is CIDR?::Classless Inter-Domain Routing.::Allows flexible subnetting.
+47::What is NAT?::Network Address Translation.::Maps private IPs to public IP.
+48::Types of NAT?::Static, Dynamic, PAT.::Used for IP conservation.
+49::What is PAT?::Port Address Translation.::Multiple devices share one public IP.
+50::What is firewall?::Network security device.::Controls incoming and outgoing traffic.
+51::What is IDS?::Intrusion Detection System.::Detects malicious activity.
+52::What is IPS?::Intrusion Prevention System.::Detects and blocks threats.
+53::What is VPN?::Virtual Private Network.::Creates secure tunnel over public network.
+54::What is SSL/TLS?::Security protocols.::Encrypt data in transit.
+55::What is HTTPS?::HTTP over TLS.::Secure web communication.
+56::What is packet switching?::Data sent in packets.::Efficient and flexible.
+57::What is circuit switching?::Dedicated communication path.::Used in traditional telephony.
+58::What is bandwidth?::Maximum data rate.::Measured in bps.
+59::What is latency?::Transmission delay.::Lower latency improves performance.
+60::What is throughput?::Actual data transfer rate.::Depends on network conditions.
+61::What is jitter?::Variation in delay.::Affects real-time traffic.
+62::What is QoS?::Quality of Service.::Prioritizes network traffic.
+63::What is congestion?::Network overload.::Causes packet loss.
+64::What is flow control?::Regulating data transmission.::Prevents receiver overflow.
+65::What is error control?::Detecting and correcting errors.::Ensures data integrity.
+66::What is checksum?::Error detection mechanism.::Used in TCP/UDP.
+67::What is CRC?::Cyclic Redundancy Check.::Detects transmission errors.
+68::What is sliding window?::Flow control mechanism.::Used by TCP.
+69::What is three-way handshake?::TCP connection establishment.::SYN, SYN-ACK, ACK.
+70::What is TCP teardown?::Connection termination.::FIN and ACK exchanges.
+71::What is MTU?::Maximum Transmission Unit.::Largest packet size.
+72::What is fragmentation?::Breaking packets into smaller pieces.::Occurs when MTU exceeded.
+73::What is reassembly?::Recombining fragments.::Done at destination.
+74::What is proxy server?::Intermediate server.::Improves security and performance.
+75::What is load balancer?::Traffic distribution device.::Improves availability.
+76::What is VLAN?::Virtual LAN.::Logical network segmentation.
+77::VLAN operates at which layer?::Data Link layer.::Uses tagging.
+78::What is STP?::Spanning Tree Protocol.::Prevents switching loops.
+79::What is ARQ?::Automatic Repeat reQuest.::Error control method.
+80::What is stop-and-wait ARQ?::Send one frame at a time.::Simple but inefficient.
+81::What is go-back-N ARQ?::Resend multiple frames.::Improves efficiency.
+82::What is selective repeat ARQ?::Resend only lost frames.::Most efficient.
+83::What is unicast?::One-to-one communication.::Single receiver.
+84::What is multicast?::One-to-many communication.::Group-based delivery.
+85::What is broadcast?::One-to-all communication.::Sent to all hosts.
+86::What is CSMA/CD?::Ethernet access method.::Detects collisions.
+87::What is CSMA/CA?::Wireless access method.::Avoids collisions.
+88::What is Wi-Fi standard?::IEEE 802.11.::Wireless LAN specification.
+89::What is Bluetooth?::Short-range wireless technology.::Uses IEEE 802.15.
+90::What is LTE?::Long Term Evolution.::4G cellular technology.
+91::What is 5G?::Next-generation cellular network.::High speed and low latency.
+92::What is MAN?::Metropolitan Area Network.::Covers a city.
+93::What is LAN?::Local Area Network.::Small geographic area.
+94::What is WAN?::Wide Area Network.::Large geographic area.
+95::What is PAN?::Personal Area Network.::Very small range.
+96::What is ISP?::Internet Service Provider.::Provides Internet access.
+97::What is backbone network?::High-speed core network.::Connects major nodes.
+98::What is BGP?::Border Gateway Protocol.::Inter-domain routing.
+99::What is RIP?::Routing Information Protocol.::Distance vector protocol.
+100::What is OSPF?::Open Shortest Path First.::Link-state routing protocol.
+101::What is metric in routing?::Cost value.::Determines best path.
+102::What is hop count?::Number of routers crossed.::Used by RIP.
+103::What is packet loss?::Dropped packets.::Occurs due to congestion.
+104::What is sniffing?::Packet capturing attack.::Threatens confidentiality.
+105::What is spoofing?::Impersonation attack.::Fake identity usage.
+106::What is DoS attack?::Denial of Service.::Overwhelms network resources.
+107::What is DDoS?::Distributed DoS.::Attack from multiple sources.
+108::What is man-in-the-middle attack?::Intercepting communication.::Compromises confidentiality.
+109::What is encryption?::Data transformation for security.::Protects confidentiality.
+110::What is symmetric encryption?::Same key for encrypt/decrypt.::Fast but key sharing issue.
+111::What is asymmetric encryption?::Public/private key pair.::Used in key exchange.
+112::What is RSA used for?::Key exchange and signatures.::Asymmetric algorithm.
+113::What is hashing?::One-way function.::Used for integrity.
+114::What is digital signature?::Cryptographic authentication.::Ensures integrity and authenticity.
+115::What is PKI?::Public Key Infrastructure.::Manages certificates.
+116::What is X.509?::Certificate standard.::Used in SSL/TLS.
+117::What is session key?::Temporary symmetric key.::Used per session.
+118::What is replay attack?::Reusing captured packets.::Threatens authentication.
+119::What is firewall rule?::Traffic filtering rule.::Controls access.
+120::What is stateful firewall?::Tracks connection state.::More secure.
+121::What is stateless firewall?::Filters based on rules only.::Faster but less secure.
+122::What is proxy firewall?::Application-level filtering.::Deep inspection.
+123::What is packet filtering?::Header-based filtering.::Simple firewall technique.
+124::What is network topology?::Network layout.::Physical or logical.
+125::Star topology advantage?::Easy fault isolation.::Centralized control.
+126::Bus topology disadvantage?::Single cable failure.::Network collapse.
+127::Ring topology feature?::Token passing.::Ordered transmission.
+128::Mesh topology benefit?::High reliability.::Multiple paths exist.
+129::What is full duplex?::Simultaneous send/receive.::Improves throughput.
+130::What is half duplex?::One direction at a time.::Used in older systems.
+131::What is simplex?::One-way communication.::Like broadcast TV.
+132::What is encapsulation?::Adding headers.::Each layer adds info.
+133::What is decapsulation?::Removing headers.::At receiving end.
+134::What is socket?::IP + port combination.::Identifies connection endpoint.
+135::What is congestion control?::Managing traffic load.::TCP implements it.
+136::What is slow start?::TCP congestion control phase.::Gradual rate increase.
+137::What is window size?::Amount of data sent without ACK.::Controls flow.
+138::What is ACK?::Acknowledgement.::Confirms receipt.
+139::What is SYN flood?::TCP attack.::Consumes server resources.
+140::What is TTL?::Time To Live.::Limits packet lifespan.
+141::What is loopback address?::127.0.0.1.::Tests local machine.
+142::What is localhost?::Local host reference.::Maps to loopback.
+143::What is default gateway?::Router for external traffic.::Used to reach other networks.
+144::What is packet analyzer?::Traffic inspection tool.::Example Wireshark.
+145::What is Wireshark?::Network protocol analyzer.::Used for debugging.
+146::What is SNMP?::Simple Network Management Protocol.::Monitors network devices.
+147::SNMP port?::161.::Uses UDP.
+148::What is syslog?::Logging protocol.::Centralized logging.
+149::What is backbone speed measured in?::Gbps or Tbps.::High-speed links.
+150::Why is computer networking important?::Enables communication and resource sharing.::Foundation of modern IT systems.

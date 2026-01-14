@@ -1,0 +1,150 @@
+1::What is programming?::Programming is writing instructions for a computer to perform tasks.::It transforms problem-solving logic into code.
+2::What is algorithm?::Step-by-step solution to a problem.::Algorithms are independent of programming language.
+3::What is flowchart?::Graphical representation of algorithm.::Uses symbols to depict process flow.
+4::What is program?::Set of instructions executed by computer.::Program implements algorithms.
+5::What is syntax?::Rules for writing valid code.::Each language has its own syntax.
+6::What is semantics?::Meaning of code statements.::Syntax correct code can still be semantically wrong.
+7::What is variable?::Named storage for data.::Can hold values that may change.
+8::What is data type?::Classification of data.::Examples: int, float, char, string, bool.
+9::What is integer?::Whole number data type.::Cannot store fractions.
+10::What is float?::Decimal number data type.::Used for precision values.
+11::What is character?::Single symbol data type.::Often stored as ASCII code.
+12::What is string?::Sequence of characters.::Used for text storage.
+13::What is boolean?::True/False data type.::Used in logical operations.
+14::What is constant?::Fixed value that does not change.::Helps prevent accidental modification.
+15::What is operator?::Symbol performing operations.::Arithmetic, logical, relational, assignment.
+16::What is arithmetic operator?::Performs math calculations.::+ - * / % are common examples.
+17::What is relational operator?::Compares values.::Returns boolean: >, <, ==, !=.
+18::What is logical operator?::Combines boolean expressions.::AND, OR, NOT used in conditions.
+19::What is assignment operator?::Assigns value to variable.::= is standard.
+20::What is unary operator?::Operates on single operand.::Example: -, ++, --.
+21::What is binary operator?::Operates on two operands.::Example: +, -, *, /.
+22::What is ternary operator?::Three-operand conditional operator.::Example in C: condition ? value1 : value2.
+23::What is expression?::Combination of values, variables, operators.::Evaluates to a result.
+24::What is statement?::Complete instruction.::Example: x = 5; is a statement.
+25::What is block of code?::Group of statements executed together.::Usually defined by braces {} or indentation.
+26::What is control structure?::Directs flow of execution.::Includes sequence, selection, iteration.
+27::What is sequence structure?::Statements executed one after another.::Default flow in programs.
+28::What is selection structure?::Decision-making using conditions.::if, if-else, switch used.
+29::What is iteration structure?::Repeating statements.::for, while loops implement iteration.
+30::What is if statement?::Executes code if condition is true.::Basic decision-making.
+31::What is if-else statement?::Executes one block if true, another if false.::Ensures alternative action.
+32::What is nested if?::If statements inside another if.::Used for complex conditions.
+33::What is switch-case?::Multi-way decision structure.::Alternative to multiple if-else.
+34::What is loop?::Repeats set of instructions.::Used for repetitive tasks.
+35::What is for loop?::Iterates a fixed number of times.::Uses counter or range.
+36::What is while loop?::Repeats while condition is true.::Condition evaluated before execution.
+37::What is do-while loop?::Executes at least once.::Condition checked after execution.
+38::What is break statement?::Exits loop immediately.::Used to stop iteration.
+39::What is continue statement?::Skips current iteration.::Proceeds to next iteration.
+40::What is nested loop?::Loop inside another loop.::Useful for multi-dimensional processing.
+41::What is array?::Collection of elements of same type.::Indexed sequential storage.
+42::What is 1D array?::Single dimension array.::Linear sequence of elements.
+43::What is 2D array?::Matrix-like array.::Rows and columns representation.
+44::What is index?::Position of element in array.::Starts from 0 in most languages.
+45::What is string array?::Array storing strings.::Used for multiple text entries.
+46::What is dynamic array?::Array whose size can change.::Available in languages like Python (list).
+47::What is pointer?::Variable storing memory address.::Powerful in C/C++ for memory handling.
+48::What is null pointer?::Pointer not pointing to any memory.::Prevents unintended access.
+49::What is memory allocation?::Reserving space for variables.::Static or dynamic allocation possible.
+50::What is stack memory?::LIFO memory allocation.::Local variables stored in stack.
+51::What is heap memory?::Dynamic memory allocation.::Managed manually or via garbage collection.
+52::What is function?::Block of code performing task.::Promotes reusability.
+53::What is parameter?::Input value for function.::Used to pass data.
+54::What is argument?::Actual value passed.::Matches function parameter.
+55::What is return value?::Value function sends back.::Used for further computation.
+56::What is recursion?::Function calling itself.::Needs base case to prevent infinite loop.
+57::What is iterative solution?::Uses loops instead of recursion.::Memory efficient.
+58::What is scope of variable?::Region where variable is accessible.::Local, global, or block scope.
+59::What is local variable?::Declared inside function.::Accessible only inside function.
+60::What is global variable?::Declared outside functions.::Accessible everywhere.
+61::What is static variable?::Retains value between function calls.::Defined in certain languages.
+62::What is constant variable?::Value cannot change.::Use const keyword in C/C++.
+63::What is recursion stack?::Memory for function calls.::Each call pushes data onto stack.
+64::What is stack overflow?::Exceeding stack memory.::Occurs with infinite recursion.
+65::What is debugging?::Identifying and fixing errors.::Critical for program correctness.
+66::What is syntax error?::Code violates language rules.::Caught at compile-time in compiled languages.
+67::What is runtime error?::Error during execution.::Example: division by zero.
+68::What is logical error?::Incorrect program logic.::Code runs but produces wrong output.
+69::What is exception?::Event disrupting normal flow.::Handled using try-catch or equivalent.
+70::What is try-catch?::Error handling block.::Prevents program crash.
+71::What is finally block?::Executes always.::Used for cleanup.
+72::What is data structure?::Organized data storage.::Array, list, stack, queue, tree, graph.
+73::What is stack?::LIFO data structure.::Push adds, pop removes elements.
+74::What is queue?::FIFO data structure.::Enqueue adds, dequeue removes elements.
+75::What is deque?::Double-ended queue.::Insertion and removal at both ends.
+76::What is linked list?::Nodes connected via pointers.::Dynamic memory structure.
+77::Types of linked list?::Singly, doubly, circular.::Different traversal capabilities.
+78::What is hash table?::Key-value storage.::Provides fast lookup.
+79::What is hash function?::Maps key to index.::Used in hash table.
+80::What is collision in hash table?::Two keys map to same index.::Resolved via chaining or open addressing.
+81::What is linear search?::Sequentially checks elements.::Simple but slow for large data.
+82::What is binary search?::Divides sorted array repeatedly.::Fast O(log n) search.
+83::What is sorting?::Arranging elements.::Common: bubble, selection, insertion, merge, quick.
+84::What is bubble sort?::Compare and swap adjacent elements.::Simple but inefficient O(n^2).
+85::What is selection sort?::Select min and swap.::Better than bubble for certain cases.
+86::What is insertion sort?::Insert elements in sorted position.::Efficient for nearly sorted arrays.
+87::What is merge sort?::Divide and conquer sort.::O(n log n) complexity.
+88::What is quick sort?::Partition-based divide and conquer.::Average O(n log n).
+89::What is algorithm complexity?::Time and space analysis.::Big O notation used.
+90::What is O(n)?::Linear complexity.::Time proportional to input size.
+91::What is O(1)?::Constant time.::Independent of input size.
+92::What is O(n^2)?::Quadratic complexity.::Common in nested loops.
+93::What is pseudo code?::Language-independent algorithm representation.::Helps in planning code.
+94::What is IDE?::Integrated Development Environment.::Provides editor, debugger, compiler/interpreter.
+95::What is compiler?::Converts source code to machine code.::Used in C/C++.
+96::What is interpreter?::Executes code line by line.::Used in Python, JavaScript.
+97::Difference compiler vs interpreter?::Compile all vs line-by-line.::Impacts performance and error detection.
+98::What is modular programming?::Dividing program into modules.::Improves maintainability.
+99::What is function overloading?::Same function name, different parameters.::Supported in some languages.
+100::What is function overriding?::Child redefines parent function.::Used in inheritance.
+101::What is object-oriented programming?::Programming using classes and objects.::Encourages reuse and abstraction.
+102::What is class?::Blueprint of object.::Defines attributes and methods.
+103::What is object?::Instance of class.::Represents data and behavior.
+104::What is constructor?::Method to initialize object.::Executed at creation.
+105::What is destructor?::Method called when object is destroyed.::Frees resources.
+106::What is inheritance?::Child class gets parent properties.::Promotes code reuse.
+107::Types of inheritance?::Single, multiple, multilevel, hierarchical, hybrid.::Different relationships.
+108::What is polymorphism?::Same interface, different behavior.::Achieved via method overloading/overriding.
+109::What is encapsulation?::Hiding internal details.::Use private/protected variables.
+110::What is abstraction?::Expose only essential features.::Hides complexity.
+111::What is interface?::Defines methods without implementation.::Implemented by classes.
+112::What is abstract class?::Class with abstract methods.::Cannot instantiate directly.
+113::What is static variable?::Shared among all instances.::Common in class-level data.
+114::What is local variable?::Defined in function.::Scope limited to function.
+115::What is global variable?::Accessible anywhere.::Declared outside functions.
+116::What is recursion base case?::Condition to stop recursion.::Prevents infinite recursion.
+117::What is recursion stack?::Memory storing active calls.::Each recursive call pushes frame.
+118::What is memory leak?::Memory not freed.::Problematic in languages without GC.
+119::What is garbage collection?::Automatic memory management.::Python and Java have GC.
+120::What is exception handling?::Managing runtime errors.::Prevents crashes and allows recovery.
+121::What is logical operator?::AND, OR, NOT.::Used in conditional evaluation.
+122::What is relational operator?::Compares values.::Returns boolean result.
+123::What is bitwise operator?::Manipulates bits.::AND, OR, XOR, NOT, shifts.
+124::What is conditional operator?::Ternary operator.::Short-hand for if-else.
+125::What is debugging?::Finding and fixing errors.::Use print, IDE tools, breakpoints.
+126::What is version control?::Tracking changes in code.::Git is widely used.
+127::What is branching in Git?::Separate development lines.::Supports feature isolation.
+128::What is merging in Git?::Combining branches.::Resolves conflicts.
+129::What is software lifecycle?::Stages of software development.::Requirement, design, implementation, testing, deployment, maintenance.
+130::What is testing?::Verifying program correctness.::Unit, integration, system testing.
+131::What is unit testing?::Testing smallest code units.::Ensures reliability.
+132::What is integration testing?::Testing combined modules.::Detects interface errors.
+133::What is system testing?::Testing complete system.::Validates requirements.
+134::What is white-box testing?::Tester knows internal code.::Tests logic and paths.
+135::What is black-box testing?::Tester only sees input/output.::Tests functionality.
+136::What is boundary value analysis?::Testing edge inputs.::Catches off-by-one errors.
+137::What is equivalence partitioning?::Divide input into classes.::Reduces test cases.
+138::What is debugging technique?::Print statements, breakpoints, logging.::Helps locate bug.
+139::What is pseudocode importance?::Language-independent logic.::Helps planning algorithms.
+140::What is software documentation?::Written description of program.::Assists maintenance.
+141::What is IDE advantage?::All-in-one environment.::Includes editor, debugger, compiler/interpreter.
+142::What is syntax error detection?::Compiler/interpreter identifies it.::Prevents runtime issues.
+143::What is runtime error?::Occurs during execution.::Example: divide by zero.
+144::What is logical error?::Code logic flaw.::Program runs but gives wrong output.
+145::What is program optimization?::Improving efficiency.::Reduces time/space complexity.
+146::What is code readability?::Ease of understanding.::Follows naming, indentation, comments.
+147::What is modularity?::Dividing program into modules.::Supports maintenance and testing.
+148::What is reusability?::Using code again.::Reduces duplication.
+149::What is pseudocode vs flowchart?::Text vs diagram.::Both help algorithm design.
+150::Why programming fundamentals are critical?::Foundation for advanced coding.::Ensures problem-solving and software quality.

@@ -1,200 +1,150 @@
-1:: What is cybersecurity?:: Protection of systems, networks, and data from cyber attacks
-2:: What does CIA triad stand for?:: Confidentiality, Integrity, Availability
-3:: Confidentiality ensures what?:: Data is accessible only to authorized users
-4:: Integrity ensures what?:: Data is accurate and not altered without authorization
-5:: Availability ensures what?:: Systems and data are accessible when needed
-6:: What is malware?:: Malicious software designed to harm systems
-7:: Which malware replicates itself?:: Worm
-8:: Which malware requires a host file?:: Virus
-9:: What is a Trojan?:: Malware disguised as legitimate software
-10:: What is ransomware?:: Malware that encrypts data for ransom
-11:: What is spyware?:: Malware that secretly collects user information
-12:: What is phishing?:: Fraudulent attempt to steal sensitive information
-13:: Phishing usually occurs via?:: Email
-14:: What is spear phishing?:: Targeted phishing attack
-15:: What is vishing?:: Voice-based phishing
-16:: What is smishing?:: SMS-based phishing
-17:: What is social engineering?:: Manipulating people to gain confidential information
-18:: What is authentication?:: Verifying user identity
-19:: What is authorization?:: Granting access rights
-20:: What is accounting in security?:: Tracking user activities
-21:: What does AAA stand for?:: Authentication, Authorization, Accounting
-22:: What is a firewall?:: Device that filters network traffic
-23:: Firewall works at which level?:: Network level
-24:: What is packet filtering?:: Allowing or blocking packets based on rules
-25:: What is IDS?:: Intrusion Detection System
-26:: What is IPS?:: Intrusion Prevention System
-27:: IDS is used to?:: Detect attacks
-28:: IPS is used to?:: Detect and block attacks
-29:: What is encryption?:: Converting data into unreadable format
-30:: What is decryption?:: Converting encrypted data back to original form
-31:: What is plaintext?:: Original readable data
-32:: What is ciphertext?:: Encrypted unreadable data
-33:: What is symmetric encryption?:: Same key for encryption and decryption
-34:: What is asymmetric encryption?:: Different keys for encryption and decryption
-35:: Example of symmetric encryption?:: AES
-36:: Example of asymmetric encryption?:: RSA
-37:: Which encryption is faster?:: Symmetric encryption
-38:: What is a public key?:: Key shared openly
-39:: What is a private key?:: Secret key kept by owner
-40:: What is hashing?:: One-way transformation of data
-41:: Hashing is used for?:: Password storage
-42:: Example of hash algorithm?:: SHA-256
-43:: Can hashing be reversed?:: No
-44:: What is salting?:: Adding random data to passwords
-45:: Purpose of salting?:: Prevent rainbow table attacks
-46:: What is brute force attack?:: Trying all possible passwords
-47:: What is dictionary attack?:: Using common words as passwords
-48:: What is DoS attack?:: Denial of Service
-49:: What is DDoS attack?:: Distributed Denial of Service
-50:: DDoS uses what?:: Multiple compromised systems
-51:: What is botnet?:: Network of infected computers
-52:: What is zero-day vulnerability?:: Unknown vulnerability
-53:: What is patching?:: Fixing software vulnerabilities
-54:: What is vulnerability?:: Weakness in a system
-55:: What is threat?:: Potential cause of harm
-56:: What is risk?:: Probability of threat exploiting vulnerability
-57:: What is risk assessment?:: Identifying and analyzing risks
-58:: What is access control?:: Restricting system access
-59:: Example of access control model?:: Role-Based Access Control
-60:: What is RBAC?:: Access based on user roles
-61:: What is least privilege principle?:: Minimum required access
-62:: What is multi-factor authentication?:: Using multiple verification methods
-63:: Example of MFA?:: Password + OTP
-64:: What is OTP?:: One-Time Password
-65:: What is CAPTCHA?:: Human verification test
-66:: What is VPN?:: Virtual Private Network
-67:: VPN provides what?:: Secure remote connection
-68:: What protocol is used in VPN?:: IPSec
-69:: What is SSL?:: Secure Sockets Layer
-70:: What is TLS?:: Transport Layer Security
-71:: TLS is successor of?:: SSL
-72:: HTTPS uses which protocol?:: TLS
-73:: What port does HTTPS use?:: 443
-74:: What port does HTTP use?:: 80
-75:: What is port scanning?:: Identifying open ports
-76:: Tool used for port scanning?:: Nmap
-77:: What is penetration testing?:: Authorized attack simulation
-78:: Purpose of penetration testing?:: Find security weaknesses
-79:: What is ethical hacking?:: Legal hacking to improve security
-80:: What is black hat hacker?:: Malicious hacker
-81:: What is white hat hacker?:: Ethical hacker
-82:: What is gray hat hacker?:: Mixed intent hacker
-83:: What is keylogging?:: Recording keystrokes
-84:: What is session hijacking?:: Taking over active session
-85:: What is SQL injection?:: Injecting SQL commands
-86:: SQL injection targets?:: Databases
-87:: What is XSS?:: Cross-Site Scripting
-88:: XSS targets?:: Web users
-89:: What is CSRF?:: Cross-Site Request Forgery
-90:: What is secure coding?:: Writing vulnerability-free code
-91:: What is input validation?:: Checking user input
-92:: Purpose of input validation?:: Prevent attacks
-93:: What is sandboxing?:: Isolated execution environment
-94:: What is backup?:: Copy of data
-95:: Purpose of backup?:: Data recovery
-96:: What is disaster recovery?:: Restoring systems after failure
-97:: What is business continuity?:: Maintaining operations during incidents
-98:: What is security policy?:: Rules for security practices
-99:: What is incident response?:: Handling security incidents
-100:: First step of incident response?:: Identification
-101:: What is containment?:: Limiting attack spread
-102:: What is eradication?:: Removing threat
-103:: What is recovery?:: Restoring systems
-104:: What is post-incident review?:: Lessons learned
-105:: What is logging?:: Recording system events
-106:: Purpose of logs?:: Monitoring and auditing
-107:: What is SIEM?:: Security Information and Event Management
-108:: SIEM combines?:: Logs and alerts
-109:: What is endpoint security?:: Protecting end-user devices
-110:: Example of endpoint device?:: Laptop
-111:: What is antivirus?:: Malware detection software
-112:: Antivirus uses what?:: Signature-based detection
-113:: What is heuristic analysis?:: Behavior-based detection
-114:: What is cloud security?:: Protecting cloud environments
-115:: What is shared responsibility model?:: Security shared by provider and user
-116:: What is data classification?:: Categorizing data
-117:: Example of data classification?:: Confidential
-118:: What is data leakage?:: Unauthorized data exposure
-119:: What is DLP?:: Data Loss Prevention
-120:: What is encryption at rest?:: Encrypting stored data
-121:: What is encryption in transit?:: Encrypting moving data
-122:: What is network segmentation?:: Dividing network into parts
-123:: Purpose of segmentation?:: Limit attack spread
-124:: What is MAC address?:: Unique hardware address
-125:: What is IP address?:: Network identifier
-126:: IPv4 length?:: 32-bit
-127:: IPv6 length?:: 128-bit
-128:: What is spoofing?:: Impersonating identity
-129:: Example of spoofing?:: IP spoofing
-130:: What is ARP poisoning?:: Manipulating ARP tables
-131:: What is MITM attack?:: Man-in-the-middle attack
-132:: MITM intercepts?:: Communication
-133:: What is secure boot?:: Boot integrity verification
-134:: What is BIOS?:: Basic Input Output System
-135:: What is UEFI?:: Modern BIOS replacement
-136:: What is digital signature?:: Authenticity verification
-137:: Digital signature provides?:: Integrity and non-repudiation
-138:: What is non-repudiation?:: Cannot deny action
-139:: What is compliance?:: Following regulations
-140:: Example of security standard?:: ISO 27001
-141:: What is GDPR?:: Data protection regulation
-142:: What is privacy?:: Protection of personal data
-143:: What is anonymization?:: Removing personal identifiers
-144:: What is pseudonymization?:: Replacing identifiers
-145:: What is threat modeling?:: Identifying threats
-146:: What is attack surface?:: Points of attack
-147:: What is hardening?:: Reducing vulnerabilities
-148:: What is default password risk?:: Easy compromise
-149:: What is secure password?:: Strong and complex
-150:: Minimum password length recommended?:: 8 characters
-151:: What is passphrase?:: Long password sentence
-152:: What is security awareness?:: User education
-153:: Biggest security weakness?:: Human error
-154:: What is tailgating?:: Physical access attack
-155:: What is shoulder surfing?:: Observing credentials
-156:: What is physical security?:: Protecting physical assets
-157:: Example of physical control?:: Locks
-158:: What is biometric authentication?:: Using physical traits
-159:: Example of biometric?:: Fingerprint
-160:: Biometric drawback?:: Cannot be changed
-161:: What is time-based access?:: Limited time access
-162:: What is honeypot?:: Decoy system
-163:: Purpose of honeypot?:: Attract attackers
-164:: What is threat intelligence?:: Information about threats
-165:: What is red team?:: Attack simulation team
-166:: What is blue team?:: Defense team
-167:: What is purple team?:: Red + Blue collaboration
-168:: What is cybersecurity framework?:: Structured security approach
-169:: Example of framework?:: NIST
-170:: What is NIST?:: Security standards organization
-171:: What is baseline security?:: Minimum security level
-172:: What is configuration management?:: Managing system settings
-173:: What is patch management?:: Managing updates
-174:: What is vulnerability scanning?:: Automated weakness detection
-175:: Example of vulnerability scanner?:: Nessus
-176:: What is false positive?:: Incorrect alert
-177:: What is false negative?:: Missed attack
-178:: What is threat actor?:: Entity causing threat
-179:: Example of threat actor?:: Cybercriminal
-180:: What is cyber warfare?:: Nation-state cyber attacks
-181:: What is data breach?:: Unauthorized data access
-182:: What is exfiltration?:: Data theft
-183:: What is monitoring?:: Continuous observation
-184:: What is alerting?:: Notifying incidents
-185:: What is secure configuration?:: Safe system setup
-186:: What is change management?:: Controlled changes
-187:: What is shadow IT?:: Unauthorized IT usage
-188:: Why is shadow IT risky?:: Uncontrolled security
-189:: What is endpoint detection and response?:: Advanced endpoint monitoring
-190:: What is EDR?:: Endpoint Detection and Response
-191:: What is SOC?:: Security Operations Center
-192:: SOC operates?:: 24/7 monitoring
-193:: What is log correlation?:: Linking events
-194:: What is cyber hygiene?:: Good security practices
-195:: What is privilege escalation?:: Gaining higher access
-196:: What is sandbox escape?:: Breaking isolation
-197:: What is secure API?:: Protected interface
-198:: What is rate limiting?:: Limiting requests
-199:: What is OWASP?:: Web security organization
-200:: OWASP Top 10 represents?:: Common web vulnerabilities
+1::What is Cyber Security?::Protection of systems, networks, and data from digital attacks.::Cyber security ensures confidentiality, integrity, and availability of information against unauthorized access, damage, or disruption.
+2::What are the core objectives of cyber security?::Confidentiality, Integrity, Availability (CIA Triad).::These principles ensure data is accessible only to authorized users, remains accurate, and is available when needed.
+3::What is confidentiality?::Preventing unauthorized data access.::Encryption, access control, and authentication mechanisms enforce confidentiality.
+4::What is integrity?::Ensuring data accuracy and consistency.::Hashing, checksums, and digital signatures protect integrity.
+5::What is availability?::Ensuring systems are accessible when required.::Redundancy, backups, and DoS protection help maintain availability.
+6::What is a threat?::A potential cause of security violation.::Threats include hackers, malware, insider misuse, and natural disasters.
+7::What is a vulnerability?::A weakness in a system.::Vulnerabilities can exist in software, hardware, configurations, or human behavior.
+8::What is risk?::Threat exploiting a vulnerability.::Risk is evaluated as likelihood multiplied by impact.
+9::What is an attack?::An attempt to exploit a vulnerability.::Attacks may target confidentiality, integrity, or availability.
+10::What is malware?::Malicious software.::Includes viruses, worms, trojans, ransomware, and spyware.
+11::What is a virus?::Malware that attaches to files.::Requires user action to spread.
+12::What is a worm?::Self-replicating malware.::Spreads automatically over networks.
+13::What is a trojan horse?::Malware disguised as legitimate software.::Creates backdoors or steals data.
+14::What is ransomware?::Malware that encrypts data for ransom.::Victims are forced to pay to regain access.
+15::What is spyware?::Malware that secretly collects data.::Often used for credential theft and surveillance.
+16::What is phishing?::Fraudulent attempt to steal information.::Uses fake emails or websites to trick users.
+17::What is spear phishing?::Targeted phishing attack.::Customized for a specific individual or organization.
+18::What is social engineering?::Manipulating humans to breach security.::Exploits trust rather than technical flaws.
+19::What is brute force attack?::Trying all possible passwords.::Mitigated using account lockouts and strong passwords.
+20::What is dictionary attack?::Using common passwords list.::Faster than brute force but limited.
+21::What is authentication?::Verifying user identity.::Uses passwords, biometrics, or tokens.
+22::What is authorization?::Granting access rights.::Determines what authenticated users can do.
+23::What is accounting (AAA)?::Tracking user actions.::Used for auditing and monitoring.
+24::What is multi-factor authentication?::Using multiple verification methods.::Combines something you know, have, or are.
+25::What is access control?::Restricting resource usage.::Implemented via ACLs, RBAC, or MAC.
+26::What is RBAC?::Role-Based Access Control.::Permissions assigned based on job role.
+27::What is DAC?::Discretionary Access Control.::Owner controls permissions.
+28::What is MAC?::Mandatory Access Control.::System-enforced security levels.
+29::What is encryption?::Transforming data into unreadable form.::Protects confidentiality during storage and transit.
+30::What is symmetric encryption?::Same key for encryption and decryption.::Fast but key distribution is difficult.
+31::What is asymmetric encryption?::Uses public and private keys.::Solves key exchange problem.
+32::What is AES?::Advanced Encryption Standard.::Widely used symmetric encryption algorithm.
+33::What is RSA?::Public key cryptosystem.::Used for key exchange and digital signatures.
+34::What is hashing?::One-way data transformation.::Used for integrity and password storage.
+35::What is SHA?::Secure Hash Algorithm.::Produces fixed-length hash output.
+36::What is salting?::Adding random data to passwords.::Prevents rainbow table attacks.
+37::What is digital signature?::Cryptographic proof of authenticity.::Ensures integrity and non-repudiation.
+38::What is PKI?::Public Key Infrastructure.::Manages digital certificates and trust.
+39::What is certificate authority?::Trusted certificate issuer.::Verifies identities.
+40::What is SSL/TLS?::Secure communication protocol.::Encrypts data between client and server.
+41::What is HTTPS?::Secure HTTP using TLS.::Protects web traffic.
+42::What is firewall?::Network traffic filtering device.::Enforces security rules.
+43::What is packet filtering firewall?::Filters based on headers.::Fast but limited inspection.
+44::What is stateful firewall?::Tracks connection states.::More secure than stateless.
+45::What is application firewall?::Inspects application data.::Protects against web attacks.
+46::What is IDS?::Intrusion Detection System.::Detects suspicious activity.
+47::What is IPS?::Intrusion Prevention System.::Detects and blocks attacks.
+48::What is SIEM?::Security Information and Event Management.::Centralized log analysis.
+49::What is vulnerability scanning?::Automated weakness detection.::Identifies known flaws.
+50::What is penetration testing?::Simulated cyber attack.::Validates real-world security.
+51::What is black-box testing?::No internal knowledge.::Simulates external attacker.
+52::What is white-box testing?::Full internal knowledge.::Deep security analysis.
+53::What is gray-box testing?::Partial knowledge testing.::Balanced approach.
+54::What is zero-day vulnerability?::Unknown vulnerability.::Highly dangerous before patching.
+55::What is patch management?::Updating systems securely.::Fixes vulnerabilities.
+56::What is secure boot?::Boot integrity verification.::Prevents malicious startup code.
+57::What is sandboxing?::Isolated execution environment.::Limits damage from malware.
+58::What is data loss prevention?::Preventing data leakage.::Monitors sensitive data movement.
+59::What is backup?::Data copy for recovery.::Protects against loss and ransomware.
+60::What is disaster recovery?::Restoring systems after failure.::Ensures business continuity.
+61::What is business continuity plan?::Maintaining operations during crisis.::Minimizes downtime.
+62::What is DoS attack?::Service disruption attack.::Overloads system resources.
+63::What is DDoS attack?::Distributed DoS attack.::Multiple attack sources.
+64::What is botnet?::Network of infected machines.::Used for large-scale attacks.
+65::What is man-in-the-middle attack?::Intercepting communication.::Breaks confidentiality and integrity.
+66::What is session hijacking?::Taking over user session.::Steals authentication tokens.
+67::What is XSS?::Cross-Site Scripting attack.::Injects malicious scripts into web pages.
+68::What is SQL injection?::Malicious SQL execution.::Exploits input validation flaws.
+69::What is CSRF?::Cross-Site Request Forgery.::Forces unauthorized actions.
+70::What is input validation?::Checking user input.::Prevents injection attacks.
+71::What is secure coding?::Writing safe software.::Reduces vulnerabilities.
+72::What is code review?::Manual code inspection.::Finds security flaws early.
+73::What is static analysis?::Analyzing code without execution.::Detects vulnerabilities early.
+74::What is dynamic analysis?::Analyzing running application.::Finds runtime issues.
+75::What is sandbox evasion?::Avoiding detection.::Used by advanced malware.
+76::What is rootkit?::Stealthy malware.::Hides attacker presence.
+77::What is privilege escalation?::Gaining higher permissions.::Exploits system flaws.
+78::What is insider threat?::Risk from trusted users.::Hard to detect.
+79::What is logging?::Recording system events.::Essential for audits.
+80::What is auditing?::Reviewing logs and controls.::Ensures compliance.
+81::What is non-repudiation?::Cannot deny actions.::Achieved using digital signatures.
+82::What is tokenization?::Replacing sensitive data.::Reduces exposure.
+83::What is HSM?::Hardware Security Module.::Protects cryptographic keys.
+84::What is key management?::Handling cryptographic keys.::Ensures secure lifecycle.
+85::What is secure key storage?::Protecting encryption keys.::Critical for crypto strength.
+86::What is password policy?::Rules for passwords.::Improves authentication security.
+87::What is password hashing?::Storing hashed passwords.::Prevents plaintext exposure.
+88::What is rainbow table?::Precomputed hash table.::Used to crack passwords.
+89::What is biometric authentication?::Using physical traits.::Examples include fingerprints.
+90::What is token-based authentication?::Using physical or digital tokens.::Enhances security.
+91::What is OAuth?::Authorization framework.::Used for delegated access.
+92::What is SSO?::Single Sign-On.::One login for multiple services.
+93::What is cloud security?::Protecting cloud resources.::Shared responsibility model.
+94::What is shared responsibility model?::Security division in cloud.::Provider and customer roles.
+95::What is data classification?::Categorizing data sensitivity.::Defines protection level.
+96::What is least privilege?::Minimal required access.::Reduces attack impact.
+97::What is defense in depth?::Multiple security layers.::No single point of failure.
+98::What is honeypot?::Decoy system.::Attracts attackers for study.
+99::What is threat intelligence?::Information about threats.::Improves proactive defense.
+100::What is cyber kill chain?::Attack lifecycle model.::Helps detect attack stages.
+101::What is reconnaissance?::Information gathering phase.::First attack stage.
+102::What is exploitation?::Using vulnerabilities.::Gains access.
+103::What is lateral movement?::Spreading within network.::Escalates impact.
+104::What is exfiltration?::Stealing data.::Final attack objective.
+105::What is secure network design?::Security-focused architecture.::Minimizes exposure.
+106::What is network segmentation?::Dividing network zones.::Limits attack spread.
+107::What is zero trust model?::Never trust, always verify.::Modern security approach.
+108::What is endpoint security?::Protecting user devices.::Includes antivirus and EDR.
+109::What is EDR?::Endpoint Detection and Response.::Advanced threat detection.
+110::What is antivirus?::Malware detection software.::Signature and heuristic based.
+111::What is heuristic analysis?::Behavior-based detection.::Finds unknown malware.
+112::What is sandbox malware analysis?::Executing malware safely.::Studies behavior.
+113::What is digital forensics?::Investigating cyber incidents.::Collects legal evidence.
+114::What is chain of custody?::Evidence handling record.::Maintains integrity.
+115::What is incident response?::Handling security breaches.::Includes detection and recovery.
+116::What is incident response plan?::Predefined response steps.::Reduces chaos.
+117::What is containment?::Limiting damage.::Stops attack spread.
+118::What is eradication?::Removing threat.::Eliminates attacker presence.
+119::What is recovery?::Restoring services.::Returns to normal operation.
+120::What is post-incident analysis?::Review after attack.::Improves future defense.
+121::What is compliance?::Meeting regulations.::Examples include ISO and GDPR.
+122::What is ISO 27001?::Information security standard.::Defines ISMS framework.
+123::What is GDPR?::Data protection regulation.::Protects personal data.
+124::What is privacy by design?::Built-in privacy controls.::Proactive protection.
+125::What is data masking?::Obscuring sensitive data.::Used in testing.
+126::What is secure API?::Protected application interface.::Uses authentication and encryption.
+127::What is rate limiting?::Restricting request frequency.::Prevents abuse.
+128::What is CAPTCHA?::Human verification test.::Stops automated attacks.
+129::What is secure authentication protocol?::Protected login mechanism.::Prevents credential theft.
+130::What is Kerberos?::Network authentication protocol.::Uses tickets.
+131::What is NTLM?::Microsoft authentication protocol.::Older and weaker than Kerberos.
+132::What is wireless security?::Protecting Wi-Fi networks.::Uses encryption and authentication.
+133::What is WPA2/WPA3?::Wi-Fi security standards.::Encrypt wireless traffic.
+134::What is evil twin attack?::Fake Wi-Fi hotspot.::Steals credentials.
+135::What is MAC filtering?::Allowing known devices.::Weak security control.
+136::What is security awareness training?::Educating users.::Reduces human risk.
+137::What is cyber hygiene?::Good security practices.::Regular updates and backups.
+138::What is attack surface?::All possible entry points.::Smaller surface is safer.
+139::What is threat modeling?::Identifying threats early.::Used during design.
+140::What is secure SDLC?::Security in development lifecycle.::Shifts security left.
+141::What is DevSecOps?::Security integrated into DevOps.::Automated security.
+142::What is code signing?::Verifying software integrity.::Prevents tampering.
+143::What is supply chain attack?::Compromised vendor.::Hard to detect.
+144::What is firmware security?::Protecting low-level code.::Critical for hardware trust.
+145::What is secure deletion?::Permanent data removal.::Prevents recovery.
+146::What is cyber resilience?::Ability to withstand attacks.::Focuses on recovery.
+147::What is attack attribution?::Identifying attacker.::Difficult but important.
+148::What is cyber warfare?::State-sponsored attacks.::Targets critical infrastructure.
+149::What is ethical hacking?::Authorized security testing.::Improves defense.
+150::Why is cyber security important?::Protects digital society.::Essential for trust, safety, and stability.

@@ -1,190 +1,150 @@
-1::What is the difference between compiled and interpreted languages?::Compiled languages are converted into machine code before execution; interpreted languages are executed line by line by an interpreter.
-2::What is object-oriented programming (OOP)?::A programming paradigm based on objects that encapsulate data and behavior.
-3::What are the four main principles of OOP?::Encapsulation, Abstraction, Inheritance, and Polymorphism.
-4::Which of the following is NOT a principle of OOP?::Modularity (correct answer; the main principles are Encapsulation, Abstraction, Inheritance, Polymorphism)
-5::What is encapsulation in OOP?::Encapsulation is the concept of hiding internal details of a class and exposing only necessary parts through public methods.
-6::What is abstraction in OOP?::Abstraction is the process of exposing only essential features of an object while hiding implementation details.
-7::What is inheritance in OOP?::Inheritance allows a class (child/subclass) to acquire properties and methods of another class (parent/superclass).
-8::What is polymorphism in OOP?::Polymorphism allows objects of different classes to be treated as objects of a common superclass, mainly through method overriding and overloading.
-9::What is method overloading?::Method overloading is having multiple methods in the same class with the same name but different parameters.
-10::What is method overriding?::Method overriding is redefining a method of a parent class in the child class with the same signature.
-11::What is the difference between an abstract class and an interface?::An abstract class can have method implementations and fields; an interface only declares methods (Java before Java 8) and constants.
-12::Can a class implement multiple interfaces?::Yes, a class can implement multiple interfaces.
-13::Can a class inherit from multiple classes?::No, most languages like Java don’t support multiple class inheritance directly (C++ does via multiple inheritance).
-14::What is a constructor?::A constructor is a special method used to initialize objects when they are created.
-15::What is a destructor?::A destructor is a special method that is invoked when an object is destroyed to release resources.
-16::What is the difference between a class and an object?::A class is a blueprint for objects; an object is an instance of a class.
-17::What is the difference between static and instance methods?::Static methods belong to the class, while instance methods belong to objects of the class.
-18::What is the difference between instance variables and class variables?::Instance variables are specific to an object; class (static) variables are shared across all instances of the class.
-19::What is a final variable in Java?::A final variable cannot be modified once it is initialized.
-20::What is the difference between a shallow copy and a deep copy?::A shallow copy copies object references, while a deep copy copies the actual objects recursively.
-21::What is the difference between composition and inheritance?::Inheritance represents “is-a” relationship; composition represents “has-a” relationship.
-22::What is the difference between an interface and a pure virtual class in C++?::A pure virtual class in C++ has at least one pure virtual function and cannot be instantiated; an interface is conceptually similar but used in languages like Java/C#.
-23::What is multiple inheritance?::Multiple inheritance is when a class inherits from more than one parent class.
-24::What is the difference between private, protected, and public access modifiers?::Private: accessible only in the class, Protected: accessible in class and subclasses, Public: accessible everywhere.
-25::What is dynamic binding?::Dynamic binding is when the method to be invoked is determined at runtime based on the object type.
-26::What is static binding?::Static binding is when the method to be invoked is determined at compile-time.
-27::What is an abstract method?::An abstract method is a method declared without implementation; subclasses must provide its implementation.
-28::What is a singleton class?::A singleton class allows only one instance of the class to be created.
-29::What is the difference between aggregation and composition?::Aggregation is a weak “has-a” relationship where parts can exist independently; composition is a strong “has-a” relationship where parts cannot exist independently.
-30::What is the use of the “this” keyword?::“this” refers to the current object of the class.
-31::What is the difference between overriding and hiding (in Java)?::Overriding happens with instance methods and is determined at runtime; hiding happens with static methods and is determined at compile-time.
-32::What is a nested class?::A class defined inside another class.
-33::What is an inner class in Java?::An inner class is a non-static nested class that has access to the members of its outer class.
-34::What is a local class?::A class defined within a method.
-35::What is an anonymous class?::A class without a name, usually used to provide a quick implementation of an interface or class.
-36::What is the difference between interface and abstract class in C#?::Abstract class can have fields, constructors, and method implementations; interface only declares methods (C# allows default methods in recent versions).
-37::What is the difference between early binding and late binding?::Early binding occurs at compile-time; late binding occurs at runtime.
-38::What is a property in C#?::A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field.
-39::What is a getter method?::A getter method is used to retrieve the value of a private variable.
-40::What is a setter method?::A setter method is used to set the value of a private variable.
-41::What is operator overloading?::Operator overloading allows predefined operators to be redefined for user-defined types.
-42::Which operators cannot be overloaded in C++?::The scope (::), sizeof, member selector (.), pointer-to-member selector (.*), and ternary (?:) operators cannot be overloaded.
-43::What is a pure virtual function?::A pure virtual function is declared by assigning 0 to it and must be overridden in derived classes.
-44::What is a virtual function?::A virtual function allows derived classes to override it for runtime polymorphism.
-45::What is the difference between virtual and pure virtual functions?::Virtual functions may have a body; pure virtual functions have no body and force derived classes to implement them.
-46::What is the use of the “super” keyword?::“super” is used to access the parent class’s members or constructor.
-47::What is a static block in Java?::A static block is executed when the class is loaded into memory, often used for initialization.
-48::What is final, finally, and finalize in Java?::final: constant or method/class cannot be overridden; finally: block executed regardless of exceptions; finalize(): method invoked by garbage collector before object destruction.
-49::What is method signature?::Method signature consists of method name and parameter types (return type is not part of signature in Java).
-50::What is the difference between interface and delegate in C#?::Interface defines a contract of methods; delegate defines a type-safe method reference.
-51::What is a delegate in C#?::A delegate is a type-safe object that points to a method, allowing methods to be passed as parameters.
-52::What is an event in C#?::An event is a message sent by an object to signal the occurrence of an action, usually handled via delegates.
-53::What is the difference between an array and an ArrayList in Java?::Array has fixed size; ArrayList is dynamic in size and allows object insertion/removal.
-54::What is the difference between LinkedList and ArrayList?::ArrayList uses dynamic arrays, providing fast random access; LinkedList uses nodes, allowing faster insertion/deletion.
-55::What is a constructor overloading?::Having multiple constructors in the same class with different parameter lists.
-56::What is a copy constructor?::A constructor that initializes a new object as a copy of an existing object.
-57::What is the difference between stack and heap memory?::Stack memory stores local variables and function calls; heap memory stores objects and dynamic allocations.
-58::What is the difference between == and equals() in Java?::== compares object references; equals() compares object content (logical equality).
-59::What is the difference between “==” and “===” in JavaScript?::== compares values with type coercion; === compares values and types strictly.
-60::What is a closure in programming?::A closure is a function that has access to variables from its outer (enclosing) scope even after the outer function has finished execution.
-61::What is the difference between function overloading and function overriding?::Overloading: same function name, different parameters in the same class; Overriding: same function signature in child class to replace parent behavior.
-62::What is a friend function in C++?::A friend function can access private and protected members of a class but is not a member of the class.
-63::What is the difference between composition and aggregation in OOP?::Composition: strong ownership, part cannot exist without whole; Aggregation: weak ownership, part can exist independently.
-64::What is the difference between mutable and immutable objects?::Mutable objects can be modified after creation; immutable objects cannot.
-65::What is the difference between final, finally, and finalize?::final: constant or method/class cannot be overridden; finally: block executed regardless of exceptions; finalize(): method called by garbage collector before object destruction.
-66::What is dynamic polymorphism?::Polymorphism achieved at runtime via method overriding.
-67::What is static polymorphism?::Polymorphism achieved at compile-time via method overloading or operator overloading.
-68::What is the difference between interface and abstract class in Java 8?::Interfaces can have default and static methods; abstract classes can have fields, constructors, and concrete methods.
-69::What is a static method?::A method that belongs to the class rather than any instance and can be called without creating an object.
-70::What is a virtual method?::A method that can be overridden in derived classes to achieve runtime polymorphism.
-71::What is a pure virtual function in C++?::A virtual function with no implementation, declared by assigning 0, must be overridden in derived classes.
-72::What is method hiding?::Method hiding occurs when a subclass defines a static method with the same signature as in the parent class; the parent method is hidden.
-73::What is multiple polymorphism?::Multiple polymorphism can be achieved via multiple interfaces or operator overloading.
-74::What is the difference between shallow copy and deep copy?::Shallow copy copies references; deep copy copies objects recursively.
-75::What is an immutable class?::A class whose objects cannot be modified after creation; all fields are final and private.
-76::What is the difference between heap and stack memory in C++?::Stack: automatic memory allocation for function calls; Heap: dynamic memory allocation using new/delete.
-77::What is method overriding in C++?::Defining a method in the child class with the same signature as the parent class to replace its behavior.
-78::What is the difference between class and struct in C++?::Class members are private by default; struct members are public by default; otherwise similar.
-79::What is the difference between a pure interface and an abstract class in C++?::A pure interface only has pure virtual functions; an abstract class may have concrete methods and fields.
-80::What is the purpose of the 'final' keyword in Java?::To declare constants, prevent method overriding, and prevent inheritance of a class.
-81::What is an object?::An object is an instance of a class containing state (fields) and behavior (methods).
-82::What is a class?::A class is a blueprint for creating objects.
-83::What is encapsulation?::Encapsulation is the technique of keeping data (fields) private and exposing behavior (methods) to access it safely.
-84::What is inheritance?::Inheritance is the mechanism where a class derives properties and behavior from another class.
-85::What is polymorphism?::Polymorphism is the ability of an object to take many forms, mainly via method overloading or overriding.
-86::What is abstraction?::Abstraction is the process of hiding implementation details and exposing only essential features.
-87::What is the difference between interface and abstract class?::Interface: cannot have instance variables, only method declarations (Java pre-8); Abstract class: can have fields and concrete methods.
-88::What is the difference between procedural and object-oriented programming?::Procedural programming focuses on procedures/functions; OOP focuses on objects encapsulating state and behavior.
-89::What is the difference between mutable and immutable objects in Java?::Mutable objects can change state; immutable objects cannot change after creation (e.g., String).
-90::What is the difference between an instance method and a class (static) method?::Instance methods require an object to be invoked; static methods belong to the class.
-91::What is the difference between overloading and overriding?::Overloading: same method name, different parameters; Overriding: same method signature in child class replaces parent method.
-92::What is the difference between an interface and a class in Java?::Interface defines only methods (pre-Java 8), cannot be instantiated; Class can have fields and methods, can be instantiated.
-93::What is an inner class?::A class defined within another class, which can access members of the outer class.
-94::What is a nested class?::A class defined inside another class; can be static or non-static (inner class).
-95::What is a local class?::A class defined within a method or block.
-96::What is an anonymous class?::A class without a name, usually created for quick implementation of an interface or abstract class.
-97::What is the difference between 'this' and 'super'?::'this' refers to the current object; 'super' refers to the parent class object or constructor.
-98::What is a constructor?::A special method called when an object is created to initialize its state.
-99::What is a destructor?::A special method called when an object is destroyed to release resources.
-100::What is the difference between public, private, and protected?::Public: accessible anywhere; Private: accessible only within the class; Protected: accessible within class and subclasses.
-101::What is method overloading?::Defining multiple methods with the same name but different parameters in the same class.
-102::What is method overriding?::Redefining a method in the subclass with the same signature as in the parent class.
-103::What is the difference between early binding and late binding?::Early binding occurs at compile time; late binding occurs at runtime (dynamic polymorphism).
-104::What is an abstract method?::A method declared without implementation; subclasses must override it.
-105::What is a virtual method?::A method in the base class that can be overridden in derived classes to achieve runtime polymorphism.
-106::What is operator overloading?::Providing a new implementation for existing operators for user-defined types.
-107::Which operators cannot be overloaded in C++?::Scope (::), sizeof, member selector (.), pointer-to-member selector (.*), ternary (?:).
-108::What is a static variable?::A variable shared among all objects of a class; belongs to the class rather than instance.
-109::What is a static method?::A method that can be called without creating an object, belongs to the class.
-110::What is dynamic memory allocation?::Allocating memory at runtime using operators like 'new' in C++ or 'malloc' in C.
-111::What is a pure virtual function?::A virtual function with no implementation, must be overridden in derived classes.
-112::What is multiple inheritance?::A class inheriting from more than one base class.
-113::What is hierarchical inheritance?::One base class is inherited by multiple subclasses.
-114::What is multilevel inheritance?::Inheritance chain where a class inherits from a class that itself inherits from another.
-115::What is hybrid inheritance?::A combination of two or more types of inheritance.
-116::What is encapsulation in C++?::Encapsulation is keeping data private and exposing functions to manipulate it.
-117::What is a getter method?::A method used to read the value of a private variable.
-118::What is a setter method?::A method used to set the value of a private variable.
-119::What is the difference between shallow copy and deep copy?::Shallow copy copies references; deep copy copies actual objects recursively.
-120::What is the use of the 'final' keyword in Java?::To prevent inheritance, method overriding, or to declare constants.
-121::What is a singleton class?::A class designed to allow only one instance of itself.
-122::What is the difference between interface and abstract class in C#?::Abstract class: fields, constructors, concrete methods; Interface: only method declarations (can have default methods in recent C#).
-123::What is a property in C#?::A member that provides a flexible mechanism to read, write, or compute the value of a private field.
-124::What is the difference between static and instance variables?::Static variables are shared across all objects; instance variables are unique to each object.
-125::What is dynamic binding in Java?::Method to be invoked is determined at runtime based on the object type.
-126::What is static binding in Java?::Method to be invoked is determined at compile-time.
-127::What is a final method?::A method that cannot be overridden by subclasses.
-128::What is a final class?::A class that cannot be inherited.
-129::What is the difference between abstract class and interface in Java?::Abstract class can have instance variables and methods; Interface only declares methods (pre-Java 8).
-130::What is the difference between abstract class and interface in C#?::Abstract class can have constructors and fields; Interface defines method signatures and default methods in recent C#.
-131::What is the difference between C++ struct and class?::Struct members are public by default; Class members are private by default.
-132::What is method hiding in C++?::Redefining a static method in subclass that hides the same method in base class.
-133::What is a virtual destructor?::A destructor in base class declared virtual to ensure derived class destructor is called during deletion.
-134::What is the difference between '==' and 'equals()' in Java?::'==' compares references; equals() compares content.
-135::What is a static block in Java?::Block executed once when class is loaded, used for initialization.
-136::What is a static import in Java?::Allows accessing static members of a class without class name prefix.
-137::What is the difference between String, StringBuilder, and StringBuffer in Java?::String is immutable; StringBuilder is mutable, not synchronized; StringBuffer is mutable and synchronized.
-138::What is a checked exception in Java?::An exception that must be either caught or declared in the method signature.
-139::What is an unchecked exception in Java?::An exception that does not need to be declared or caught, e.g., RuntimeException.
-140::What is the difference between throw and throws in Java?::throw: used to throw an exception; throws: declares exceptions a method may throw.
-141::What is the difference between 'this()' and 'super()'?::this(): calls another constructor in the same class; super(): calls parent class constructor.
-142::What is the difference between instance initializer and static initializer?::Instance initializer runs when an object is created; static initializer runs when class is loaded.
-143::What is the difference between function pointer and delegate?::Function pointer is unsafe and type-unsafe in C++; delegate is type-safe and object-oriented in C#.
-144::What is the difference between early binding and late binding in C#?::Early binding: compiler knows the type; late binding: resolved at runtime using reflection or dynamic types.
-145::What is the difference between const, readonly, and static in C#?::const: compile-time constant; readonly: runtime constant, can be assigned in constructor; static: belongs to class, shared across objects.
-146::What is an interface in C#?::A contract that defines methods and properties that a class must implement.
-147::What is a sealed class in C#?::A class that cannot be inherited.
-148::What is the difference between static class and singleton class?::Static class: only static members, cannot instantiate; Singleton class: only one instance can exist, can have instance members.
-149::What is a partial class in C#?::A class split across multiple files, compiled together as a single class.
-150::What is the difference between abstract class and sealed class?::Abstract class: cannot instantiate, meant for inheritance; Sealed class: cannot be inherited.
-151::What is a namespace in C#?::A container that organizes classes, interfaces, and functions to avoid name collisions.
-152::What is an assembly in .NET?::A compiled code library (DLL or EXE) containing types and resources.
-153::What is boxing in C#?::Converting a value type to a reference type.
-154::What is unboxing in C#?::Converting a reference type back to a value type.
-155::What is a delegate chain?::Combining multiple delegates so that all methods are invoked sequentially.
-156::What is covariance in C#?::Ability to use a more derived type than originally specified (mainly with return types).
-157::What is contravariance in C#?::Ability to use a less derived type than originally specified (mainly with method parameters).
-158::What is the difference between virtual, abstract, and override keywords in C#?::Virtual: can be overridden; Abstract: must be overridden; Override: overrides a virtual/abstract method.
-159::What is an extension method in C#?::A static method that can be called as if it were an instance method of a class.
-160::What is reflection in C#?::Ability to inspect assemblies, types, and members at runtime.
-161::What is serialization?::Process of converting an object into a byte stream for storage or transmission.
-162::What is deserialization?::Process of converting a byte stream back into an object.
-163::What is the difference between deep cloning and shallow cloning?::Shallow clone copies object references; deep clone copies objects recursively.
-164::What is the difference between composition and inheritance?::Inheritance: “is-a” relationship; Composition: “has-a” relationship.
-165::What is the difference between synchronous and asynchronous methods?::Synchronous: runs sequentially; Asynchronous: allows tasks to run independently and not block execution.
-166::What is the difference between an abstract class and interface in Java 9+?::Abstract class: fields, constructors, concrete methods; Interface: can have default and static methods.
-167::What is the difference between virtual and non-virtual methods?::Virtual: can be overridden at runtime; Non-virtual: bound at compile-time.
-168::What is a method reference in Java 8?::A shorthand syntax to refer to a method without invoking it.
-169::What is a lambda expression in Java?::An anonymous function that can be passed as a parameter to a method.
-170::What is the difference between lambda expression and anonymous class?::Lambda: shorter syntax, cannot declare constructors; Anonymous class: full class syntax.
-171::What is a functional interface in Java?::An interface with a single abstract method.
-172::What is the difference between Function, Consumer, and Supplier in Java?::Function: takes input, returns output; Consumer: takes input, returns nothing; Supplier: takes nothing, returns output.
-173::What is the difference between method reference and lambda expression?::Method reference refers to an existing method; lambda defines inline behavior.
-174::What is the difference between Comparable and Comparator in Java?::Comparable: defines natural ordering, implemented in class; Comparator: defines custom ordering, external class.
-175::What is the difference between abstract class and interface in Java?::Abstract class: can have fields and concrete methods; Interface: only method declarations and constants (Java pre-8).
-176::What is the difference between public, protected, default, and private access modifiers in Java?::Public: accessible everywhere; Protected: accessible in package and subclasses; Default: package-private; Private: class only.
-177::What is the difference between stack memory and heap memory?::Stack: stores local variables, function calls; Heap: stores objects, dynamic memory allocation.
-178::What is the difference between checked and unchecked exceptions in Java?::Checked: must be declared or handled; Unchecked: runtime exceptions, need not be handled.
-179::What is the difference between abstract method and concrete method?::Abstract: no implementation, must be overridden; Concrete: has implementation.
-180::What is the difference between this() and super()?::this(): calls another constructor in same class; super(): calls parent constructor.
-181::What is the difference between final, finally, and finalize()?::final: constant/prevents overriding; finally: block always executed; finalize(): called before object destruction.
-182::What is the difference between string literal and String object in Java?::Literal: stored in string pool; Object: created with new keyword, stored in heap.
-183::What is the difference between == and equals()?::==: reference equality; equals(): content equality.
-184::What is the difference between overloading and overriding?::Overloading: compile-time polymorphism; Overriding: runtime polymorphism.
-185::What is the difference between abstract class and concrete class?::Abstract: cannot instantiate, may have abstract methods; Concrete: fully implemented, can instantiate.
-186::What is the difference between shallow copy and deep copy?::Shallow copy copies references; deep copy copies the objects recursively.
-187::What is the difference between interface and abstract class?::Interface: only method declarations and constants; Abstract class: can have fields, constructors, and methods.
-188::What is the difference between mutable and immutable objects?::Mutable objects can change state; immutable cannot.
-189::What is the difference between dynamic and static polymorphism?::Dynamic: runtime polymorphism via overriding; Static: compile-time polymorphism via overloading.
-190::What is the difference between single inheritance, multiple inheritance, multilevel inheritance?::Single: one base class; Multiple: more than one base class; Multilevel: chain of
+1::What is Object Oriented Programming?::A programming paradigm based on objects and classes.::OOP models real-world entities using data and behavior together.
+2::What is an object?::An instance of a class.::Objects represent real-world entities with state and behavior.
+3::What is a class?::A blueprint for creating objects.::Defines properties and methods.
+4::What are the four pillars of OOP?::Encapsulation, Abstraction, Inheritance, Polymorphism.::They define core OOP behavior.
+5::What is encapsulation?::Binding data and methods together.::Protects data using access control.
+6::How is encapsulation achieved?::Using access specifiers.::Controls visibility of members.
+7::What is abstraction?::Hiding implementation details.::Shows only essential features.
+8::How is abstraction implemented?::Using abstract classes or interfaces.::Forces implementation of required methods.
+9::What is inheritance?::Acquiring properties of another class.::Promotes code reuse.
+10::What is polymorphism?::One interface, multiple implementations.::Allows method overriding and overloading.
+11::What is compile-time polymorphism?::Method overloading.::Resolved at compile time.
+12::What is runtime polymorphism?::Method overriding.::Resolved at runtime.
+13::What is method overloading?::Same method name, different parameters.::Improves readability.
+14::What is method overriding?::Redefining parent class method.::Achieves runtime polymorphism.
+15::What is dynamic binding?::Method call resolved at runtime.::Supports polymorphism.
+16::What is static binding?::Method call resolved at compile time.::Occurs with overloading.
+17::What is an interface?::A contract with abstract methods.::Supports multiple inheritance.
+18::What is an abstract class?::Class with abstract methods.::Cannot be instantiated.
+19::Difference between abstract class and interface?::Abstract class can have implementation; interface cannot.::Design flexibility difference.
+20::What is constructor?::Special method to initialize object.::Runs automatically during object creation.
+21::What is destructor?::Method to free resources.::Called when object is destroyed.
+22::What is default constructor?::Constructor with no parameters.::Provides default initialization.
+23::What is parameterized constructor?::Constructor with parameters.::Initializes object with values.
+24::What is copy constructor?::Creates object from another object.::Used in C++ for deep copying.
+25::What is constructor overloading?::Multiple constructors in a class.::Allows different initialization.
+26::What is this keyword?::Reference to current object.::Resolves naming conflicts.
+27::What is super keyword?::Refers to parent class.::Accesses superclass members.
+28::What is access specifier?::Defines member visibility.::Examples: public, private, protected.
+29::What is private access?::Accessible within class only.::Ensures data security.
+30::What is protected access?::Accessible in same package or subclass.::Supports inheritance.
+31::What is public access?::Accessible everywhere.::No restrictions.
+32::What is data hiding?::Restricting direct data access.::Achieved via encapsulation.
+33::What is data abstraction?::Exposing only relevant details.::Simplifies usage.
+34::What is multiple inheritance?::Inheriting from multiple classes.::Supported in C++ via interfaces.
+35::Why Java does not support multiple inheritance?::To avoid diamond problem.::Ambiguity prevention.
+36::What is diamond problem?::Ambiguity in multiple inheritance.::Occurs when two parents have same method.
+37::What is virtual function?::Function overridden in derived class.::Supports runtime polymorphism.
+38::What is virtual destructor?::Ensures proper object cleanup.::Important in inheritance.
+39::What is base class?::Parent class.::Provides common functionality.
+40::What is derived class?::Child class.::Inherits from base class.
+41::What is object slicing?::Loss of derived object data.::Occurs in C++ assignment.
+42::What is final keyword?::Prevents modification.::Used for classes and methods.
+43::What is static keyword?::Belongs to class, not object.::Shared among instances.
+44::What is static method?::Method without object instance.::Called using class name.
+45::What is static variable?::Shared variable across objects.::Single memory allocation.
+46::What is const keyword?::Prevents value modification.::Ensures immutability.
+47::What is immutable object?::Object whose state cannot change.::Examples include String in Java.
+48::What is deep copy?::Copies actual object data.::Independent memory allocation.
+49::What is shallow copy?::Copies object references.::Shared memory risk.
+50::What is object cloning?::Creating exact object copy.::Uses clone method.
+51::What is garbage collection?::Automatic memory management.::Reclaims unused memory.
+52::What is memory leak?::Unused memory not released.::Leads to performance issues.
+53::What is heap memory?::Dynamic memory allocation area.::Objects stored here.
+54::What is stack memory?::Function call storage.::Fast access memory.
+55::What is composition?::Has-a relationship.::Stronger than aggregation.
+56::What is aggregation?::Weak has-a relationship.::Objects exist independently.
+57::Difference between composition and inheritance?::Composition is flexible.::Favors loose coupling.
+58::What is association?::General relationship between objects.::No ownership.
+59::What is UML?::Unified Modeling Language.::Used for system design.
+60::What is class diagram?::UML representation of classes.::Shows attributes and methods.
+61::What is object diagram?::Runtime instance representation.::Shows object relationships.
+62::What is sequence diagram?::Interaction flow diagram.::Shows message sequence.
+63::What is dependency?::One class uses another.::Temporary relationship.
+64::What is cohesion?::Degree of module focus.::High cohesion is desirable.
+65::What is coupling?::Interdependency between modules.::Low coupling is better.
+66::What is tight coupling?::High dependency.::Hard to maintain.
+67::What is loose coupling?::Low dependency.::Improves flexibility.
+68::What is SOLID?::Five OOP design principles.::Improves maintainability.
+69::What is Single Responsibility Principle?::One reason to change.::Each class has one job.
+70::What is Open-Closed Principle?::Open for extension, closed for modification.::Supports scalability.
+71::What is Liskov Substitution Principle?::Subclasses replace base class.::Ensures correct inheritance.
+72::What is Interface Segregation Principle?::Small focused interfaces.::Avoids unused methods.
+73::What is Dependency Inversion Principle?::Depend on abstractions.::Reduces coupling.
+74::What is design pattern?::Reusable design solution.::Solves common problems.
+75::What is Singleton pattern?::Single instance class.::Controls object creation.
+76::What is Factory pattern?::Object creation abstraction.::Decouples instantiation.
+77::What is Abstract Factory?::Factory of factories.::Creates related objects.
+78::What is Builder pattern?::Step-by-step object creation.::Handles complex objects.
+79::What is Prototype pattern?::Object cloning pattern.::Avoids costly creation.
+80::What is Adapter pattern?::Interface compatibility pattern.::Bridges incompatible interfaces.
+81::What is Decorator pattern?::Adds behavior dynamically.::Extends functionality.
+82::What is Observer pattern?::One-to-many dependency.::Used in event handling.
+83::What is Strategy pattern?::Encapsulated algorithms.::Runtime behavior selection.
+84::What is MVC?::Model-View-Controller architecture.::Separates concerns.
+85::What is exception?::Runtime error.::Disrupts normal flow.
+86::What is exception handling?::Managing runtime errors.::Improves reliability.
+87::What is try-catch block?::Exception handling construct.::Catches errors.
+88::What is finally block?::Always executed block.::Used for cleanup.
+89::What is checked exception?::Compile-time exception.::Must be handled.
+90::What is unchecked exception?::Runtime exception.::Optional handling.
+91::What is polymorphic behavior?::Different responses to same call.::Core OOP benefit.
+92::What is virtual table?::Function lookup table.::Used in runtime polymorphism.
+93::What is RTTI?::Run-Time Type Information.::Identifies object type.
+94::What is namespace?::Logical grouping of identifiers.::Avoids name conflicts.
+95::What is friend function?::Access private members.::C++ specific feature.
+96::What is operator overloading?::Redefining operators.::Improves readability.
+97::What is method hiding?::Static method redefinition.::Occurs in Java.
+98::What is shadowing?::Variable name conflict.::Inner scope hides outer.
+99::What is inner class?::Class within class.::Improves encapsulation.
+100::What is anonymous class?::Class without name.::Used for one-time use.
+101::What is lambda expression?::Anonymous function.::Supports functional programming.
+102::What is interface default method?::Method with body in interface.::Java 8 feature.
+103::What is multiple interface inheritance?::Implementing many interfaces.::Allowed in Java.
+104::What is virtual base class?::Prevents duplication.::Solves diamond problem.
+105::What is abstract method?::Method without body.::Must be overridden.
+106::What is final method?::Cannot be overridden.::Ensures behavior stability.
+107::What is constructor chaining?::Calling one constructor from another.::Improves reuse.
+108::What is destructor chaining?::Calling destructors in inheritance.::Ensures cleanup.
+109::What is object lifetime?::Duration object exists.::Managed by scope or GC.
+110::What is memory encapsulation?::Restricting memory access.::Improves safety.
+111::What is polymorphic pointer?::Base class pointer to derived object.::Enables dynamic binding.
+112::What is covariant return type?::Derived return allowed.::Java and C++ feature.
+113::What is early binding?::Compile-time binding.::Faster execution.
+114::What is late binding?::Runtime binding.::Flexible behavior.
+115::What is abstract data type?::Data + operations.::Encapsulation principle.
+116::What is interface-based programming?::Coding to interfaces.::Improves flexibility.
+117::What is method signature?::Method name + parameters.::Defines uniqueness.
+118::What is object serialization?::Convert object to byte stream.::Used in storage/network.
+119::What is deserialization?::Recreating object from stream.::Reverse of serialization.
+120::What is transient keyword?::Excludes field from serialization.::Java feature.
+121::What is volatile keyword?::Thread visibility guarantee.::Concurrency support.
+122::What is multithreading?::Multiple threads execution.::Improves performance.
+123::What is synchronization?::Thread safety mechanism.::Prevents race conditions.
+124::What is deadlock?::Threads waiting indefinitely.::Caused by resource lock.
+125::What is race condition?::Unpredictable behavior.::Occurs without synchronization.
+126::What is inheritance vs composition?::Composition preferred.::More flexible design.
+127::What is object responsibility?::Assigned behavior.::Defined in SRP.
+128::What is message passing?::Object communication method.::Method invocation.
+129::What is late initialization?::Delayed object creation.::Improves performance.
+130::What is eager initialization?::Immediate object creation.::Used in singleton.
+131::What is lazy loading?::Load when needed.::Optimizes memory.
+132::What is class loader?::Loads classes at runtime.::Java mechanism.
+133::What is reflection?::Runtime class inspection.::Used in frameworks.
+134::What is dependency injection?::Providing dependencies externally.::Improves testability.
+135::What is inversion of control?::Framework controls flow.::Core of DI.
+136::What is object pool?::Reusable object collection.::Improves performance.
+137::What is command pattern?::Encapsulates requests.::Supports undo/redo.
+138::What is facade pattern?::Simplified interface.::Hides complexity.
+139::What is flyweight pattern?::Memory optimization.::Shares objects.
+140::What is proxy pattern?::Controlled access.::Used in security and caching.
+141::What is marker interface?::Empty interface.::Provides metadata.
+142::What is bridge pattern?::Decouples abstraction and implementation.::Enhances scalability.
+143::What is template method pattern?::Algorithm skeleton.::Subclasses define steps.
+144::What is cohesion vs coupling?::High cohesion, low coupling.::Best design practice.
+145::What is object identity?::Unique object reference.::Different from equality.
+146::What is equals method?::Checks logical equality.::Overrides default behavior.
+147::What is hashCode?::Object hash value.::Used in hash collections.
+148::What is garbage collection root?::Live object reference.::Prevents deletion.
+149::What is finalize method?::Called before GC.::Deprecated in Java.
+150::Why is OOP important?::Improves maintainability and scalability.::Foundation of modern software development.
