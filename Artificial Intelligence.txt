@@ -1,0 +1,100 @@
+1::What is Artificial Intelligence?::Artificial Intelligence is the simulation of human intelligence by machines.::It enables machines to learn, reason, and make decisions.
+2::What is the goal of AI?::To create systems that can perform tasks requiring human intelligence.::Includes learning, reasoning, perception, and language understanding.
+3::What are the main types of AI?::Narrow AI, General AI, Super AI.::Most current systems are Narrow AI.
+4::What is Narrow AI?::AI designed for a specific task.::Examples include chatbots and recommendation systems.
+5::What is General AI?::AI with human-like intelligence.::It can perform any intellectual task a human can.
+6::What is Super AI?::AI surpassing human intelligence.::Currently theoretical.
+7::What is Machine Learning?::Subset of AI that learns from data.::Improves performance without explicit programming.
+8::Difference between AI and ML?::AI is broader, ML is a subset.::ML focuses on data-driven learning.
+9::What is Deep Learning?::Subset of ML using neural networks.::Inspired by human brain structure.
+10::What is data in AI?::Raw facts used for training models.::Quality data improves AI accuracy.
+11::What is training data?::Data used to teach a model.::Model learns patterns from it.
+12::What is testing data?::Data used to evaluate model.::Measures model performance.
+13::What is supervised learning?::Learning with labeled data.::Used in classification and regression.
+14::What is unsupervised learning?::Learning with unlabeled data.::Used in clustering and association.
+15::What is reinforcement learning?::Learning via rewards and penalties.::Agent interacts with environment.
+16::What is classification?::Assigning labels to data.::Example: spam or not spam.
+17::What is regression?::Predicting continuous values.::Example: price prediction.
+18::What is clustering?::Grouping similar data points.::No predefined labels.
+19::What is feature?::Input variable for model.::Important for prediction accuracy.
+20::What is feature engineering?::Creating meaningful features.::Improves model performance.
+21::What is model?::Mathematical representation of patterns.::Learns from data.
+22::What is algorithm in AI?::Set of rules for learning.::Examples include decision trees.
+23::What is decision tree?::Tree-based classification model.::Easy to interpret.
+24::What is random forest?::Collection of decision trees.::Reduces overfitting.
+25::What is overfitting?::Model performs well on training but poorly on new data.::Caused by memorizing data.
+26::What is underfitting?::Model fails to learn patterns.::Too simple model.
+27::What is bias in AI?::Error due to assumptions.::Leads to inaccurate predictions.
+28::What is variance?::Model sensitivity to data changes.::High variance causes overfitting.
+29::What is bias-variance tradeoff?::Balancing error sources.::Essential for good model.
+30::What is neural network?::Model inspired by brain neurons.::Contains layers and weights.
+31::What is perceptron?::Single-layer neural network.::Foundation of deep learning.
+32::What is activation function?::Introduces non-linearity.::Examples: ReLU, sigmoid.
+33::What is sigmoid function?::Maps values between 0 and 1.::Used in binary classification.
+34::What is ReLU?::Rectified Linear Unit.::Improves training speed.
+35::What is loss function?::Measures prediction error.::Model minimizes this.
+36::What is gradient descent?::Optimization algorithm.::Minimizes loss function.
+37::What is learning rate?::Step size in optimization.::Too high causes instability.
+38::What is backpropagation?::Weight update algorithm.::Core of neural network training.
+39::What is epoch?::One full pass over dataset.::Multiple epochs improve learning.
+40::What is batch size?::Number of samples per update.::Affects training stability.
+41::What is CNN?::Convolutional Neural Network.::Used in image processing.
+42::What is RNN?::Recurrent Neural Network.::Handles sequential data.
+43::What is LSTM?::Long Short-Term Memory network.::Solves vanishing gradient problem.
+44::What is NLP?::Natural Language Processing.::AI understanding human language.
+45::What is tokenization?::Splitting text into units.::First step in NLP.
+46::What is stemming?::Reducing words to root form.::Improves text processing.
+47::What is lemmatization?::Context-based word normalization.::More accurate than stemming.
+48::What is chatbot?::AI conversational agent.::Uses NLP and ML.
+49::What is computer vision?::AI interpreting images/videos.::Used in face recognition.
+50::What is object detection?::Identifying objects in images.::Used in self-driving cars.
+51::What is knowledge base?::Stored structured information.::Used in expert systems.
+52::What is expert system?::AI system emulating human expert.::Uses rules and knowledge base.
+53::What is inference engine?::Applies rules to knowledge.::Core of expert systems.
+54::What is heuristic?::Rule-of-thumb solution.::Speeds up problem solving.
+55::What is search algorithm?::Explores solution space.::Used in game AI.
+56::What is BFS?::Breadth First Search.::Explores level by level.
+57::What is DFS?::Depth First Search.::Explores depth-wise.
+58::What is A* algorithm?::Heuristic-based search.::Finds optimal path.
+59::What is state space?::All possible configurations.::Used in problem solving.
+60::What is agent in AI?::Entity that perceives and acts.::Uses sensors and actuators.
+61::What is environment?::External system agent interacts with.::Defines agent behavior.
+62::What is rational agent?::Agent maximizing performance.::Acts optimally.
+63::What is reward function?::Defines success measure.::Used in reinforcement learning.
+64::What is Q-learning?::Model-free RL algorithm.::Uses Q-values.
+65::What is exploration vs exploitation?::Trying new actions vs best known.::Key RL challenge.
+66::What is fuzzy logic?::Handles uncertainty.::Uses degrees of truth.
+67::What is genetic algorithm?::Evolution-based optimization.::Uses selection and mutation.
+68::What is chromosome in GA?::Solution representation.::Encodes parameters.
+69::What is fitness function?::Evaluates solution quality.::Guides evolution.
+70::What is crossover?::Combining solutions.::Produces offspring.
+71::What is mutation?::Random change in solution.::Maintains diversity.
+72::What is swarm intelligence?::Collective agent behavior.::Inspired by ants, bees.
+73::What is ANN?::Artificial Neural Network.::Core deep learning model.
+74::What is transfer learning?::Using pre-trained models.::Saves time and data.
+75::What is explainable AI?::AI with transparent decisions.::Builds trust.
+76::What is AI ethics?::Moral guidelines for AI.::Prevents misuse.
+77::What is data bias?::Skewed training data.::Causes unfair AI.
+78::What is AI fairness?::Equal treatment of groups.::Critical in decision systems.
+79::What is automation?::Tasks performed without humans.::AI enables automation.
+80::What is robotics?::AI applied to physical machines.::Combines sensors and control.
+81::What is speech recognition?::Converting speech to text.::Used in virtual assistants.
+82::What is text-to-speech?::Converting text to audio.::Human-computer interaction.
+83::What is recommendation system?::Suggests items to users.::Uses ML algorithms.
+84::What is collaborative filtering?::User-based recommendations.::Common in e-commerce.
+85::What is content-based filtering?::Item similarity recommendations.::Uses item features.
+86::What is AI model evaluation?::Assessing performance.::Uses metrics like accuracy.
+87::What is accuracy?::Correct predictions percentage.::Common evaluation metric.
+88::What is precision?::Correct positive predictions.::Important in classification.
+89::What is recall?::True positive detection rate.::Critical in medical AI.
+90::What is F1-score?::Balance of precision and recall.::Used for imbalanced data.
+91::What is confusion matrix?::Prediction result table.::Analyzes classification.
+92::What is data preprocessing?::Cleaning and preparing data.::Improves learning.
+93::What is normalization?::Scaling data values.::Helps faster convergence.
+94::What is standardization?::Mean=0, variance=1.::Improves ML models.
+95::What is AI pipeline?::End-to-end AI process.::From data to deployment.
+96::What is model deployment?::Making AI usable in real world.::Integrates with applications.
+97::What is edge AI?::AI on local devices.::Low latency processing.
+98::What is cloud AI?::AI services on cloud.::Scalable and powerful.
+99::What is future of AI?::Wider automation and intelligence.::Impacts all industries.
+100::Why AI is important?::Solves complex problems efficiently.::Transforms technology and society.

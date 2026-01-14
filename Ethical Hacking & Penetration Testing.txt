@@ -1,0 +1,100 @@
+1::What is Ethical Hacking?::Authorized testing of systems for security weaknesses::It is performed legally to improve security posture
+2::What is Penetration Testing?::Simulated cyberattack to exploit vulnerabilities::Helps identify real-world attack risks
+3::Difference between Ethical Hacking and Malicious Hacking?::Authorization and intent::Ethical hacking is legal and defensive
+4::What is the main goal of penetration testing?::Identify and exploit vulnerabilities::Demonstrates actual impact of flaws
+5::Types of penetration testing?::Black box, White box, Grey box::Based on tester’s prior knowledge
+6::What is Black Box testing?::No prior system knowledge::Simulates an external attacker
+7::What is White Box testing?::Full system knowledge::Allows deep security analysis
+8::What is Grey Box testing?::Partial system knowledge::Balances realism and depth
+9::What is vulnerability?::Weakness in system design or implementation::Can be exploited by attackers
+10::What is exploit?::Code or technique to use vulnerability::Used to gain unauthorized access
+11::What is payload?::Code executed after exploitation::Performs attacker’s intended action
+12::What is attack surface?::All possible entry points::Larger surface increases risk
+13::What is threat?::Potential cause of unwanted incident::Can exploit vulnerabilities
+14::What is risk in security?::Likelihood × impact of threat::Used in risk assessment
+15::What is CIA triad?::Confidentiality, Integrity, Availability::Foundation of information security
+16::Confidentiality means?::Prevent unauthorized access::Protects sensitive data
+17::Integrity means?::Prevent unauthorized modification::Ensures data accuracy
+18::Availability means?::Ensure access when needed::Protects against downtime
+19::What is reconnaissance?::Information gathering phase::First step of hacking
+20::Types of reconnaissance?::Passive and Active::Passive avoids direct interaction
+21::What is footprinting?::Collecting target information::Used in reconnaissance
+22::What is scanning?::Identifying live systems and services::Maps network structure
+23::What is enumeration?::Extracting detailed system info::Includes users and services
+24::Difference between scanning and enumeration?::Scanning finds systems, enumeration extracts details::Enumeration is more intrusive
+25::What is port scanning?::Identifying open ports::Reveals running services
+26::What is an open port?::Listening network endpoint::Potential entry point
+27::What is TCP three-way handshake?::SYN, SYN-ACK, ACK::Establishes connection
+28::What is firewall?::Network security device::Filters traffic based on rules
+29::Stateful vs Stateless firewall?::Tracks connections vs packet-based::Stateful is more secure
+30::What is IDS?::Intrusion Detection System::Detects suspicious activity
+31::What is IPS?::Intrusion Prevention System::Blocks detected attacks
+32::IDS vs IPS?::Detects vs prevents::IPS acts automatically
+33::What is malware?::Malicious software::Includes viruses and worms
+34::What is virus?::Malware that attaches to files::Requires user action
+35::What is worm?::Self-propagating malware::Spreads automatically
+36::What is Trojan?::Malware disguised as legitimate software::Creates backdoor access
+37::What is ransomware?::Encrypts data for ransom::Major modern threat
+38::What is spyware?::Steals user information secretly::Violates privacy
+39::What is rootkit?::Hides malicious activity::Hard to detect
+40::What is backdoor?::Hidden access mechanism::Bypasses authentication
+41::What is privilege escalation?::Gaining higher access rights::Critical attack goal
+42::Types of privilege escalation?::Vertical and Horizontal::Admin vs peer access
+43::What is authentication?::Verifying identity::First line of defense
+44::What is authorization?::Granting permissions::Controls access level
+45::Authentication vs Authorization?::Identity vs permissions::Both required for security
+46::What is password cracking?::Recovering passwords from hashes::Tests password strength
+47::What is brute force attack?::Try all combinations::Slow but guaranteed
+48::What is dictionary attack?::Uses common passwords list::Faster than brute force
+49::What is hashing?::One-way encryption method::Protects passwords
+50::What is salting?::Adding random data to hashes::Prevents rainbow table attacks
+51::What is encryption?::Converting data to unreadable form::Protects confidentiality
+52::Symmetric encryption example?::AES::Same key for encrypt/decrypt
+53::Asymmetric encryption example?::RSA::Uses public and private keys
+54::What is HTTPS?::HTTP over TLS/SSL::Secures web communication
+55::What is SSL/TLS?::Encryption protocols::Protect data in transit
+56::What is Man-in-the-Middle attack?::Intercepting communication::Steals or alters data
+57::What is phishing?::Deceptive attempt to steal info::Uses fake emails or sites
+58::What is spear phishing?::Targeted phishing attack::More effective than generic
+59::What is social engineering?::Manipulating humans::Exploits trust not technology
+60::What is XSS?::Cross-Site Scripting::Injects malicious scripts
+61::Types of XSS?::Stored, Reflected, DOM-based::Different injection methods
+62::Impact of XSS?::Session hijacking and data theft::Affects users
+63::What is SQL Injection?::Injecting malicious SQL queries::Targets databases
+64::Impact of SQL Injection?::Data leakage or deletion::Critical vulnerability
+65::What is input validation?::Checking user input::Prevents injections
+66::What is CSRF?::Cross-Site Request Forgery::Forces unauthorized actions
+67::How CSRF prevented?::Tokens and same-site cookies::Ensures request legitimacy
+68::What is session hijacking?::Stealing session ID::Gains user access
+69::What is cookie security?::Protect session cookies::Use HttpOnly and Secure flags
+70::What is DoS attack?::Denial of Service::Overwhelms system resources
+71::What is DDoS?::Distributed DoS attack::Multiple attacking sources
+72::What is buffer overflow?::Exceeding buffer limits::Leads to code execution
+73::Why buffer overflow dangerous?::Allows control flow hijack::System compromise
+74::What is exploit mitigation?::Security defenses::ASLR and DEP
+75::What is ASLR?::Address Space Layout Randomization::Prevents predictable memory
+76::What is DEP?::Data Execution Prevention::Blocks execution from data areas
+77::What is sandboxing?::Isolated execution environment::Limits damage
+78::What is patch management?::Applying security updates::Reduces vulnerabilities
+79::What is vulnerability scanning?::Automated security checks::Finds known flaws
+80::Vulnerability scan vs Pen test?::Detection vs exploitation::Pen test is deeper
+81::What is CVE?::Common Vulnerabilities and Exposures::Standard vulnerability IDs
+82::What is CVSS?::Vulnerability scoring system::Measures severity
+83::What is OWASP?::Web security organization::Publishes Top 10 risks
+84::OWASP Top 10 purpose?::Highlight common web vulnerabilities::Guides secure development
+85::What is logging?::Recording system events::Helps incident analysis
+86::What is SIEM?::Security Information and Event Management::Centralized monitoring
+87::What is incident response?::Handling security breaches::Minimizes damage
+88::Steps of incident response?::Prepare, Detect, Contain, Eradicate, Recover::Standard lifecycle
+89::What is digital forensics?::Investigation of cyber incidents::Collects legal evidence
+90::Chain of custody meaning?::Evidence handling record::Ensures legal validity
+91::What is ethical hacking methodology?::Structured testing approach::Ensures completeness
+92::Why documentation important in pen testing?::Proof and reporting::Helps remediation
+93::What is false positive?::Incorrect vulnerability report::Wastes resources
+94::What is false negative?::Missed vulnerability::More dangerous
+95::What is compliance testing?::Check regulatory requirements::Example PCI-DSS
+96::What is PCI-DSS?::Payment card security standard::Protects cardholder data
+97::What is defense in depth?::Multiple security layers::Reduces single point failure
+98::What is zero-day vulnerability?::Unknown or unpatched flaw::Highly dangerous
+99::Ethical hacker responsibility?::Report and not misuse findings::Legal and moral duty
+100::Why Ethical Hacking important?::Proactive security improvement::Prevents real cyberattacks
